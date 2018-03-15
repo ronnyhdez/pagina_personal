@@ -14,10 +14,12 @@ caption = "Image credit: ronnyhdez
 
 # Why a blog? 
 
-Basiclly I would like to try to share things that I have learn while I study Biology, mainly R.
+Basically I would like to try to share things that I have learn while I study Biology, mainly the R programming languaje.
+
+Also this gives me the opportunity to communicate what is what I do in my research.
 
 # ¿Por qué una página web?
 
 Basicamente me gustaría compartir lo que he aprendido durante mis estudios en biología, especialmente el lenguaje de programación R.
 
-Así mismo
+Así mismo me da la oportunidad de divulgar qué es lo que hago en mis participaciones en investigaciones.
