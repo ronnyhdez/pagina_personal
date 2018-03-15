@@ -1,0 +1,198 @@
+---
+title: Intro a datos y estructuras en R
+author: ronny hdez-mora
+date: '2018-02-01'
+slug: intro-a-datos-y-estructuras-en-r
+categories:
+  - base R
+  - R básico
+  - Intro
+tags:
+  - vector
+  - data.frame
+  - list
+  - character
+  - numeric
+---
+
+
+
+<div id="datos-y-estructuras" class="section level1">
+<h1>Datos y Estructuras</h1>
+<p>Este pequeño e introductorio tutorial consiste en explicar cómo R en su entorno “entiende” los datos (objetos), es decir sus clases y además cómo los almacena en ese entorno. Entender este tipo de cosas básicas en R nos podrán ahorrar dolores de cabeza en futuros análisis de datos que hagamos.</p>
+<div id="primer-paso" class="section level2">
+<h2>Primer paso:</h2>
+<p>Primero tenemos que entender que R lee los datos que le damos de distintas maneras para poder manejarlos y hacer tareas que le pidamos. Entre estos tenemos:</p>
+<ul>
+<li><em>character</em>: corresponden a texto</li>
+<li><em>numeric</em>: corresponden a números</li>
+<li><em>integer</em>: son números enteros (sin decimales)</li>
+<li><em>logical</em>: son condicionales y están en forma de verdadero o falso</li>
+<li><em>complex</em>: corresponden a números complejos</li>
+</ul>
+<p>Para crear vectores c( )</p>
+<pre class="r"><code>a &lt;- c(&quot;biologia&quot;, &quot;A&quot;, &quot;estadistica&quot;)
+class(a)</code></pre>
+<pre><code>## [1] &quot;character&quot;</code></pre>
+<pre class="r"><code>b &lt;- c(18.6, 90)
+class(b)</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<pre class="r"><code>c &lt;- c(18L, 26L)
+class(c)</code></pre>
+<pre><code>## [1] &quot;integer&quot;</code></pre>
+<pre class="r"><code>d &lt;- 2 + 4i
+class(d)</code></pre>
+<pre><code>## [1] &quot;complex&quot;</code></pre>
+<pre class="r"><code>e &lt;- c(TRUE, FALSE)
+class(e)</code></pre>
+<pre><code>## [1] &quot;logical&quot;</code></pre>
+</div>
+</div>
+<div id="para-que-sirven-los-tipos-de-datos" class="section level1">
+<h1>¿Para qué sirven los tipos de datos?</h1>
+<p>Hay ciertas cosas que se deben de tomar en cuenta a la hora de trabajar con datos en R, y es que estos son guardados en estructuras. Es decir, R “acomoda” esos datos en formas que los puede manejar.</p>
+<p>Estos son algunos ejemplos rápidos:</p>
+<div id="vectores-elementos-son-del-mismo-tipo" class="section level2">
+<h2>Vectores elementos son del mismo tipo</h2>
+<pre class="r"><code>v_1 &lt;- c(10,20,30)
+v_2 &lt;- c(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;)
+v_3 &lt;- c(TRUE,FALSE,TRUE)</code></pre>
+</div>
+<div id="listas-elementos-son-de-diferente-tipo" class="section level2">
+<h2>Listas elementos son de diferente tipo</h2>
+<pre class="r"><code>l_1 &lt;- list(v_1,v_2,v_3)
+
+l_1</code></pre>
+<pre><code>## [[1]]
+## [1] 10 20 30
+## 
+## [[2]]
+## [1] &quot;a&quot; &quot;b&quot; &quot;c&quot;
+## 
+## [[3]]
+## [1]  TRUE FALSE  TRUE</code></pre>
+</div>
+<div id="matrix-es-de-dos-dimensiones-con-elementos-del-mismo-tipo" class="section level2">
+<h2>matrix es de dos dimensiones con elementos del mismo tipo:</h2>
+<pre class="r"><code>matrix_1 &lt;- matrix(1:9,nrow = 3, ncol = 3)
+matrix_1</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]    1    4    7
+## [2,]    2    5    8
+## [3,]    3    6    9</code></pre>
+</div>
+<div id="data-frame-es-de-dos-dimensiones-con-elementos-de-diferente-tipo" class="section level2">
+<h2>data frame es de dos dimensiones con elementos de diferente tipo:</h2>
+<pre class="r"><code># Primero creamos un par de vectores para unirlos en un dataframe
+numero &lt;- 1:5
+nombre &lt;- c(&quot;Mercurio&quot;,&quot;Venus&quot;,&quot;Tierra&quot;,&quot;Marte&quot;,&quot;Jupiter&quot;)
+planeta &lt;- data.frame(numero,nombre)
+planeta</code></pre>
+<pre><code>##   numero   nombre
+## 1      1 Mercurio
+## 2      2    Venus
+## 3      3   Tierra
+## 4      4    Marte
+## 5      5  Jupiter</code></pre>
+</div>
+<div id="array-es-una-estructura-de-tres-o-mas-dimensiones" class="section level2">
+<h2>Array es una estructura de tres o más dimensiones:</h2>
+<pre class="r"><code>D &lt;- 1:12
+dim(D) &lt;- c(2,3,2)        # Dos filas, tres columnas y dos &quot;caras&quot;
+D</code></pre>
+<pre><code>## , , 1
+## 
+##      [,1] [,2] [,3]
+## [1,]    1    3    5
+## [2,]    2    4    6
+## 
+## , , 2
+## 
+##      [,1] [,2] [,3]
+## [1,]    7    9   11
+## [2,]    8   10   12</code></pre>
+</div>
+</div>
+<div id="maneras-de-coercionar-las-clases" class="section level1">
+<h1>Maneras de coercionar las clases</h1>
+<p>Hay ocasiones en las cuales R podría confundir lo que nosotros consideramos un dato de cierto tipo, por ejemplo un número lo podría leer como un carácter. A la hora de hacer algunos cálculos habrán problemas.</p>
+<p>Pero existe una solución y esto es coercionar los tipos de los datos. Esto se puede hacer tal como se muestra en los siguientes ejemplos:</p>
+<p>Diapo 36</p>
+<pre class="r"><code>biolo_vector &lt;- c(20, 40, &quot;A&quot;, 80)
+class(biolo_vector)</code></pre>
+<pre><code>## [1] &quot;character&quot;</code></pre>
+<pre class="r"><code>z &lt;- as.numeric(biolo_vector)</code></pre>
+<pre><code>## Warning: NAs introducidos por coerción</code></pre>
+<pre class="r"><code>z</code></pre>
+<pre><code>## [1] 20 40 NA 80</code></pre>
+<pre class="r"><code>biolo_vector &lt;- c(20, 40, TRUE, 80)
+class(biolo_vector)</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<pre class="r"><code>biolo_vector</code></pre>
+<pre><code>## [1] 20 40  1 80</code></pre>
+<pre class="r"><code>biolo_vector &lt;- c(20:60)
+bv_1 &lt;- as.character(biolo_vector)
+bv_2 &lt;- as.logical(biolo_vector)
+bv_3 &lt;- as.complex(biolo_vector)
+class(bv_1)</code></pre>
+<pre><code>## [1] &quot;character&quot;</code></pre>
+<pre class="r"><code>class(bv_2)</code></pre>
+<pre><code>## [1] &quot;logical&quot;</code></pre>
+<pre class="r"><code>class(bv_3)</code></pre>
+<pre><code>## [1] &quot;complex&quot;</code></pre>
+</div>
+<div id="exploracion-datos" class="section level1">
+<h1>Exploración datos:</h1>
+<p>Cuando traemos datos a R hay una manera fácil de visualizar su estructura o forma sin tener que acudir al documento original. A continuación mostramos una serie de ejemplos en los cuales se m Diapo 62</p>
+<pre class="r"><code>dir()                              # ver que tengo en el wd
+head(data)                         # Ver primeros 6 observaciones
+tail(data)                         # últimas 6 observaciones
+str(data)                          # estructura del data.frame
+dim(data)                          # dimensiones (rows &amp; columns)
+names(data)                        # nombres columnas
+glimpse(data)                      # paquete diplyr
+summary(data)                      # resumen de cada variable</code></pre>
+<div id="que-siginifica-dir-y-ls" class="section level2">
+<h2>¿Qué siginifica dir() y ls()?</h2>
+<p>dir () me refiere a los archivos que se encuentran en el directorio de trabajo. ls () me refiere a los objetos que se encuentran en el espacio de trabajo</p>
+</div>
+</div>
+<div id="comprension-de-un-data-frame-y-su-estructura" class="section level1">
+<h1>Comprensión de un data frame y su estructura</h1>
+<p>Para comprender mejor vamos a construir un data.frame de manera rápida y simple:</p>
+</div>
+<div id="creamos-los-vectores-a-unir" class="section level1">
+<h1>Creamos los vectores a unir:</h1>
+<pre class="r"><code>primer_nombre &lt;- c(&quot;Isaac&quot;,&quot;Charles&quot;,&quot;Rosalind&quot;,&quot;Marie&quot;) 
+
+segundo_nombre &lt;- c(&quot;Newton&quot;,&quot;Darwin&quot;,&quot;Franklin&quot;,&quot;Curie&quot;)
+
+edad_muerte &lt;- c(84, 73, 37, 66)
+
+campo &lt;- c(&quot;Física&quot;, &quot;Biología&quot;, &quot;Química&quot;, &quot;Física&quot;)
+
+fecha_muerte &lt;- as.Date(c(&quot;1643-1-4&quot;, &quot;1882-4-19&quot;,
+                        &quot;1958-4-16&quot;, &quot;1934-7-4&quot;))</code></pre>
+</div>
+<div id="unimos-cada-uno-de-los-vectores-en-un-data.frame" class="section level1">
+<h1>Unimos cada uno de los vectores en un data.frame</h1>
+<pre class="r"><code>cientificos &lt;- data.frame(primer_nombre, segundo_nombre,
+                          edad_muerte, campo, fecha_muerte)</code></pre>
+</div>
+<div id="revisemos-estructura-igual-que-en-caso-anterior" class="section level1">
+<h1>Revisemos estructura igual que en caso anterior</h1>
+<pre class="r"><code>head(cientificos)</code></pre>
+<pre><code>##   primer_nombre segundo_nombre edad_muerte    campo fecha_muerte
+## 1         Isaac         Newton          84   Física   1643-01-04
+## 2       Charles         Darwin          73 Biología   1882-04-19
+## 3      Rosalind       Franklin          37  Química   1958-04-16
+## 4         Marie          Curie          66   Física   1934-07-04</code></pre>
+<pre class="r"><code>str(cientificos)</code></pre>
+<pre><code>## &#39;data.frame&#39;:    4 obs. of  5 variables:
+##  $ primer_nombre : Factor w/ 4 levels &quot;Charles&quot;,&quot;Isaac&quot;,..: 2 1 4 3
+##  $ segundo_nombre: Factor w/ 4 levels &quot;Curie&quot;,&quot;Darwin&quot;,..: 4 2 3 1
+##  $ edad_muerte   : num  84 73 37 66
+##  $ campo         : Factor w/ 3 levels &quot;Biología&quot;,&quot;Física&quot;,..: 2 1 3 2
+##  $ fecha_muerte  : Date, format: &quot;1643-01-04&quot; &quot;1882-04-19&quot; ...</code></pre>
+<pre class="r"><code>#glimpse(cientificos) con librería dplyr</code></pre>
+</div>
