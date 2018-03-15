@@ -10,31 +10,29 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Plant Eco-physiolgy",
+    "Data Science",
+    "Science communication"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
+  course = "Bsc Tropical Biology"
+  institution = "Universidad Nacional de Costa Rica"
+  year = 2018
+
+[[education.courses]]
+  course = "Bach. Sustainable Tourism Managment"
+  institution = "Sede Regional Chorotega, Universidad Nacional"
   year = 2012
 
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
 
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
- 
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Soy biólogo con especial interés en la ecofisiología vegetal. Las investigaciones en las que participo comprenden temas como el uso de la fluorescencia para determinar tolarencia al estrés térmico en árboles tropicales y también el uso de imágenes digitales para el estudio de la complejidad estructural en bosques tropicales.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Trabajo además analizando datos para la industria con el lenguaje de programación R en la empresa ixpantia y también soy co-fundador de la organización Brenesii, que se dedica a la investigación y divulgación científica.
+
+

@@ -7,7 +7,7 @@ active = true
 date = "2016-04-20T00:00:00"
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "Teaching"
+title = "Workshops"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -15,14 +15,13 @@ weight = 60
 
 +++
 
-This is an example of using the *custom* widget to create your own homepage section.
+I like to collaborate with biologists, scientists or people from other careers with workshops about the use of R programming language, R with statistics and git (control version system)
 
-I am a teaching instructor for the following courses at University X:
+Some of my workshops are:
 
-- CS101: An intro to computer science
-- CS102: An intro to computer science
-- CS103: An intro to computer science
-- CS104: An intro to computer science
-- CS105: An intro to computer science
-- CS106: An intro to computer science
-- CS107: An intro to computer science
+- Comparaciones entre grupos: T-test y ANOVA en R
+- ¿Cómo R lee y almacena datos? Estructuras y clases en R
+- Manejo de datos y programación en R: Una introducción a R
+
+
+This workshops can be done in spanish or english, remote or in a specific location. If you are interested please contact me.
