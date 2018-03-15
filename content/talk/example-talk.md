@@ -16,7 +16,7 @@ selected = false
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = ["deep-learning"]
+projects = [""]
 
 # Links (optional).
 url_pdf = ""
@@ -38,4 +38,4 @@ caption = "SC-RUG"
 
 +++
 
-Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
+Material de la charla como diapositivas y código pronto las estaré compartiendo por [github](https://github.com/ronnyhdez). 
