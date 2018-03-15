@@ -10,7 +10,6 @@ summary = "Web Page Idea"
 
 [header]
 image = "headers/entrada.png"
-caption = "Image credit: ronnyhdez
 
 # Why a blog? 
 
