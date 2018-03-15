@@ -10,6 +10,7 @@ summary = "Web Page Idea"
 
 [header]
 image = "headers/entrada.png"
++++
 
 # Why a blog? 
 
