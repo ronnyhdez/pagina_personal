@@ -31,8 +31,9 @@ weight = 5
 
 # Biography
 
-Soy biólogo con especial interés en la ecofisiología vegetal. Las investigaciones en las que participo comprenden temas como el uso de la fluorescencia para determinar tolarencia al estrés térmico en árboles tropicales y también el uso de imágenes digitales para el estudio de la complejidad estructural en bosques tropicales.
+I´m biologist with interest in plant eco-physiology. Research in which I work includes fluorescence as a way to understand the tolerance of tropical plants to increases in the temperature, also the use of digital images to evaluate the structural complexity of tropical forests.
 
-Trabajo además analizando datos para la industria con el lenguaje de programación R en la empresa ixpantia y también soy co-fundador de la organización Brenesii, que se dedica a la investigación y divulgación científica.
+I also work in [ixpantia](https://www.ixpantia.com/) analyzing data for the industry with the _R programming language_. I´m the co-founder of [Brenesii](http://www.brenesii.com/) devoted to the research of tropical forests and science communication to a broader public beyond academia.
+
 
 
