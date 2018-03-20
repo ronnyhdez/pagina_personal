@@ -1,11 +1,12 @@
 +++
-title = "Academic: the website designer for Hugo"
+title = "Why a blog? / ¿Porqué un blog personal?"
 
 date = 2016-04-20
 lastmod = 2018-01-13
 draft = false
 
-tags = ["Intro"]
+tags = ["academic"]
+
 summary = "Web Page Idea"
 
 [header]
