@@ -12,7 +12,7 @@ summary = "A digital photography approach to study the structural heterogeneity 
 image_preview = "camaras.png"
 
 # Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
+# Example: `tags = ["structural-complexity", "image-analysis"]`
 tags = ["Structural-complexity"]
 
 # Optional external URL for project (replaces project detail page).
