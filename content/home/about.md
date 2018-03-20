@@ -33,7 +33,7 @@ weight = 5
 
 I´m biologist with interest in plant eco-physiology. Research in which I work includes the use of digital images to evaluate the structural complexity of tropical forests, also fluorescence as a way to understand the tolerance of tropical plants to increases in the temperature.
 
-I also work in [ixpantia](https://www.ixpantia.com/) analyzing data for the industry with the _R programming language_. I´m the co-founder of [Brenesii](http://www.brenesii.com/) devoted to the research of tropical forests and science communication to a broader public beyond academia.
+I also work in [ixpantia](https://www.ixpantia.com/) analyzing data for the industry with the _R programming language_. I´m the co-founder of [Brenesii](http://www.brenesii.com/) an organization devoted to the research of tropical forests and science communication to a broader public beyond academia.
 
 
 

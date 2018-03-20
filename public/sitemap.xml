@@ -77,15 +77,6 @@
     
     <url>
     
-      <loc>/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/post/getting-started/</loc>
       <lastmod>2018-01-13T00:00:00-06:00</lastmod>
     </url>
@@ -182,26 +173,6 @@
     
     <url>
     
-      <loc>/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/fechas-y-horas/</loc>
       <lastmod>2018-03-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -212,8 +183,8 @@
     
     <url>
     
-      <loc>/categories/intro/</loc>
-      <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+      <loc>/tags/intro/</loc>
+      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -222,8 +193,8 @@
     
     <url>
     
-      <loc>/tags/intro/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
+      <loc>/categories/intro/</loc>
+      <lastmod>2018-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -324,6 +295,16 @@
     
       <loc>/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/structural-complexity/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

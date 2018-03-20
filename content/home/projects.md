@@ -33,12 +33,12 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "Structural Complexity"
+  tag = ".Structural-complexity"
 
 [[filter]]
-  name = "Other"
-  tag = ".demo"
+  name = "Ciencia ciudadana"
+  tag = ".Ciencia-cuidadana"
 
 +++
 
