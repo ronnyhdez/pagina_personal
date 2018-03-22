@@ -38,6 +38,6 @@ Spatial heterogeneity indices such as Mean Information Gain (MIG) and Spatial An
 
 The MIG and spatial anisotropy values show a moderate to a low relation with some classic forest parameters of the structure and geometry of the habitats, whose seems fairly related from each other. The results show that this methodology is sensitive and useful to variations in the composition and structure of the forests, which allows the monitoring of dynamics in time and space. However, there is room to increase efforts to discern possible structural and functional details that seem to define the tremendous spatial heterogeneity found in the forests of the Osa Peninsula.
 
-This project is part of the [**Laboratorio de Ecología Funcional y Ecosistemas Funcionales**](https://lefet.weebly.com/), Escuela de Biolgía of the **Universidad Nacional de Costa Rica**.
+This project is part of the [**Laboratorio de Ecología Funcional y Ecosistemas Funcionales**](https://lefet.weebly.com/), Schoo of Biology and the Laboratorio de Ecología Tropical Aplicada, School of Environmental Science, of the **Universidad Nacional de Costa Rica**.
 
 Is co-authored with [**Roberto Cordero**](https://scholar.google.es/citations?user=lCPpVZwAAAAJ&hl=es) and **Albert Moreira**
