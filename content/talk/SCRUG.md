@@ -38,4 +38,4 @@ caption = "SC-RUG"
 
 +++
 
-Material de la charla como diapositivas y código pronto las estaré compartiendo por [github](https://github.com/ronnyhdez). 
+Material de la charla como diapositivas y código pronto las estaré compartiendo por [github](https://github.com/ronnyhdez/Tutorial_FechasBaseR). 
