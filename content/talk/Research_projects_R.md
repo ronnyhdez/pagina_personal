@@ -20,7 +20,7 @@ projects = [""]
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "https://github.com/ronnyhdez/Research-Projects-with-R/blob/master/doc/Research%20projects%20with%20R%20programming.pdf"
 url_video = ""
 url_code = "https://github.com/ronnyhdez/Research-Projects-with-R/tree/master/R"
 
@@ -34,7 +34,7 @@ highlight = true
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
 image = "headers/reu_ots.jpg"
-caption = "SC-RUG"
+caption = "OTS REU-18"
 
 +++
 
