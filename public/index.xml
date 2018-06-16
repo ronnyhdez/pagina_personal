@@ -26,7 +26,7 @@
 &lt;p&gt;R tiene diversas maneras de representar objetos en el sistema. Más allá de los dobles, enteros, carácteres, lógicos y complejos, R tiene una clase especial para representar las fechas y horas.&lt;/p&gt;
 &lt;p&gt;Si queremos revisar cuál es la fecha y hora que tenemos en nuestro sistema podemos hacerlo con la función &lt;code&gt;Sys.time()&lt;/code&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Sys.time()&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;2018-03-15 00:00:48 CST&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;2018-06-16 13:07:38 CST&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Lo que nos muestra es una descripción de la fecha y hora de manera meramente jerárquica: la escala más grande (años) va primero, seguido por el mes y por último el día, separados entre sí por un guión; luego hay un espacio en blanco y bajo la misma lógica tenemos la hora, los minutos y los seugundos, separados cada uno por dos punto. Al final tenemos un dato que nos indica el sistema de tiempo utilizado, en este caso Central Standard Time.&lt;/p&gt;
 &lt;p&gt;Esta convención es buena para poder leer de manera fácil, sin embargo, para la realización de cálculos esto es un poco difícil por lo que el manejo de estas a lo “interno” de R se hace basado en segundos.&lt;/p&gt;
 &lt;div id=&#34;tipo-y-clase-del-tiempo-en-r&#34; class=&#34;section level2&#34;&gt;
@@ -50,19 +50,17 @@ typeof(fecha_hora) # Tipo de dato&lt;/code&gt;&lt;/pre&gt;
 &lt;h3&gt;¿Cómo funcionan el sistema POSIX?&lt;/h3&gt;
 &lt;p&gt;Para revisar de qué manera R hace esto podemos hacer uso de la función &lt;code&gt;unclass()&lt;/code&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;unclass(fecha_hora)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 1521093649&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1529176059&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;El resultado que obtenemos es un elemento que R utiliza para construir un vector doble. Lo que tenemos allí es que desde las 12:00 A.M. del 1 de Enero de 1970 han transcurrido &lt;em&gt;1 514 244 708&lt;/em&gt; hasta el día en que este tutorial se ha creado y este es el formato &lt;strong&gt;POSIXct&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;En el caso de caso de una lista como &lt;strong&gt;POSIXlt&lt;/strong&gt; vamos a revisar los componentes del mismo objeto con el que hemos venido trabajando:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fecha_hora &amp;lt;- as.POSIXlt(fecha_hora) # Definimos formato
 unlist(fecha_hora) # Sacamos de la lista los objetos almacenados&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##                sec                min               hour 
-## &amp;quot;49.1189699172974&amp;quot;                &amp;quot;0&amp;quot;                &amp;quot;0&amp;quot; 
-##               mday                mon               year 
-##               &amp;quot;15&amp;quot;                &amp;quot;2&amp;quot;              &amp;quot;118&amp;quot; 
-##               wday               yday              isdst 
-##                &amp;quot;4&amp;quot;               &amp;quot;73&amp;quot;                &amp;quot;0&amp;quot; 
-##               zone             gmtoff 
-##              &amp;quot;CST&amp;quot;           &amp;quot;-21600&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##               sec               min              hour              mday 
+## &amp;quot;38.614716053009&amp;quot;               &amp;quot;7&amp;quot;              &amp;quot;13&amp;quot;              &amp;quot;16&amp;quot; 
+##               mon              year              wday              yday 
+##               &amp;quot;5&amp;quot;             &amp;quot;118&amp;quot;               &amp;quot;6&amp;quot;             &amp;quot;166&amp;quot; 
+##             isdst              zone            gmtoff 
+##               &amp;quot;0&amp;quot;             &amp;quot;CST&amp;quot;          &amp;quot;-21600&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;¿Qué es lo que tenemos? Se nos muestran los componentes de la lista, que está representada por el número de segundos, minutos, hora (en formato de 24 horas). Luego viene &lt;strong&gt;mday&lt;/strong&gt; que es el día del mes (inicia en 1), &lt;strong&gt;mon&lt;/strong&gt; es el mes del año (comienza en enero = 0), &lt;strong&gt;year&lt;/strong&gt; que representa el año (inicia en 0 = 1900),&lt;strong&gt;wday&lt;/strong&gt; el día de la semana (inicia domingo = 0), &lt;strong&gt;yday&lt;/strong&gt; es el número de día del año (1 de enero = 0). Por último la variable &lt;strong&gt;isdst&lt;/strong&gt; lo que hace es indicarnos si un horario de verano está siendo considerado (0 = FALSE, como en este caso)&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -91,8 +89,8 @@ head(data)&lt;/code&gt;&lt;/pre&gt;
 data &amp;lt;- unite(data, Date, year, month,day, sep = &amp;quot;/&amp;quot;)
 head(data)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## # A tibble: 6 x 17
-##       Date dep_time sched_dep_time dep_delay arr_time sched_arr_time
-##      &amp;lt;chr&amp;gt;    &amp;lt;int&amp;gt;          &amp;lt;int&amp;gt;     &amp;lt;dbl&amp;gt;    &amp;lt;int&amp;gt;          &amp;lt;int&amp;gt;
+##   Date     dep_time sched_dep_time dep_delay arr_time sched_arr_time
+##   &amp;lt;chr&amp;gt;       &amp;lt;int&amp;gt;          &amp;lt;int&amp;gt;     &amp;lt;dbl&amp;gt;    &amp;lt;int&amp;gt;          &amp;lt;int&amp;gt;
 ## 1 2013/1/1      517            515         2      830            819
 ## 2 2013/1/1      533            529         4      850            830
 ## 3 2013/1/1      542            540         2      923            850
@@ -244,7 +242,7 @@ ejemplo&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] &amp;quot;2013-01-01 CST&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Tenemos el 1ero de enero del 2013, ahora queremos ver qué día es este con su nombre:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;weekdays(ejemplo)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;martes&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;Tuesday&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;otros-formatos&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Otros formatos&lt;/h3&gt;
@@ -266,7 +264,7 @@ strptime(otras_fechas,&amp;quot;%d%b%Y&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Primero hacemos un objeto a clase difftime:
 as.difftime(otras_fechas, &amp;quot;%d%b%Y&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Time differences in days
-## [1]   -772 -10132  -8164&lt;/code&gt;&lt;/pre&gt;
+## [1]   -865 -10225  -8257&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;calculos-con-dos-objetos&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Cálculos con dos objetos:&lt;/h2&gt;
@@ -475,7 +473,7 @@ D&lt;/code&gt;&lt;/pre&gt;
 class(biolo_vector)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] &amp;quot;character&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;z &amp;lt;- as.numeric(biolo_vector)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: NAs introducidos por coerción&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: NAs introduced by coercion&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;z&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 20 40 NA 80&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;biolo_vector &amp;lt;- c(20, 40, TRUE, 80)
@@ -553,12 +551,22 @@ fecha_muerte &amp;lt;- as.Date(c(&amp;quot;1643-1-4&amp;quot;, &amp;quot;1882-4-
     </item>
     
     <item>
+      <title>Research projects with R programming</title>
+      <link>/talk/scrug---copy/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
+      
+      <guid>/talk/scrug---copy/</guid>
+      <description>&lt;p&gt;Talk material (slides/code) on my &lt;a href=&#34;https://github.com/ronnyhdez/Research-Projects-with-R&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Tiempo en R: Uso de datos de fechas y tiempo con R</title>
       <link>/talk/scrug/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
       
       <guid>/talk/scrug/</guid>
-      <description>&lt;p&gt;Material de la charla como diapositivas y código pronto las estaré compartiendo por &lt;a href=&#34;https://github.com/ronnyhdez&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Material de la charla como diapositivas y código pronto las estaré compartiendo por &lt;a href=&#34;https://github.com/ronnyhdez/Tutorial_FechasBaseR&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -586,7 +594,7 @@ fecha_muerte &amp;lt;- as.Date(c(&amp;quot;1643-1-4&amp;quot;, &amp;quot;1882-4-
 
 &lt;p&gt;The MIG and spatial anisotropy values show a moderate to a low relation with some classic forest parameters of the structure and geometry of the habitats, whose seems fairly related from each other. The results show that this methodology is sensitive and useful to variations in the composition and structure of the forests, which allows the monitoring of dynamics in time and space. However, there is room to increase efforts to discern possible structural and functional details that seem to define the tremendous spatial heterogeneity found in the forests of the Osa Peninsula.&lt;/p&gt;
 
-&lt;p&gt;This project is part of the &lt;a href=&#34;https://lefet.weebly.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Laboratorio de Ecología Funcional y Ecosistemas Funcionales&lt;/strong&gt;&lt;/a&gt;, Escuela de Biolgía of the &lt;strong&gt;Universidad Nacional de Costa Rica&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This project is part of the &lt;a href=&#34;https://lefet.weebly.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Laboratorio de Ecología Funcional y Ecosistemas Funcionales&lt;/strong&gt;&lt;/a&gt;, Schoo of Biology and the Laboratorio de Ecología Tropical Aplicada, School of Environmental Science, of the &lt;strong&gt;Universidad Nacional de Costa Rica&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Is co-authored with &lt;a href=&#34;https://scholar.google.es/citations?user=lCPpVZwAAAAJ&amp;amp;hl=es&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Roberto Cordero&lt;/strong&gt;&lt;/a&gt; and &lt;strong&gt;Albert Moreira&lt;/strong&gt;&lt;/p&gt;
 </description>

@@ -8,7 +8,18 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/talk/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Research projects with R programming</title>
+      <link>/talk/scrug---copy/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
+      
+      <guid>/talk/scrug---copy/</guid>
+      <description>Talk material (slides/code) on my github.</description>
+    </item>
     
     <item>
       <title>Tiempo en R: Uso de datos de fechas y tiempo con R</title>
@@ -16,8 +27,7 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
       
       <guid>/talk/scrug/</guid>
-      <description>&lt;p&gt;Material de la charla como diapositivas y código pronto las estaré compartiendo por &lt;a href=&#34;https://github.com/ronnyhdez&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Material de la charla como diapositivas y código pronto las estaré compartiendo por github.</description>
     </item>
     
   </channel>
