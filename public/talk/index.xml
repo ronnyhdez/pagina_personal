@@ -14,11 +14,12 @@
     
     <item>
       <title>Research projects with R programming</title>
-      <link>/talk/scrug---copy/</link>
+      <link>/talk/research_projects_r/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
       
-      <guid>/talk/scrug---copy/</guid>
-      <description>Talk material (slides/code) on my github.</description>
+      <guid>/talk/research_projects_r/</guid>
+      <description>Ongoing research projects files can be easily messed up and in science this can give us a hard time. On this workshop you will learn how to organize your files, from data and code to your communication files. Also we will explore some of the newest R packages to manage your data with easy to read code that allows us to reproduce, automatice and communicate your statistical analysis.
+Talk material (slides/code) on my github account.</description>
     </item>
     
     <item>

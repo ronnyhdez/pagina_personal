@@ -38,4 +38,8 @@ caption = "SC-RUG"
 
 +++
 
-Talk material (slides/code) on my [github](https://github.com/ronnyhdez/Research-Projects-with-R). 
+Ongoing research projects files can be easily messed up and in science this can give us 
+a hard time. On this workshop you will learn how to organize your files, from data and code to your communication files. Also we will explore some of the newest R packages to manage your data with easy to
+read code that allows us to reproduce, automatice and communicate your statistical analysis.
+
+Talk material (slides/code) on my [github account](https://github.com/ronnyhdez/Research-Projects-with-R). 

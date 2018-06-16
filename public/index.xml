@@ -552,11 +552,15 @@ fecha_muerte &amp;lt;- as.Date(c(&amp;quot;1643-1-4&amp;quot;, &amp;quot;1882-4-
     
     <item>
       <title>Research projects with R programming</title>
-      <link>/talk/scrug---copy/</link>
+      <link>/talk/research_projects_r/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
       
-      <guid>/talk/scrug---copy/</guid>
-      <description>&lt;p&gt;Talk material (slides/code) on my &lt;a href=&#34;https://github.com/ronnyhdez/Research-Projects-with-R&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+      <guid>/talk/research_projects_r/</guid>
+      <description>&lt;p&gt;Ongoing research projects files can be easily messed up and in science this can give us
+a hard time. On this workshop you will learn how to organize your files, from data and code to your communication files. Also we will explore some of the newest R packages to manage your data with easy to
+read code that allows us to reproduce, automatice and communicate your statistical analysis.&lt;/p&gt;
+
+&lt;p&gt;Talk material (slides/code) on my &lt;a href=&#34;https://github.com/ronnyhdez/Research-Projects-with-R&#34; target=&#34;_blank&#34;&gt;github account&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
