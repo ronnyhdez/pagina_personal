@@ -7,10 +7,7 @@ draft = false
 
 tags = ["git", "control versiones"]
 
-summary = "¿Has escuchado recientemente de git? ¿Sobre control de versiones? Pues bueno, este tutorial trata de hacer una introducción al control de versiones y el
-uso de git para nuestro flujo de trabajo. Está pensado para invetigadores, 
-quienes inician en ciencia de datos o para quienes deseen tener un mayor orden
-en su trabajo cotidiano"
+summary = "Introduccion al control de versiones con git"
 
 [header]
 image = "headers/files.jpg"
