@@ -32,15 +32,15 @@ Cada vez que hagamos cambios en el código, vamos a hacer un **commit**. Esto lo
 
 En el caso de trabajar con el repositorio de alguien más, lo podemos realizar a través de un proceso que se conoce como **fork**, que no es más que una bifurcación del repositorio de esa persona. Al realizar un "fork" del repositorio de otra persona estamos creando una copia de dicho repositorio bajo nuestro usuario. Ahora bien, la manera de ofrecer los cambios que hemos trabajado a la persona dueña del repositorio tiene un proceso algo diferente que veremos en otro tutorial.
 
-Cuando queremos trabajar con el repositorio de alguien más lo podemmos hacer con un fork del repositorio, que nos copiará el repositorio bajo el usuario de otra persona hacia nuestro usuario. De este podremos hacer cambios pero el flujo de trabajo es diferente. Lo explicaremos en otra sección.
-
 ## Iniciar con git
 En este segmento vamos a seguir los pasos para tener un repositorio que tenga su cuenta remota con github/gitlab/bitbucket y local a través de nuestra terminal.
 
 #### 1. Crear repositorio en github/gitlab/bitbucket
 Si tenemos cuenta en github/gitlab/bitbucket podemos crear un repositorio. Le llamamos repositorio al sitio donde vamos a guardar nuestros archivos. Un repositorio lo podemos visualizar como una carpeta que contendrá nuestro trabajo.
 
-Cuando se crea un nuevo repositorio lo recomendable es iniciarlo con un arhivo que se llama **.gitignore** y con un **readme**. La funcionalidad del .gitignore es que en este colocaremos los formatos de los archivos que no queremos que se integren en nuestro sistema de control de versiones. Generalmente no deseamos que archivos como imagenes (.png .jpeg) o bien archivos de datos muy grandes (.txt .csv .feather) sean compartidos entre repositorios remotos, locales o personas con las que colaboremos. 
+Cuando se crea un nuevo repositorio lo recomendable es iniciarlo con un arhivo que se llama **.gitignore** y con un **readme**. La funcionalidad del .gitignore es que este archivo (es como un archvio de texto) contiene especificaciones sobre los formatos de los archivos que no queremos que se integren en nuestro sistema de control de versiones. Generalmente no deseamos que archivos como imagenes (.png .jpeg) o bien archivos de datos muy grandes (.txt .csv .feather) sean compartidos entre repositorios remotos, locales o personas con las que colaboremos. Un ejemplo de un archivo es el siguiente:
+        
+![](/img/ejemplo_gitignore.png)
 
 En el caso del readme es un archivo que debe de dar una idea  de qué tenemos en el repositorio. Es una guía para nosotros mismos u otros usuarios que vayan a hacer uso del repositorio. 
 
