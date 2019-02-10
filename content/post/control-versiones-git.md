@@ -42,7 +42,7 @@ Cuando se crea un nuevo repositorio lo recomendable es iniciarlo con un arhivo q
         
 ![](/img/ejemplo_gitignore.png)
 
-Si no identifican algunos de los elementos de ahí no hay de qué preocuparse, mejor nos enfocámos en los tipos de archivos que nosotros necesitamos que sean tomados en cuenta por git, es decir, que no queremos que se suban a nuestro repositorio de github por ejemplo. Si es el caso que tenemos que hacer el knit de un Rmarkdown y necesitamos un archivo .csv para renderizarlo, pero solamente queremos el archivo Rmakrdown en el sistema de git, pues en nuestro archivo .gitignore escribimos .csv, guardamos el archivo y listo. 
+Si no identifican algunos de los elementos de ahí no hay de qué preocuparse, mejor nos enfocámos en los tipos de archivos que nosotros necesitamos que **NO sean tomados en cuenta por git**, es decir, que no queremos que se suban a nuestro repositorio de github por ejemplo ni en la gestión de versiones. Si es el caso que tenemos que hacer el knit de un Rmarkdown y necesitamos un archivo .csv para renderizarlo, pero solamente queremos el archivo Rmakrdown en el sistema de git, pues en nuestro archivo .gitignore escribimos .csv, guardamos el archivo y listo. 
 
 En el caso del **readme** es un archivo que debe de dar una idea  de qué tenemos en el repositorio. Es una guía para nosotros mismos u otros usuarios que vayan a hacer uso del repositorio y nuestro código. En github los readme se ven así:
 
