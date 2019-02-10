@@ -155,6 +155,7 @@ git pull
 ```
 
 ## ¿Qué tenemos hasta acá?
+Una idea básica sobre git, de sus componentes, del flujo de trabajo y de los principales comandos que se usan. Un tutorial con un ejemplo básico vendrá despueś. 
 
 
 ### Referencias
