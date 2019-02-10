@@ -221,3 +221,8 @@ Referencias
 -   [Página desarrolladores Municipalidad de San
     José](http://datosabiertos.msj.go.cr/developers/)
 -   [Gobierno abierto Costa Rica](http://www.gobiernoabierto.go.cr/)
+
+## ¿Querés revisar más información?
+
+Mi compañero [Erick Calderón](https://github.com/ecamo19) y yo estamos trabajando en un proyecto donde pretendemos crear más tutoriales sobre uso de datos abiertos del gobierno de Costa Rica a través de API's y el lenguaje de programación R. Si querés contribuir, tenés preguntas o una idea podés revisar [nuestro proyecto en Github](https://github.com/datos-abiertos-cr)
+
