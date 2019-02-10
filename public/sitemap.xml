@@ -23,6 +23,15 @@
     
     <url>
     
+      <loc>/post/datos_muni_sanjose/</loc>
+      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00-06:00</lastmod>
     </url>
@@ -113,7 +122,27 @@
     
     <url>
     
+      <loc>/tags/api/</loc>
+      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/datos-abiertos/</loc>
+      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -271,8 +300,28 @@
     
     <url>
     
+      <loc>/tags/junr/</loc>
+      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/list/</loc>
       <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/municipalidad-san-jos%C3%A9/</loc>
+      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     

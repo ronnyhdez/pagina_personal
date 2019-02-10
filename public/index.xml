@@ -557,6 +557,233 @@ fecha_muerte &amp;lt;- as.Date(c(&amp;quot;1643-1-4&amp;quot;, &amp;quot;1882-4-
     </item>
     
     <item>
+      <title>Datos abiertos Municipalidad de San José</title>
+      <link>/post/datos_muni_sanjose/</link>
+      <pubDate>Sat, 13 Jan 2018 00:00:00 -0600</pubDate>
+      
+      <guid>/post/datos_muni_sanjose/</guid>
+      <description>
+
+&lt;p&gt;Gracias a la iniciativa de &lt;a href=&#34;http://www.gobiernoabierto.go.cr/&#34; target=&#34;_blank&#34;&gt;Gobierno
+Abierto&lt;/a&gt; de Costa Rica tenemos la
+posibilidad de obtener datos de diferentes entes a través de la conexión
+con API&amp;rsquo;s.&lt;/p&gt;
+
+&lt;p&gt;Esto nos da la posibilidad de no pasar por engorrosos procesos de
+limpiar datos a partir de formatos casi imposibles como pdf&amp;rsquo;s, .csv
+extravagantes u otros formatos difíciles de trabajar.&lt;/p&gt;
+
+&lt;p&gt;En este caso vamos a utilizar el lenguaje de programación R y el paquete
+&lt;a href=&#34;https://cran.r-project.org/web/packages/junr/index.html&#34; target=&#34;_blank&#34;&gt;junr&lt;/a&gt; de
+&lt;a href=&#34;https://github.com/FvD&#34; target=&#34;_blank&#34;&gt;Frans van Dunné&lt;/a&gt; para conectarnos al API de la
+municipalidad de San José y revisar qué datos se encuentran disponibles.&lt;/p&gt;
+
+&lt;h3 id=&#34;obtener-el-api-key-de-la-municipalidad-de-san-josé&#34;&gt;Obtener el API key de la municipalidad de San José&lt;/h3&gt;
+
+&lt;p&gt;En la siguiente &lt;a href=&#34;http://datosabiertos.msj.go.cr/developers/&#34; target=&#34;_blank&#34;&gt;dirección&lt;/a&gt;
+podrá encontrar el API key necesario para hacer el llamado.&lt;/p&gt;
+
+&lt;p&gt;Vamos a crear como objetos nuestras credenciales para hacer la conexión
+al API de la municipalidad de San José. El url que aparece acá es el que
+se debe de usar para conectarnos al sistema de la muni de San José. Si
+están siguiendo ete ejemplo pueden escribir el mismo que aparece acá.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;url_base &amp;lt;- &amp;quot;http://api.datosabiertos.msj.go.cr/api/v2/datastreams/&amp;quot;
+api_key &amp;lt;- SU_API_KEY
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;obtener-el-indice-de-las-tablas&#34;&gt;Obtener el indice de las tablas&lt;/h3&gt;
+
+&lt;p&gt;Ya que tenemos las credenciales listas (api key &amp;amp; url), vamos a revisar
+el índice de las tablas de datos que la municipalidad ha liberado:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Traemos el indice  de los datos que existen
+indice &amp;lt;- get_index(url_base, api_key = api_key)
+
+# Revisamos estructura del objeto 
+glimpse(indice)
+
+## Observations: 257
+## Variables: 18
+## $ status          &amp;lt;lgl&amp;gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, …
+## $ description     &amp;lt;chr&amp;gt; &amp;quot;Valor absoluto y Tasa por 100.000 2006 - 2014&amp;quot;,…
+## $ parameters      &amp;lt;list&amp;gt; [[], [], [], [], [], [], [], [], [], [], [], []…
+## $ tags            &amp;lt;list&amp;gt; [&amp;lt;&amp;quot;san jose&amp;quot;, &amp;quot;municipalidad&amp;quot;, &amp;quot;muertes violent…
+## $ timestamp       &amp;lt;dbl&amp;gt; 1.547586e+12, 1.539808e+12, 1.516222e+12, 1.5162…
+## $ created_at      &amp;lt;int&amp;gt; 1547586293, 1539744226, 1516221668, 1516220839, …
+## $ title           &amp;lt;chr&amp;gt; &amp;quot;Cantidad y Tasa de muertes violentas&amp;quot;, &amp;quot;Densida…
+## $ modified_at     &amp;lt;int&amp;gt; 1547586492, 1539808089, 1516221733, 1516221641, …
+## $ category_id     &amp;lt;chr&amp;gt; &amp;quot;83642&amp;quot;, &amp;quot;83639&amp;quot;, &amp;quot;83481&amp;quot;, &amp;quot;83481&amp;quot;, &amp;quot;83482&amp;quot;, &amp;quot;83…
+## $ methods         &amp;lt;lgl&amp;gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, …
+## $ sources         &amp;lt;list&amp;gt; [&amp;lt;&amp;gt;, &amp;lt;&amp;quot;Municipalidad de San José&amp;quot;, &amp;quot;Instituto N…
+## $ total_revisions &amp;lt;lgl&amp;gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, …
+## $ frequency       &amp;lt;chr&amp;gt; &amp;quot;&amp;quot;, &amp;quot;ondemand&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;ondemand&amp;quot;, &amp;quot;ondeman…
+## $ link            &amp;lt;chr&amp;gt; &amp;quot;http://datosabiertos.msj.go.cr/dataviews/250481…
+## $ user            &amp;lt;chr&amp;gt; &amp;quot;sanjose&amp;quot;, &amp;quot;sanjose&amp;quot;, &amp;quot;sanjose&amp;quot;, &amp;quot;sanjose&amp;quot;, &amp;quot;Msj…
+## $ status_str      &amp;lt;lgl&amp;gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, …
+## $ guid            &amp;lt;chr&amp;gt; &amp;quot;CANTI-Y-TASA-DE-92062&amp;quot;, &amp;quot;DENSI-DE-POBLA-POR-DIS…
+## $ category_name   &amp;lt;chr&amp;gt; &amp;quot;Características Sociales&amp;quot;, &amp;quot;Demografía&amp;quot;, &amp;quot;Educa…
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Cada uno de los elementos que allí aparecen son distintas tablas que
+pueden tener diferentes dimensiones (filas y columnas). Es como una
+descripción de lo que trata cada tabla. Si queremos traer a nuestro
+entorno los datos de una tabla en específico tenemos que hacerlo con su
+&lt;strong&gt;GUID&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;De toda la tabla que llamamos en el paso anterior, vamos a hacer una
+selección de dos columnas: título y el GUID&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;guid &amp;lt;- indice %&amp;gt;% 
+  select(title, guid)
+
+glimpse(guid)
+
+## Observations: 257
+## Variables: 2
+## $ title &amp;lt;chr&amp;gt; &amp;quot;Cantidad y Tasa de muertes violentas&amp;quot;, &amp;quot;Densidad de Pobla…
+## $ guid  &amp;lt;chr&amp;gt; &amp;quot;CANTI-Y-TASA-DE-92062&amp;quot;, &amp;quot;DENSI-DE-POBLA-POR-DISTR&amp;quot;, &amp;quot;DIST…
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;obtener-las-dimensiones-de-las-tablas&#34;&gt;Obtener las dimensiones de las tablas&lt;/h3&gt;
+
+&lt;p&gt;Ahora bien, ya sabemos el título y el identificador de la tabla, pero
+tenemos que tener cuidado. Son muchas tablas y algunas pueden estar
+vacías, ser datos resumidos o con muy pocos datos que no nos servirían
+de nada.&lt;/p&gt;
+
+&lt;p&gt;Por suerte el paquete &lt;strong&gt;junr&lt;/strong&gt; tiene una función que nos muestra la
+dimensión de las tablas, lo cual nos da mayor información sobre las
+características que tiene.&lt;/p&gt;
+
+&lt;p&gt;Hay que aclarar que la municipalidad de San José tiene muchas tablas y
+si usamos la función para obtener las dimensiones se puede demorar sus
+minutos.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Por la cantidad de tablas que hay, esta funcion se demora mucho
+dimensiones &amp;lt;- get_dimensions(base_url = url_base, api_key = api_key)
+
+# Mostrar primeras seis observaciones
+head(dimensiones)
+
+##                          GUID NROW NCOL DIM
+## 2       CANTI-Y-TASA-DE-92062    6   10  60
+## 21   DENSI-DE-POBLA-POR-DISTR   15   12 180
+## 3  DISTR-RELAT-DE-ESTUD-MATRI   12   10 120
+## 4  DISTR-DE-ESTUD-MATRI-77173   12   10 120
+## 5        POA-PRESU-ORDIN-2018  119    3 357
+## 6     INVER-EN-COLON-EN-43060    7    6  42
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;cuadro-con-características-de-las-tablas-de-la-muni-de-sj&#34;&gt;Cuadro con características de las tablas de la muni de SJ&lt;/h4&gt;
+
+&lt;p&gt;Ya que tenemos las dimensiones de las tablas, podemos acomodar la
+información que hemos extraido hasta el momento de tal manera que
+tengamos un cuadro final con la información importante resumida: el
+título de la tabla, el GUID y las dimensiones.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Unir el titulo a dimensiones
+dimensiones &amp;lt;- left_join(dimensiones, guid, by = c(&amp;quot;GUID&amp;quot; = &amp;quot;guid&amp;quot;))
+
+# Ordenar tablas con mayores dimensiones
+dim_ordenado &amp;lt;- dimensiones %&amp;gt;%
+    arrange(desc(DIM))
+
+# Revisar primeras entradas
+head(dim_ordenado)
+
+##                         GUID NROW NCOL DIM
+## 1          ASIST-EDUCA-SUPER  108    9 972
+## 2                DEFUN-28990   64   13 832
+## 3                DEFUN-43464   64   13 832
+## 4                NACIM-43692   64   13 832
+## 5 DISTR-DE-POBLA-OCUPA-56023   52   11 572
+## 6 DISTR-DE-POBLA-OCUPA-36314   52   11 572
+##                                                                title
+## 1                                      Asistencia Educación Superior
+## 2                                                        Defunciones
+## 3                                                        Defunciones
+## 4                                                        Nacimientos
+## 5 Distribución de población ocupada por Grupo Ocupacional (Relativo)
+## 6            Distribución de población ocupada por Grupo Ocupacional
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;llamar-datos-de-una-tabla-específica&#34;&gt;Llamar datos de una tabla específica:&lt;/h3&gt;
+
+&lt;p&gt;Ya con esto podemos hacer una mejor selección de las tablas que nos
+serían útiles. Cuando ya tengamos identificada una tabla tenemos que
+anotar su GUID que utilizaremos en la función:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Anotar en un objeto el GUID de la tabla que nos interesa
+guid_tabla &amp;lt;- &amp;quot;ASIST-EDUCA-SUPER&amp;quot;
+
+# Llamar la tabla. Usamos las mismas credenciales que habíamos usado
+asist_educacion &amp;lt;- get_data(base_url = url_base, api_key = SU_API_KEY, 
+                            guid = guid_tabla)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;¡Listo! Ya tenemos nuestra tabla de interés con los datos. Vamos a
+revisarla&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;head(asist_educacion)
+
+##   Distrito   Sexo Tenencia de título Parauniversitaria Universitaria Total
+## 2 San José Hombre                 Sí              1951         24058 26009
+## 3 San José Hombre                 No               653          3498  4151
+## 4 San José Hombre              Total              2604         27556 30160
+## 5 San José  Mujer                 Sí              2599         26085 28684
+## 6 San José  Mujer                 No               924          4092  5016
+## 7 San José  Mujer              Total              3523         30177 33700
+##   Población de 17 años y más
+## 2                           
+## 3                           
+## 4                     100238
+## 5                           
+## 6                           
+## 7                     116461
+##   Porcentaje de población con educación superior
+## 2                                               
+## 3                                               
+## 4                                           30.1
+## 5                                               
+## 6                                               
+## 7                                           28.9
+##   Porcentaje de población con educación superior y título
+## 2                                                        
+## 3                                                        
+## 4                                                    86.2
+## 5                                                        
+## 6                                                        
+## 7                                                    85.1
+
+glimpse(asist_educacion)
+
+## Observations: 108
+## Variables: 9
+## $ Distrito                                                  &amp;lt;fct&amp;gt; San Jo…
+## $ Sexo                                                      &amp;lt;fct&amp;gt; Hombre…
+## $ `Tenencia de título`                                      &amp;lt;fct&amp;gt; Sí, No…
+## $ Parauniversitaria                                         &amp;lt;fct&amp;gt; 1951, …
+## $ Universitaria                                             &amp;lt;fct&amp;gt; 24058,…
+## $ Total                                                     &amp;lt;fct&amp;gt; 26009,…
+## $ `Población de 17 años y más`                              &amp;lt;fct&amp;gt; , , 10…
+## $ `Porcentaje de población con educación superior`          &amp;lt;fct&amp;gt; , , 30…
+## $ `Porcentaje de población con educación superior y título` &amp;lt;fct&amp;gt; , , 86…
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;referencias&#34;&gt;Referencias&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/junr/vignettes/acceder-junar-api.html&#34; target=&#34;_blank&#34;&gt;vignette del paquete
+junr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://datosabiertos.msj.go.cr/developers/&#34; target=&#34;_blank&#34;&gt;Página desarrolladores Municipalidad de San
+José&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gobiernoabierto.go.cr/&#34; target=&#34;_blank&#34;&gt;Gobierno abierto Costa Rica&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Research projects with R programming</title>
       <link>/talk/research_projects_r/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
@@ -748,6 +975,11 @@ Si estamos trabajando con colaboradores y han integrado cambios en el repositori
 
 &lt;pre&gt;&lt;code&gt;git pull
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;referencias&#34;&gt;Referencias&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2&#34; target=&#34;_blank&#34;&gt;https://git-scm.com/book/en/v2&lt;/a&gt;
+&lt;a href=&#34;https://git-scm.com/book/es/v1/Ramificaciones-en-Git-Procedimientos-b%C3%A1sicos-para-ramificar-y-fusionar&#34; target=&#34;_blank&#34;&gt;https://git-scm.com/book/es/v1/Ramificaciones-en-Git-Procedimientos-b%C3%A1sicos-para-ramificar-y-fusionar&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

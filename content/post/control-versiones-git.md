@@ -142,5 +142,8 @@ Si estamos trabajando con colaboradores y han integrado cambios en el repositori
 git pull
 ```
 
+### Referencias
 
+https://git-scm.com/book/en/v2
+https://git-scm.com/book/es/v1/Ramificaciones-en-Git-Procedimientos-b%C3%A1sicos-para-ramificar-y-fusionar
 
