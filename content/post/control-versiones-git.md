@@ -38,7 +38,11 @@ En este segmento vamos a seguir los pasos para tener un repositorio que tenga su
 #### 1. Crear repositorio en github/gitlab/bitbucket
 Si tenemos cuenta en github/gitlab/bitbucket podemos crear un repositorio. Le llamamos repositorio al sitio donde vamos a guardar nuestros archivos. Un repositorio lo podemos visualizar como una carpeta que contendrá nuestro trabajo.
 
-Cuando se crea un nuevo repositorio lo recomendable es iniciarlo con un arhivo que se llama **.gitignore** y con un **readme**. La funcionalidad del .gitignore es que este archivo (es como un archvio de texto) contiene especificaciones sobre los formatos de los archivos que no queremos que se integren en nuestro sistema de control de versiones. Generalmente no deseamos que archivos como imagenes (.png .jpeg) o bien archivos de datos muy grandes (.txt .csv .feather) sean compartidos entre repositorios remotos, locales o personas con las que colaboremos. Un ejemplo de un archivo .gitignore es el siguiente:
+Cuando se crea un nuevo repositorio lo recomendable es iniciarlo con un arhivo que se llama **.gitignore** y con un **readme**. Para hacerlo en github (y algo similar en otras plataformas) es que seleccionemos las opciones de iniciar repositorio con un archivo .gitignore y un readme. El archivo gitignore debe de ser específico para la herramienta que vayamos a usar, en este caso sería *R*
+![](/img/create_repository_github.png)
+
+
+La funcionalidad del .gitignore es que este archivo (es como un archvio de texto) contiene especificaciones sobre los formatos de los archivos que no queremos que se integren en nuestro sistema de control de versiones. Generalmente no deseamos que archivos como imagenes (.png .jpeg) o bien archivos de datos muy grandes (.txt .csv .feather) sean compartidos entre repositorios remotos, locales o personas con las que colaboremos. Un ejemplo de un archivo .gitignore es el siguiente:
         
 ![](/img/ejemplo_gitignore.png)
 
@@ -149,6 +153,9 @@ Si estamos trabajando con colaboradores y han integrado cambios en el repositori
 ```
 git pull
 ```
+
+## ¿Qué tenemos hasta acá?
+
 
 ### Referencias
 

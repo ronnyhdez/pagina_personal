@@ -877,7 +877,10 @@ tener un control sobre los cambios que se introducen en el documento.&lt;/p&gt;
 
 &lt;p&gt;Si tenemos cuenta en github/gitlab/bitbucket podemos crear un repositorio. Le llamamos repositorio al sitio donde vamos a guardar nuestros archivos. Un repositorio lo podemos visualizar como una carpeta que contendrá nuestro trabajo.&lt;/p&gt;
 
-&lt;p&gt;Cuando se crea un nuevo repositorio lo recomendable es iniciarlo con un arhivo que se llama &lt;strong&gt;.gitignore&lt;/strong&gt; y con un &lt;strong&gt;readme&lt;/strong&gt;. La funcionalidad del .gitignore es que este archivo (es como un archvio de texto) contiene especificaciones sobre los formatos de los archivos que no queremos que se integren en nuestro sistema de control de versiones. Generalmente no deseamos que archivos como imagenes (.png .jpeg) o bien archivos de datos muy grandes (.txt .csv .feather) sean compartidos entre repositorios remotos, locales o personas con las que colaboremos. Un ejemplo de un archivo .gitignore es el siguiente:&lt;/p&gt;
+&lt;p&gt;Cuando se crea un nuevo repositorio lo recomendable es iniciarlo con un arhivo que se llama &lt;strong&gt;.gitignore&lt;/strong&gt; y con un &lt;strong&gt;readme&lt;/strong&gt;. Para hacerlo en github (y algo similar en otras plataformas) es que seleccionemos las opciones de iniciar repositorio con un archivo .gitignore y un readme. El archivo gitignore debe de ser específico para la herramienta que vayamos a usar, en este caso sería &lt;em&gt;R&lt;/em&gt;
+&lt;img src=&#34;/img/create_repository_github.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La funcionalidad del .gitignore es que este archivo (es como un archvio de texto) contiene especificaciones sobre los formatos de los archivos que no queremos que se integren en nuestro sistema de control de versiones. Generalmente no deseamos que archivos como imagenes (.png .jpeg) o bien archivos de datos muy grandes (.txt .csv .feather) sean compartidos entre repositorios remotos, locales o personas con las que colaboremos. Un ejemplo de un archivo .gitignore es el siguiente:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;/img/ejemplo_gitignore.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
@@ -988,6 +991,8 @@ Si estamos trabajando con colaboradores y han integrado cambios en el repositori
 
 &lt;pre&gt;&lt;code&gt;git pull
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;qué-tenemos-hasta-acá&#34;&gt;¿Qué tenemos hasta acá?&lt;/h2&gt;
 
 &lt;h3 id=&#34;referencias&#34;&gt;Referencias&lt;/h3&gt;
 
