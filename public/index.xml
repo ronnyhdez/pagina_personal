@@ -855,9 +855,9 @@ read code that allows us to reproduce, automatice and communicate your statistic
 llena con nombres como: &amp;ldquo;version_final&amp;rdquo;, &amp;ldquo;version_final_final&amp;rdquo;, &amp;ldquo;version_final_corregida&amp;rdquo;, &amp;ldquo;version_final_revisada&amp;rdquo; pues git les será útil para
 tener un control sobre los cambios que se introducen en el documento.&lt;/p&gt;
 
-&lt;p&gt;En este tutorial haremos ejemplos con scripts de código en R y como los cambios
-o bien cambios experimentales que vayamos trabajando los podamos registrar, usar
-guardar y documentar con mayor eficiencia.&lt;/p&gt;
+&lt;p&gt;En este tutorial haremos ejemplos con scripts de código en R y cómo los cambios que vayamos trabajando, los podemos registrar, usar, guardar y documentar con mayor eficiencia tanto para trabajar individualemente como grupalmente.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/git.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;esquema-de-git&#34;&gt;Esquema de git&lt;/h2&gt;
 
@@ -877,19 +877,26 @@ guardar y documentar con mayor eficiencia.&lt;/p&gt;
 
 &lt;p&gt;Si tenemos cuenta en github/gitlab/bitbucket podemos crear un repositorio. Le llamamos repositorio al sitio donde vamos a guardar nuestros archivos. Un repositorio lo podemos visualizar como una carpeta que contendrá nuestro trabajo.&lt;/p&gt;
 
-&lt;p&gt;Cuando se crea un nuevo repositorio lo recomendable es iniciarlo con un arhivo que se llama &lt;strong&gt;.gitignore&lt;/strong&gt; y con un &lt;strong&gt;readme&lt;/strong&gt;. La funcionalidad del .gitignore es que este archivo (es como un archvio de texto) contiene especificaciones sobre los formatos de los archivos que no queremos que se integren en nuestro sistema de control de versiones. Generalmente no deseamos que archivos como imagenes (.png .jpeg) o bien archivos de datos muy grandes (.txt .csv .feather) sean compartidos entre repositorios remotos, locales o personas con las que colaboremos. Un ejemplo de un archivo es el siguiente:&lt;/p&gt;
+&lt;p&gt;Cuando se crea un nuevo repositorio lo recomendable es iniciarlo con un arhivo que se llama &lt;strong&gt;.gitignore&lt;/strong&gt; y con un &lt;strong&gt;readme&lt;/strong&gt;. La funcionalidad del .gitignore es que este archivo (es como un archvio de texto) contiene especificaciones sobre los formatos de los archivos que no queremos que se integren en nuestro sistema de control de versiones. Generalmente no deseamos que archivos como imagenes (.png .jpeg) o bien archivos de datos muy grandes (.txt .csv .feather) sean compartidos entre repositorios remotos, locales o personas con las que colaboremos. Un ejemplo de un archivo .gitignore es el siguiente:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;/img/ejemplo_gitignore.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;En el caso del readme es un archivo que debe de dar una idea  de qué tenemos en el repositorio. Es una guía para nosotros mismos u otros usuarios que vayan a hacer uso del repositorio.&lt;/p&gt;
+&lt;p&gt;Si no identifican algunos de los elementos de ahí no hay de qué preocuparse, mejor nos enfocámos en los tipos de archivos que nosotros necesitamos que sean tomados en cuenta por git, es decir, que no queremos que se suban a nuestro repositorio de github por ejemplo. Si es el caso que tenemos que hacer el knit de un Rmarkdown y necesitamos un archivo .csv para renderizarlo, pero solamente queremos el archivo Rmakrdown en el sistema de git, pues en nuestro archivo .gitignore escribimos .csv, guardamos el archivo y listo.&lt;/p&gt;
 
-&lt;p&gt;Al crear un repositorio vamos a encontrarnos con una opción que dirá &amp;ldquo;clone or download&amp;rdquo;. Vamos a hacer click en clone y la dirección que allí sale se va a copiar (tal como hacer un Ctrl + c). Esto nos lo vamos a llevar a nuestra terminal.&lt;/p&gt;
+&lt;p&gt;En el caso del &lt;strong&gt;readme&lt;/strong&gt; es un archivo que debe de dar una idea  de qué tenemos en el repositorio. Es una guía para nosotros mismos u otros usuarios que vayan a hacer uso del repositorio y nuestro código. En github los readme se ven así:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/readme.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Una vez que el repositorio haya sido creado, vamos a encontrarnos con una opción que dirá &lt;strong&gt;&amp;ldquo;clone or download&amp;rdquo;&lt;/strong&gt;. Vamos a hacer click en clone y la dirección que allí sale la tenemos que copiar (ctrl + c). La imagen muestra lo que sucede al hacer clone en el botón verde que ofrece github:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/clone.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ya con la información de la dirección del repositorio copiada, vamos a llevarla a nuestra terminal:&lt;/p&gt;
 
 &lt;h4 id=&#34;2-clonar-repositorio-en-nuestra-computadora&#34;&gt;2. Clonar repositorio en nuestra computadora&lt;/h4&gt;
 
 &lt;p&gt;Una vez que tenemos creado el repositorio y la dirección copiada, vamos a abrir nuestra terminal. Si es usuario de windows puede usar el powershell.
-Lo primero que vamos a ver es una dirección y allí tendremos que &lt;strong&gt;dirigirnos
-a la carpeta donde deseamos colocar el repositorio&lt;/strong&gt;.&lt;/p&gt;
+Lo primero que vamos a ver es una dirección y allí tendremos que &lt;strong&gt;dirigirnos a la carpeta donde deseamos colocar el repositorio&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;cd ~ #Esto me va a llevar al home
 &lt;/code&gt;&lt;/pre&gt;
@@ -923,7 +930,7 @@ a la carpeta donde deseamos colocar el repositorio&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;¿Qué pasa si queremos hacer una variación en el código sin miedo a dañar lo que ya tenemos? Pues bien, git nos permite hacer ramas que son una bifurcación del trabajo que llevamos realizado hasta ese momento y que si luego queremos, podemos volver a integrar a la rama principal.&lt;/p&gt;
 
-&lt;p&gt;Cuano tenemos un repositorio la rama principal está nombrada como &lt;strong&gt;master&lt;/strong&gt;. A partir de esta podemos hacer ramas con los nombres que nosotros queramos. La idea de las ramas es trabajar de manera ordenada, en donde en mi rama master siempre vayamos a tener código limpio y funcional y lo que sean nuevas tareas y mejoras o experimentos lo hagamos en ramas que se bifurcan a partir de la rama master.&lt;/p&gt;
+&lt;p&gt;Cuano tenemos un repositorio la rama principal está nombrada como &lt;strong&gt;master&lt;/strong&gt;. A partir de esta rama master podemos hacer ramas con los nombres que nosotros queramos. La idea de las ramas es trabajar de manera ordenada, en donde en mi rama master siempre debemos de tener código limpio y funcional y lo que sean nuevas tareas, mejoras o experimentos lo hagamos en ramas que se bifurcan a partir de la rama master.&lt;/p&gt;
 
 &lt;p&gt;Cuando el trabajo realizado en la rama sea funcional y limpio, lo podemos integrar a la rama master. Caso contrario podemos olvidarnos de la rama y volver a nuestra rama master.&lt;/p&gt;
 
@@ -945,7 +952,7 @@ Para cambiar entre ramas que ya existen NO hay que usar &amp;ldquo;-b&amp;rdquo;
 
 &lt;h4 id=&#34;4-subir-bajar-cambios&#34;&gt;4. Subir/bajar cambios&lt;/h4&gt;
 
-&lt;p&gt;Como estamos trabajando con un repositorio remoto y uno local, vamos a querer sincronizar los cambios. Estos cambios pasarán al estar en la historia del proyecto como &lt;strong&gt;commits&lt;/strong&gt;. Un commit es un punto en la historia del proyecto que muestra el trabajo realizado en ese momento. En el flujo del trabajo que uno tenga es recomendable hacer commits regularmente y subirlos de manera regular para asegurar no perder el trabajo.&lt;/p&gt;
+&lt;p&gt;Como estamos trabajando con un repositorio remoto y uno local, vamos a querer sincronizar los cambios. Estos cambios pasarán a estar en la historia del proyecto como &lt;strong&gt;commits&lt;/strong&gt;. Un commit es un punto en la historia del proyecto que muestra el trabajo realizado en ese momento. En el flujo del trabajo que uno tenga es recomendable hacer commits regularmente y hacer el push de manera regular para asegurarnos de no perder el trabajo.&lt;/p&gt;
 
 &lt;p&gt;**4.1 Revisar estado de los cambios **
 Cuando tengamos cambios en nuestros archivos, podemos revisar cuáles han cambiado y si los tenemos incluidos o no en nuestro registro de cambios&lt;/p&gt;
@@ -969,7 +976,7 @@ Los archivos que queramos agregar a la historia del proyecto lo podemos hacer de
 &lt;pre&gt;&lt;code&gt;git commit -m &amp;quot;MENSAJE_CORTO&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;El mensaje sirve para darnos a nosotros o a colaboradores una idea del cambio que se trabajó.&lt;/p&gt;
+&lt;p&gt;El mensaje sirve para darnos a nosotros mismos o a colaboradores, una idea del cambio que se trabajó.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;4.4 Subir cambios al repositorio remoto&lt;/strong&gt;&lt;/p&gt;
 

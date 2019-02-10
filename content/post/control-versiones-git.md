@@ -19,9 +19,9 @@ Si les ha sucecido que luego de trabajar en un documento, tienen una carpeta
 llena con nombres como: "version_final", "version_final_final", "version_final_corregida", "version_final_revisada" pues git les será útil para
 tener un control sobre los cambios que se introducen en el documento. 
 
-En este tutorial haremos ejemplos con scripts de código en R y como los cambios
-o bien cambios experimentales que vayamos trabajando los podamos registrar, usar
-guardar y documentar con mayor eficiencia.
+En este tutorial haremos ejemplos con scripts de código en R y cómo los cambios que vayamos trabajando, los podemos registrar, usar, guardar y documentar con mayor eficiencia tanto para trabajar individualemente como grupalmente. 
+
+![](/img/git.png)
 
 ## Esquema de git
 Aqui pretendo aclarar rapidamente que vamos a hacer con git, tener el big picture antes de entrar en detalles. Vamos a tener un repositorio remoto o en inglés upstream que será nuestro repositorio en github/gitlab/bitbucket. De este repositorio tendremos uno local que crearemos al hacer el clon. Siempre vamos a trabajar en repositorio local (en nuestra computadora) y esos cambios los vamos a subir al remoto con un push. De igual manera cambios que existan en el repositorio remoto (porque alguien hizo una contribucion, trabajamos desde otra computadora ys ubimos los cambios) lo vamos a hacer con un pull.
@@ -38,19 +38,25 @@ En este segmento vamos a seguir los pasos para tener un repositorio que tenga su
 #### 1. Crear repositorio en github/gitlab/bitbucket
 Si tenemos cuenta en github/gitlab/bitbucket podemos crear un repositorio. Le llamamos repositorio al sitio donde vamos a guardar nuestros archivos. Un repositorio lo podemos visualizar como una carpeta que contendrá nuestro trabajo.
 
-Cuando se crea un nuevo repositorio lo recomendable es iniciarlo con un arhivo que se llama **.gitignore** y con un **readme**. La funcionalidad del .gitignore es que este archivo (es como un archvio de texto) contiene especificaciones sobre los formatos de los archivos que no queremos que se integren en nuestro sistema de control de versiones. Generalmente no deseamos que archivos como imagenes (.png .jpeg) o bien archivos de datos muy grandes (.txt .csv .feather) sean compartidos entre repositorios remotos, locales o personas con las que colaboremos. Un ejemplo de un archivo es el siguiente:
+Cuando se crea un nuevo repositorio lo recomendable es iniciarlo con un arhivo que se llama **.gitignore** y con un **readme**. La funcionalidad del .gitignore es que este archivo (es como un archvio de texto) contiene especificaciones sobre los formatos de los archivos que no queremos que se integren en nuestro sistema de control de versiones. Generalmente no deseamos que archivos como imagenes (.png .jpeg) o bien archivos de datos muy grandes (.txt .csv .feather) sean compartidos entre repositorios remotos, locales o personas con las que colaboremos. Un ejemplo de un archivo .gitignore es el siguiente:
         
 ![](/img/ejemplo_gitignore.png)
 
-En el caso del readme es un archivo que debe de dar una idea  de qué tenemos en el repositorio. Es una guía para nosotros mismos u otros usuarios que vayan a hacer uso del repositorio. 
+Si no identifican algunos de los elementos de ahí no hay de qué preocuparse, mejor nos enfocámos en los tipos de archivos que nosotros necesitamos que sean tomados en cuenta por git, es decir, que no queremos que se suban a nuestro repositorio de github por ejemplo. Si es el caso que tenemos que hacer el knit de un Rmarkdown y necesitamos un archivo .csv para renderizarlo, pero solamente queremos el archivo Rmakrdown en el sistema de git, pues en nuestro archivo .gitignore escribimos .csv, guardamos el archivo y listo. 
 
-Al crear un repositorio vamos a encontrarnos con una opción que dirá "clone or download". Vamos a hacer click en clone y la dirección que allí sale se va a copiar (tal como hacer un Ctrl + c). Esto nos lo vamos a llevar a nuestra terminal.
+En el caso del **readme** es un archivo que debe de dar una idea  de qué tenemos en el repositorio. Es una guía para nosotros mismos u otros usuarios que vayan a hacer uso del repositorio y nuestro código. En github los readme se ven así:
 
+![](/img/readme.png)
+
+Una vez que el repositorio haya sido creado, vamos a encontrarnos con una opción que dirá **"clone or download"**. Vamos a hacer click en clone y la dirección que allí sale la tenemos que copiar (ctrl + c). La imagen muestra lo que sucede al hacer clone en el botón verde que ofrece github:
+
+![](/img/clone.png)
+
+Ya con la información de la dirección del repositorio copiada, vamos a llevarla a nuestra terminal:
 
 #### 2. Clonar repositorio en nuestra computadora
 Una vez que tenemos creado el repositorio y la dirección copiada, vamos a abrir nuestra terminal. Si es usuario de windows puede usar el powershell.
-Lo primero que vamos a ver es una dirección y allí tendremos que **dirigirnos
-a la carpeta donde deseamos colocar el repositorio**.
+Lo primero que vamos a ver es una dirección y allí tendremos que **dirigirnos a la carpeta donde deseamos colocar el repositorio**.
 
 ```
 cd ~ #Esto me va a llevar al home
@@ -86,7 +92,7 @@ cd <nombre_repositorio>
 #### 3. Crear una rama en el repositorio
 ¿Qué pasa si queremos hacer una variación en el código sin miedo a dañar lo que ya tenemos? Pues bien, git nos permite hacer ramas que son una bifurcación del trabajo que llevamos realizado hasta ese momento y que si luego queremos, podemos volver a integrar a la rama principal.
 
-Cuano tenemos un repositorio la rama principal está nombrada como **master**. A partir de esta podemos hacer ramas con los nombres que nosotros queramos. La idea de las ramas es trabajar de manera ordenada, en donde en mi rama master siempre vayamos a tener código limpio y funcional y lo que sean nuevas tareas y mejoras o experimentos lo hagamos en ramas que se bifurcan a partir de la rama master. 
+Cuano tenemos un repositorio la rama principal está nombrada como **master**. A partir de esta rama master podemos hacer ramas con los nombres que nosotros queramos. La idea de las ramas es trabajar de manera ordenada, en donde en mi rama master siempre debemos de tener código limpio y funcional y lo que sean nuevas tareas, mejoras o experimentos lo hagamos en ramas que se bifurcan a partir de la rama master. 
 
 Cuando el trabajo realizado en la rama sea funcional y limpio, lo podemos integrar a la rama master. Caso contrario podemos olvidarnos de la rama y volver a nuestra rama master.
 
@@ -107,7 +113,7 @@ git checkout <NOMBRE_RAMA>
 ```
 
 #### 4. Subir/bajar cambios
-Como estamos trabajando con un repositorio remoto y uno local, vamos a querer sincronizar los cambios. Estos cambios pasarán al estar en la historia del proyecto como **commits**. Un commit es un punto en la historia del proyecto que muestra el trabajo realizado en ese momento. En el flujo del trabajo que uno tenga es recomendable hacer commits regularmente y subirlos de manera regular para asegurar no perder el trabajo.
+Como estamos trabajando con un repositorio remoto y uno local, vamos a querer sincronizar los cambios. Estos cambios pasarán a estar en la historia del proyecto como **commits**. Un commit es un punto en la historia del proyecto que muestra el trabajo realizado en ese momento. En el flujo del trabajo que uno tenga es recomendable hacer commits regularmente y hacer el push de manera regular para asegurarnos de no perder el trabajo.
 
 **4.1 Revisar estado de los cambios **
 Cuando tengamos cambios en nuestros archivos, podemos revisar cuáles han cambiado y si los tenemos incluidos o no en nuestro registro de cambios
@@ -130,7 +136,7 @@ git add .
 ```
 git commit -m "MENSAJE_CORTO"
 ```
-El mensaje sirve para darnos a nosotros o a colaboradores una idea del cambio que se trabajó. 
+El mensaje sirve para darnos a nosotros mismos o a colaboradores, una idea del cambio que se trabajó. 
 
 **4.4 Subir cambios al repositorio remoto**
 ```

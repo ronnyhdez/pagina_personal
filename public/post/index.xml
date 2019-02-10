@@ -50,7 +50,7 @@ En este caso vamos a utilizar el lenguaje de programación R y el paquete junr d
       
       <guid>/post/control-versiones-git/</guid>
       <description>¿Qué resuelve git? ¿Porqué usar git? Si les ha sucecido que luego de trabajar en un documento, tienen una carpeta llena con nombres como: &amp;ldquo;version_final&amp;rdquo;, &amp;ldquo;version_final_final&amp;rdquo;, &amp;ldquo;version_final_corregida&amp;rdquo;, &amp;ldquo;version_final_revisada&amp;rdquo; pues git les será útil para tener un control sobre los cambios que se introducen en el documento.
-En este tutorial haremos ejemplos con scripts de código en R y como los cambios o bien cambios experimentales que vayamos trabajando los podamos registrar, usar guardar y documentar con mayor eficiencia.</description>
+En este tutorial haremos ejemplos con scripts de código en R y cómo los cambios que vayamos trabajando, los podemos registrar, usar, guardar y documentar con mayor eficiencia tanto para trabajar individualemente como grupalmente.</description>
     </item>
     
     <item>
