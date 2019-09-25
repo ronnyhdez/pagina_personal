@@ -38,9 +38,7 @@ Primer paso: Primero tenemos que entender que R lee los datos que le damos de di
       <pubDate>Sat, 13 Jan 2018 00:00:00 -0600</pubDate>
       
       <guid>/post/datos_muni_sanjose/</guid>
-      <description>Gracias a la iniciativa de Gobierno Abierto de Costa Rica tenemos la posibilidad de obtener datos de diferentes entes a través de la conexión con API&amp;rsquo;s.
-Esto nos da la posibilidad de no pasar por engorrosos procesos de limpiar datos a partir de formatos casi imposibles como pdf&amp;rsquo;s, .csv extravagantes u otros formatos difíciles de trabajar.
-En este caso vamos a utilizar el lenguaje de programación R y el paquete junr de Frans van Dunné para conectarnos al API de la municipalidad de San José y revisar qué datos se encuentran disponibles.</description>
+      <description>Guía sobre uso de datos abiertos con R y el paquete junr</description>
     </item>
     
     <item>
@@ -49,8 +47,7 @@ En este caso vamos a utilizar el lenguaje de programación R y el paquete junr d
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
       <guid>/post/control-versiones-git/</guid>
-      <description>¿Qué resuelve git? ¿Porqué usar git? Si les ha sucecido que luego de trabajar en un documento, tienen una carpeta llena con nombres como: &amp;ldquo;version_final&amp;rdquo;, &amp;ldquo;version_final_final&amp;rdquo;, &amp;ldquo;version_final_corregida&amp;rdquo;, &amp;ldquo;version_final_revisada&amp;rdquo; pues git les será útil para tener un control sobre los cambios que se introducen en el documento.
-En este tutorial haremos ejemplos con scripts de código en R y cómo los cambios que vayamos trabajando, los podemos registrar, usar, guardar y documentar con mayor eficiencia tanto para trabajar individualemente como grupalmente.</description>
+      <description>Introduccion al control de versiones con git</description>
     </item>
     
     <item>
@@ -59,10 +56,7 @@ En este tutorial haremos ejemplos con scripts de código en R y cómo los cambio
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
       <guid>/post/getting-started/</guid>
-      <description>Why a blog? Basically I would like to try to share things that I have learn while I study Biology, mainly the R programming languaje.
-Also this gives me the opportunity to communicate what is what I do in my research.
-¿Por qué una página web? Basicamente me gustaría compartir lo que he aprendido durante mis estudios en biología, especialmente el lenguaje de programación R.
-Así mismo me da la oportunidad de divulgar qué es lo que hago en mis participaciones en investigaciones.</description>
+      <description>Web Page Idea</description>
     </item>
     
   </channel>
