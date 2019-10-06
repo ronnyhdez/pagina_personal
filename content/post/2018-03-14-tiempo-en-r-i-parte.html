@@ -22,7 +22,7 @@ tags:
 <p>R tiene diversas maneras de representar objetos en el sistema. Más allá de los dobles, enteros, carácteres, lógicos y complejos, R tiene una clase especial para representar las fechas y horas.</p>
 <p>Si queremos revisar cuál es la fecha y hora que tenemos en nuestro sistema podemos hacerlo con la función <code>Sys.time()</code></p>
 <pre class="r"><code>Sys.time()</code></pre>
-<pre><code>## [1] &quot;2018-06-16 13:07:38 CST&quot;</code></pre>
+<pre><code>## [1] &quot;2019-10-06 16:45:27 CST&quot;</code></pre>
 <p>Lo que nos muestra es una descripción de la fecha y hora de manera meramente jerárquica: la escala más grande (años) va primero, seguido por el mes y por último el día, separados entre sí por un guión; luego hay un espacio en blanco y bajo la misma lógica tenemos la hora, los minutos y los seugundos, separados cada uno por dos punto. Al final tenemos un dato que nos indica el sistema de tiempo utilizado, en este caso Central Standard Time.</p>
 <p>Esta convención es buena para poder leer de manera fácil, sin embargo, para la realización de cálculos esto es un poco difícil por lo que el manejo de estas a lo “interno” de R se hace basado en segundos.</p>
 <div id="tipo-y-clase-del-tiempo-en-r" class="section level2">
@@ -46,17 +46,19 @@ typeof(fecha_hora) # Tipo de dato</code></pre>
 <h3>¿Cómo funcionan el sistema POSIX?</h3>
 <p>Para revisar de qué manera R hace esto podemos hacer uso de la función <code>unclass()</code></p>
 <pre class="r"><code>unclass(fecha_hora)</code></pre>
-<pre><code>## [1] 1529176059</code></pre>
+<pre><code>## [1] 1570401927</code></pre>
 <p>El resultado que obtenemos es un elemento que R utiliza para construir un vector doble. Lo que tenemos allí es que desde las 12:00 A.M. del 1 de Enero de 1970 han transcurrido <em>1 514 244 708</em> hasta el día en que este tutorial se ha creado y este es el formato <strong>POSIXct</strong></p>
 <p>En el caso de caso de una lista como <strong>POSIXlt</strong> vamos a revisar los componentes del mismo objeto con el que hemos venido trabajando:</p>
 <pre class="r"><code>fecha_hora &lt;- as.POSIXlt(fecha_hora) # Definimos formato
 unlist(fecha_hora) # Sacamos de la lista los objetos almacenados</code></pre>
-<pre><code>##               sec               min              hour              mday 
-## &quot;38.614716053009&quot;               &quot;7&quot;              &quot;13&quot;              &quot;16&quot; 
-##               mon              year              wday              yday 
-##               &quot;5&quot;             &quot;118&quot;               &quot;6&quot;             &quot;166&quot; 
-##             isdst              zone            gmtoff 
-##               &quot;0&quot;             &quot;CST&quot;          &quot;-21600&quot;</code></pre>
+<pre><code>##                sec                min               hour 
+## &quot;27.3363721370697&quot;               &quot;45&quot;               &quot;16&quot; 
+##               mday                mon               year 
+##                &quot;6&quot;                &quot;9&quot;              &quot;119&quot; 
+##               wday               yday              isdst 
+##                &quot;0&quot;              &quot;278&quot;                &quot;0&quot; 
+##               zone             gmtoff 
+##              &quot;CST&quot;           &quot;-21600&quot;</code></pre>
 <p>¿Qué es lo que tenemos? Se nos muestran los componentes de la lista, que está representada por el número de segundos, minutos, hora (en formato de 24 horas). Luego viene <strong>mday</strong> que es el día del mes (inicia en 1), <strong>mon</strong> es el mes del año (comienza en enero = 0), <strong>year</strong> que representa el año (inicia en 0 = 1900),<strong>wday</strong> el día de la semana (inicia domingo = 0), <strong>yday</strong> es el número de día del año (1 de enero = 0). Por último la variable <strong>isdst</strong> lo que hace es indicarnos si un horario de verano está siendo considerado (0 = FALSE, como en este caso)</p>
 </div>
 </div>
@@ -76,7 +78,7 @@ head(data)</code></pre>
 ## 4  2013     1     1      544            545        -1     1004
 ## 5  2013     1     1      554            600        -6      812
 ## 6  2013     1     1      554            558        -4      740
-## # ... with 12 more variables: sched_arr_time &lt;int&gt;, arr_delay &lt;dbl&gt;,
+## # … with 12 more variables: sched_arr_time &lt;int&gt;, arr_delay &lt;dbl&gt;,
 ## #   carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;,
 ## #   air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;,
 ## #   time_hour &lt;dttm&gt;</code></pre>
@@ -85,17 +87,17 @@ head(data)</code></pre>
 data &lt;- unite(data, Date, year, month,day, sep = &quot;/&quot;)
 head(data)</code></pre>
 <pre><code>## # A tibble: 6 x 17
-##   Date     dep_time sched_dep_time dep_delay arr_time sched_arr_time
-##   &lt;chr&gt;       &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
-## 1 2013/1/1      517            515         2      830            819
-## 2 2013/1/1      533            529         4      850            830
-## 3 2013/1/1      542            540         2      923            850
-## 4 2013/1/1      544            545        -1     1004           1022
-## 5 2013/1/1      554            600        -6      812            837
-## 6 2013/1/1      554            558        -4      740            728
-## # ... with 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;,
-## #   flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;,
-## #   distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
+##   Date  dep_time sched_dep_time dep_delay arr_time sched_arr_time arr_delay
+##   &lt;chr&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;
+## 1 2013…      517            515         2      830            819        11
+## 2 2013…      533            529         4      850            830        20
+## 3 2013…      542            540         2      923            850        33
+## 4 2013…      544            545        -1     1004           1022       -18
+## 5 2013…      554            600        -6      812            837       -25
+## 6 2013…      554            558        -4      740            728        12
+## # … with 10 more variables: carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;,
+## #   origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;,
+## #   minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
 <div id="funcion-strptime" class="section level3">
 <h3>Función strptime</h3>
 <p>Ya que tenemos dicha column creada, vamos a indicarle R qué de esos datos pertenece al año, al mes y al día:</p>
@@ -131,10 +133,10 @@ head(data)</code></pre>
 <h3>¿Qué fué lo que hicimos?</h3>
 <p>La columna date contenía datos separados por un guión, en donde el primer dato pertenecía al año, el segundo al mes y el tercero al día, por ende le dijimos a R que leyera esos datos como año, mes y día separados por un <strong>/</strong>: (<code>&quot;%Y/%m/%d&quot;</code>)</p>
 <p>Estas son abreviaciones que dan a entender diferentes formas de leer el dato en R. La siguiente es una lista de todas las abreviaciones:</p>
-<table style="width:32%;">
+<table>
 <colgroup>
-<col width="12%" />
-<col width="19%" />
+<col width="38%" />
+<col width="61%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -238,7 +240,7 @@ ejemplo</code></pre>
 <pre><code>## [1] &quot;2013-01-01 CST&quot;</code></pre>
 <p>Tenemos el 1ero de enero del 2013, ahora queremos ver qué día es este con su nombre:</p>
 <pre class="r"><code>weekdays(ejemplo)</code></pre>
-<pre><code>## [1] &quot;Tuesday&quot;</code></pre>
+<pre><code>## [1] &quot;martes&quot;</code></pre>
 </div>
 <div id="otros-formatos" class="section level3">
 <h3>Otros formatos</h3>
@@ -260,7 +262,7 @@ strptime(otras_fechas,&quot;%d%b%Y&quot;)</code></pre>
 <pre class="r"><code># Primero hacemos un objeto a clase difftime:
 as.difftime(otras_fechas, &quot;%d%b%Y&quot;)</code></pre>
 <pre><code>## Time differences in days
-## [1]   -865 -10225  -8257</code></pre>
+## [1]  -1342 -10702  -8734</code></pre>
 </div>
 <div id="calculos-con-dos-objetos" class="section level2">
 <h2>Cálculos con dos objetos:</h2>
