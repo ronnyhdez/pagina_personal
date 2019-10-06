@@ -6,7 +6,7 @@ date = "2016-04-27"
 title = "Ciencia ciudadana"
 
 # Project summary to display on homepage.
-summary = "Investigaciones en ecología de la restauración con la comunidad de Palmichal de Acosta."
+summary = "Investigaciones en ecología de la restauración."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "arduino.png"
@@ -28,4 +28,13 @@ caption = "My caption :smile:"
 
 +++
 
-¡Pronto tendré más información sobre el proyecto!
+El proyecto tiene como objetivo el enseñar a jóvenes estudiantes cómo crear
+sus propios instrumentos de medición con hardware libre como arduinos así
+como el aprender a generar diseños experimentales para comprender qué sucede
+hoy en día con las condiciones ambientales.
+
+Es un proyecto de divulgación científica, educación ambiental y tecnológica.
+Los estudiantes que participen obtendrán herramientas como principios básicos
+de programación, una mentalidad hacker, cómo funcionan las computadoras y cómo
+ser más disruptivos e independientes en tiempos donde el consumismo nos marca
+el estilo de vida.

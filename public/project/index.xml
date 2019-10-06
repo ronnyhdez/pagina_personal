@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Datos abiertos</title>
+      <link>/project/datos-abiertos/</link>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/datos-abiertos/</guid>
+      <description>Proyecto de colaboración ciudadana</description>
+    </item>
     
     <item>
       <title>Ciencia ciudadana</title>
@@ -18,7 +27,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/ciencia-cuidadana/</guid>
-      <description>Investigaciones en ecología de la restauración con la comunidad de Palmichal de Acosta.</description>
+      <description>Investigaciones en ecología de la restauración.</description>
     </item>
     
     <item>
