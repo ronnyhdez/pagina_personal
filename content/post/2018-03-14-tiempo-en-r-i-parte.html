@@ -22,7 +22,7 @@ tags:
 <p>R tiene diversas maneras de representar objetos en el sistema. Más allá de los dobles, enteros, carácteres, lógicos y complejos, R tiene una clase especial para representar las fechas y horas.</p>
 <p>Si queremos revisar cuál es la fecha y hora que tenemos en nuestro sistema podemos hacerlo con la función <code>Sys.time()</code></p>
 <pre class="r"><code>Sys.time()</code></pre>
-<pre><code>## [1] &quot;2019-10-06 16:45:27 CST&quot;</code></pre>
+<pre><code>## [1] &quot;2019-10-06 16:59:57 CST&quot;</code></pre>
 <p>Lo que nos muestra es una descripción de la fecha y hora de manera meramente jerárquica: la escala más grande (años) va primero, seguido por el mes y por último el día, separados entre sí por un guión; luego hay un espacio en blanco y bajo la misma lógica tenemos la hora, los minutos y los seugundos, separados cada uno por dos punto. Al final tenemos un dato que nos indica el sistema de tiempo utilizado, en este caso Central Standard Time.</p>
 <p>Esta convención es buena para poder leer de manera fácil, sin embargo, para la realización de cálculos esto es un poco difícil por lo que el manejo de estas a lo “interno” de R se hace basado en segundos.</p>
 <div id="tipo-y-clase-del-tiempo-en-r" class="section level2">
@@ -46,13 +46,13 @@ typeof(fecha_hora) # Tipo de dato</code></pre>
 <h3>¿Cómo funcionan el sistema POSIX?</h3>
 <p>Para revisar de qué manera R hace esto podemos hacer uso de la función <code>unclass()</code></p>
 <pre class="r"><code>unclass(fecha_hora)</code></pre>
-<pre><code>## [1] 1570401927</code></pre>
+<pre><code>## [1] 1570402798</code></pre>
 <p>El resultado que obtenemos es un elemento que R utiliza para construir un vector doble. Lo que tenemos allí es que desde las 12:00 A.M. del 1 de Enero de 1970 han transcurrido <em>1 514 244 708</em> hasta el día en que este tutorial se ha creado y este es el formato <strong>POSIXct</strong></p>
 <p>En el caso de caso de una lista como <strong>POSIXlt</strong> vamos a revisar los componentes del mismo objeto con el que hemos venido trabajando:</p>
 <pre class="r"><code>fecha_hora &lt;- as.POSIXlt(fecha_hora) # Definimos formato
 unlist(fecha_hora) # Sacamos de la lista los objetos almacenados</code></pre>
 <pre><code>##                sec                min               hour 
-## &quot;27.3363721370697&quot;               &quot;45&quot;               &quot;16&quot; 
+## &quot;57.5483999252319&quot;               &quot;59&quot;               &quot;16&quot; 
 ##               mday                mon               year 
 ##                &quot;6&quot;                &quot;9&quot;              &quot;119&quot; 
 ##               wday               yday              isdst 

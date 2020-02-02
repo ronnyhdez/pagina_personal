@@ -5,8 +5,6 @@
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "http://ronnyhdez.rbind.io//"
 
-GoogleAnalytics = "UA-114312782-1"
-
 # Title of your site
 title = "Ronny Hdez-Mora"
 
@@ -25,7 +23,7 @@ paginate = 10
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-114312782-1"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
