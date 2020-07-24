@@ -1,1027 +1,802 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ronny Hdez-Mora on Ronny Hdez-Mora</title>
+    <title>Academic</title>
     <link>/</link>
-    <description>Recent content in Ronny Hdez-Mora on Ronny Hdez-Mora</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Academic</title>
+      <link>/</link>
+    </image>
     
     <item>
-      <title>Tiempo en R (I Parte)</title>
-      <link>/post/tiempo-en-r-i-parte/</link>
-      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/tiempo-en-r-i-parte/</guid>
-      <description>
-
-
-&lt;div id=&#34;tiempo&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Tiempo&lt;/h1&gt;
-&lt;p&gt;La medición del tiempo es algo que puede ser particular, ya que hay meses con diferente número de días, en distintos países la manera de colocar el dato del día o del mes se cambia, en años bisiestos febrero tiene un día extra entre otros factores, hay diferentes&lt;/p&gt;
-&lt;p&gt;Por ende, hacer cálculos con fechas puede resultar algo complicado, sin embargo R tiene un sistema robusto para poder lidiar con estas situaciones.&lt;/p&gt;
+      <title>Example Page 1</title>
+      <link>/courses/example/example1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example1/</guid>
+      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page 2</title>
+      <link>/courses/example/example2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example2/</guid>
+      <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>/talk/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;fechas-y-horas-en-r&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Fechas y Horas en R:&lt;/h1&gt;
-&lt;p&gt;R tiene diversas maneras de representar objetos en el sistema. Más allá de los dobles, enteros, carácteres, lógicos y complejos, R tiene una clase especial para representar las fechas y horas.&lt;/p&gt;
-&lt;p&gt;Si queremos revisar cuál es la fecha y hora que tenemos en nuestro sistema podemos hacerlo con la función &lt;code&gt;Sys.time()&lt;/code&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Sys.time()&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;2018-06-16 13:07:38 CST&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Lo que nos muestra es una descripción de la fecha y hora de manera meramente jerárquica: la escala más grande (años) va primero, seguido por el mes y por último el día, separados entre sí por un guión; luego hay un espacio en blanco y bajo la misma lógica tenemos la hora, los minutos y los seugundos, separados cada uno por dos punto. Al final tenemos un dato que nos indica el sistema de tiempo utilizado, en este caso Central Standard Time.&lt;/p&gt;
-&lt;p&gt;Esta convención es buena para poder leer de manera fácil, sin embargo, para la realización de cálculos esto es un poco difícil por lo que el manejo de estas a lo “interno” de R se hace basado en segundos.&lt;/p&gt;
-&lt;div id=&#34;tipo-y-clase-del-tiempo-en-r&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Tipo y Clase del tiempo en R:&lt;/h2&gt;
-&lt;p&gt;Para revisar su &lt;em&gt;tipo de dato&lt;/em&gt; y su &lt;em&gt;clase&lt;/em&gt; vamos a guardar esta fecha y hora de nuestro ordenador en un objeto de la siguiente manera:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fecha_hora &amp;lt;- Sys.time() # Guardar en un objeto
-
-typeof(fecha_hora) # Tipo de dato&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;double&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;class(fecha_hora) # Clase del objeto&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;POSIXct&amp;quot; &amp;quot;POSIXt&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Al momento de utilizar la función&lt;code&gt;Sys.time()&lt;/code&gt;, nos devuelve una respuesta que a primera instancia nos parecería un objeto de tipo &lt;em&gt;character&lt;/em&gt; por sus comillas alrededor de esto, sin embargo, al revisar podemos notar que es un objeto de tipo &lt;em&gt;double&lt;/em&gt; y su clase es _ “POSIXct” “POSIXt” _ (tiene dos clases)&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;que-signifan-esas-dos-clases&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;¿Qué signifan esas dos clases?&lt;/h2&gt;
-&lt;p&gt;Como mencionamos anteriormente, por convención en R se utiliza una representación numérica, basada en segundos. Esto quiere decir que cada fecha se representa por el número de segundos que han transcurrido desde las &lt;strong&gt;12:00 A.M. del 1 Enero de 1970. &lt;/strong&gt; (UTC: Coordinated Universal Time)&lt;/p&gt;
-&lt;p&gt;Esto es bastante útil si queremos generar gráficos de series de tiempo, pero qué sucede si queremos representar las medias por mes, o por día. En este caso es necesario contar con dos maneras de representar las fechas:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;POSIXct&lt;/strong&gt; el sufijo &lt;strong&gt;ct&lt;/strong&gt; se refiere a &lt;em&gt;continuos time&lt;/em&gt; y este formato es representado de manera númerica por segundos. Este es un &lt;strong&gt;vector&lt;/strong&gt; que se puede usar como una variable continua en modelos de regresión.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;POSIXlt&lt;/strong&gt; el sufijo &lt;strong&gt;lt&lt;/strong&gt; corresponde a &lt;em&gt;list time&lt;/em&gt; y lo que hace es una lista de todas las descripciones categóricas del tiempo. Es muy útil como variable explicativa categórica.&lt;/p&gt;
-&lt;div id=&#34;como-funcionan-el-sistema-posix&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;¿Cómo funcionan el sistema POSIX?&lt;/h3&gt;
-&lt;p&gt;Para revisar de qué manera R hace esto podemos hacer uso de la función &lt;code&gt;unclass()&lt;/code&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;unclass(fecha_hora)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 1529176059&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;El resultado que obtenemos es un elemento que R utiliza para construir un vector doble. Lo que tenemos allí es que desde las 12:00 A.M. del 1 de Enero de 1970 han transcurrido &lt;em&gt;1 514 244 708&lt;/em&gt; hasta el día en que este tutorial se ha creado y este es el formato &lt;strong&gt;POSIXct&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;En el caso de caso de una lista como &lt;strong&gt;POSIXlt&lt;/strong&gt; vamos a revisar los componentes del mismo objeto con el que hemos venido trabajando:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fecha_hora &amp;lt;- as.POSIXlt(fecha_hora) # Definimos formato
-unlist(fecha_hora) # Sacamos de la lista los objetos almacenados&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##               sec               min              hour              mday 
-## &amp;quot;38.614716053009&amp;quot;               &amp;quot;7&amp;quot;              &amp;quot;13&amp;quot;              &amp;quot;16&amp;quot; 
-##               mon              year              wday              yday 
-##               &amp;quot;5&amp;quot;             &amp;quot;118&amp;quot;               &amp;quot;6&amp;quot;             &amp;quot;166&amp;quot; 
-##             isdst              zone            gmtoff 
-##               &amp;quot;0&amp;quot;             &amp;quot;CST&amp;quot;          &amp;quot;-21600&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;¿Qué es lo que tenemos? Se nos muestran los componentes de la lista, que está representada por el número de segundos, minutos, hora (en formato de 24 horas). Luego viene &lt;strong&gt;mday&lt;/strong&gt; que es el día del mes (inicia en 1), &lt;strong&gt;mon&lt;/strong&gt; es el mes del año (comienza en enero = 0), &lt;strong&gt;year&lt;/strong&gt; que representa el año (inicia en 0 = 1900),&lt;strong&gt;wday&lt;/strong&gt; el día de la semana (inicia domingo = 0), &lt;strong&gt;yday&lt;/strong&gt; es el número de día del año (1 de enero = 0). Por último la variable &lt;strong&gt;isdst&lt;/strong&gt; lo que hace es indicarnos si un horario de verano está siendo considerado (0 = FALSE, como en este caso)&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;leer-fechas-desde-archivos&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Leer fechas desde archivos&lt;/h1&gt;
-&lt;p&gt;Cuando traemos datos a R, en ocasiones hay que hacerle explícito a R el tipo de datos que tenemos. En el caso de las fechas es necesario, ya que de esta forma determinamos qué dato corresponde a cuál componente de lo que se considera una fecha u hora.&lt;/p&gt;
-&lt;p&gt;Vamos a utilizar el set de datos &lt;em&gt;Flights that Depart NYC in 2013&lt;/em&gt; que tiene como nombre &lt;strong&gt;nycflights13&lt;/strong&gt;. Este se encuentra en el paquete con el mismo nombre. (Si no lo tienen, pueden instalarlo con la función &lt;code&gt;install.packages(&amp;quot;nycflights13&amp;quot;)&lt;/code&gt;)&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data &amp;lt;- nycflights13::flights # Guardar en objeto datos seleccionados
-head(data)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## # A tibble: 6 x 19
-##    year month   day dep_time sched_dep_time dep_delay arr_time
-##   &amp;lt;int&amp;gt; &amp;lt;int&amp;gt; &amp;lt;int&amp;gt;    &amp;lt;int&amp;gt;          &amp;lt;int&amp;gt;     &amp;lt;dbl&amp;gt;    &amp;lt;int&amp;gt;
-## 1  2013     1     1      517            515         2      830
-## 2  2013     1     1      533            529         4      850
-## 3  2013     1     1      542            540         2      923
-## 4  2013     1     1      544            545        -1     1004
-## 5  2013     1     1      554            600        -6      812
-## 6  2013     1     1      554            558        -4      740
-## # ... with 12 more variables: sched_arr_time &amp;lt;int&amp;gt;, arr_delay &amp;lt;dbl&amp;gt;,
-## #   carrier &amp;lt;chr&amp;gt;, flight &amp;lt;int&amp;gt;, tailnum &amp;lt;chr&amp;gt;, origin &amp;lt;chr&amp;gt;, dest &amp;lt;chr&amp;gt;,
-## #   air_time &amp;lt;dbl&amp;gt;, distance &amp;lt;dbl&amp;gt;, hour &amp;lt;dbl&amp;gt;, minute &amp;lt;dbl&amp;gt;,
-## #   time_hour &amp;lt;dttm&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;El conjunto de datos trae 3 columnas con el año, el mes y el día, los cuales vamos a unir y darle format de fecha:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyr) # Paquete del cual vamos a utilizar función
-data &amp;lt;- unite(data, Date, year, month,day, sep = &amp;quot;/&amp;quot;)
-head(data)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## # A tibble: 6 x 17
-##   Date     dep_time sched_dep_time dep_delay arr_time sched_arr_time
-##   &amp;lt;chr&amp;gt;       &amp;lt;int&amp;gt;          &amp;lt;int&amp;gt;     &amp;lt;dbl&amp;gt;    &amp;lt;int&amp;gt;          &amp;lt;int&amp;gt;
-## 1 2013/1/1      517            515         2      830            819
-## 2 2013/1/1      533            529         4      850            830
-## 3 2013/1/1      542            540         2      923            850
-## 4 2013/1/1      544            545        -1     1004           1022
-## 5 2013/1/1      554            600        -6      812            837
-## 6 2013/1/1      554            558        -4      740            728
-## # ... with 11 more variables: arr_delay &amp;lt;dbl&amp;gt;, carrier &amp;lt;chr&amp;gt;,
-## #   flight &amp;lt;int&amp;gt;, tailnum &amp;lt;chr&amp;gt;, origin &amp;lt;chr&amp;gt;, dest &amp;lt;chr&amp;gt;, air_time &amp;lt;dbl&amp;gt;,
-## #   distance &amp;lt;dbl&amp;gt;, hour &amp;lt;dbl&amp;gt;, minute &amp;lt;dbl&amp;gt;, time_hour &amp;lt;dttm&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;div id=&#34;funcion-strptime&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Función strptime&lt;/h3&gt;
-&lt;p&gt;Ya que tenemos dicha column creada, vamos a indicarle R qué de esos datos pertenece al año, al mes y al día:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Rdate &amp;lt;- strptime(as.character(data$Date), &amp;quot;%Y/%m/%d&amp;quot;)
-class(Rdate)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;POSIXlt&amp;quot; &amp;quot;POSIXt&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Ya tenemos el objeto creado con las fechas por lo que ahora podemos unirlo al set de datos:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data &amp;lt;- data.frame(Rdate,data)
-head(data)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##        Rdate     Date dep_time sched_dep_time dep_delay arr_time
-## 1 2013-01-01 2013/1/1      517            515         2      830
-## 2 2013-01-01 2013/1/1      533            529         4      850
-## 3 2013-01-01 2013/1/1      542            540         2      923
-## 4 2013-01-01 2013/1/1      544            545        -1     1004
-## 5 2013-01-01 2013/1/1      554            600        -6      812
-## 6 2013-01-01 2013/1/1      554            558        -4      740
-##   sched_arr_time arr_delay carrier flight tailnum origin dest air_time
-## 1            819        11      UA   1545  N14228    EWR  IAH      227
-## 2            830        20      UA   1714  N24211    LGA  IAH      227
-## 3            850        33      AA   1141  N619AA    JFK  MIA      160
-## 4           1022       -18      B6    725  N804JB    JFK  BQN      183
-## 5            837       -25      DL    461  N668DN    LGA  ATL      116
-## 6            728        12      UA   1696  N39463    EWR  ORD      150
-##   distance hour minute           time_hour
-## 1     1400    5     15 2013-01-01 05:00:00
-## 2     1416    5     29 2013-01-01 05:00:00
-## 3     1089    5     40 2013-01-01 05:00:00
-## 4     1576    5     45 2013-01-01 05:00:00
-## 5      762    6      0 2013-01-01 06:00:00
-## 6      719    5     58 2013-01-01 05:00:00&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;que-fue-lo-que-hicimos&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;¿Qué fué lo que hicimos?&lt;/h3&gt;
-&lt;p&gt;La columna date contenía datos separados por un guión, en donde el primer dato pertenecía al año, el segundo al mes y el tercero al día, por ende le dijimos a R que leyera esos datos como año, mes y día separados por un &lt;strong&gt;/&lt;/strong&gt;: (&lt;code&gt;&amp;quot;%Y/%m/%d&amp;quot;&lt;/code&gt;)&lt;/p&gt;
-&lt;p&gt;Estas son abreviaciones que dan a entender diferentes formas de leer el dato en R. La siguiente es una lista de todas las abreviaciones:&lt;/p&gt;
-&lt;table style=&#34;width:32%;&#34;&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;12%&#34; /&gt;
-&lt;col width=&#34;19%&#34; /&gt;
-&lt;/colgroup&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Writing technical content in Academic</title>
+      <link>/post/writing-technical-content/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/post/writing-technical-content/</guid>
+      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```python
+import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
+&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$\gamma_{n} = \frac{ 
+\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
+\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
+{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\\\&lt;/code&gt; math linebreak:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\\\
+1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\&lt;br&gt;
+1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$&lt;/p&gt;
+&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
+&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+class Class10 {
+  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
+  int id
+  size()
+}
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+class Class10 {
+  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
+  int id
+  size()
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
+&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
+- [x] Write diagram example
+- [ ] Do something else
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
+&lt;p&gt;Represent your data in tables:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;table&gt;
 &lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th&gt;Símbolo&lt;/th&gt;
-&lt;th&gt;Significado&lt;/th&gt;
+&lt;tr&gt;
+&lt;th&gt;First Header&lt;/th&gt;
+&lt;th&gt;Second Header&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;%a&lt;/td&gt;
-&lt;td&gt;Nombre de la semana abreviado&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;%A&lt;/td&gt;
-&lt;td&gt;Nombre de la semana completo&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;%b&lt;/td&gt;
-&lt;td&gt;Nombre del mes abreviado&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;%B&lt;/td&gt;
-&lt;td&gt;Nombre del mes completo&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;%c&lt;/td&gt;
-&lt;td&gt;Hora y Fecha específica a la localidad&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;%d&lt;/td&gt;
-&lt;td&gt;Día del mes como un número decimal (01-31)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;%H&lt;/td&gt;
-&lt;td&gt;Horas como decimales en reloj de 24 horas&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;%I&lt;/td&gt;
-&lt;td&gt;Horas como decimales en reloj de 12 horas&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;%j&lt;/td&gt;
-&lt;td&gt;Día del año como número decimal (0 - 366)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;%m&lt;/td&gt;
-&lt;td&gt;Mes como un número decimal (0-11)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;%M&lt;/td&gt;
-&lt;td&gt;Minutos como un número decimal (00 - 59)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;%p&lt;/td&gt;
-&lt;td&gt;AM/PM indicador en la localidad&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;%S&lt;/td&gt;
-&lt;td&gt;Segundos como número decimal (00 - 61)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;%U&lt;/td&gt;
-&lt;td&gt;Semana del año (00 - 53) usando el primer domingo como el día 1 de la semana 1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;%w&lt;/td&gt;
-&lt;td&gt;Día de la semana como un número decimal (0 - 6, Domingo es 0)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;%W&lt;/td&gt;
-&lt;td&gt;Semana del año (00 - 53) usando el primer lunes como día 1 de la semana 1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;%x&lt;/td&gt;
-&lt;td&gt;Fecha, específica de la localidad&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;%X&lt;/td&gt;
-&lt;td&gt;Hora, específica de la localidad&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;%Y&lt;/td&gt;
-&lt;td&gt;Año con centenario&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;%y&lt;/td&gt;
-&lt;td&gt;Año sin centenario&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;%Z&lt;/td&gt;
-&lt;td&gt;Zona horaria como un vector de tipo caracter&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h3 id=&#34;asides&#34;&gt;Asides&lt;/h3&gt;
+&lt;p&gt;Academic supports a 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for asides&lt;/a&gt;, also referred to as &lt;em&gt;notices&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% alert note %}} ... {{% /alert %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% alert note %}}
+A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+{{% /alert %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+  &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;nombre-completo-del-dia&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Nombre completo del día:&lt;/h3&gt;
-&lt;p&gt;Ahora bien, hay ocasiones en que por ejemplo, tenemos el día como un número, pero nos serviría más tener el nombre del día. Para esto existe la función &lt;code&gt;weekdays()&lt;/code&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ejemplo &amp;lt;- data[1,1]
-ejemplo&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;2013-01-01 CST&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Tenemos el 1ero de enero del 2013, ahora queremos ver qué día es este con su nombre:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;weekdays(ejemplo)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;Tuesday&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;spoilers&#34;&gt;Spoilers&lt;/h3&gt;
+&lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; spoiler text=&amp;quot;Click to view the spoiler&amp;quot; &amp;gt;}}
+You found me!
+{{&amp;lt; /spoiler &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-1&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-1&#34;&gt;
+      Click to view the spoiler
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      You found me!
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;otros-formatos&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Otros formatos&lt;/h3&gt;
-&lt;p&gt;Fechas pueden venir en diversas formas, tenemos que aprender cómo lidiar con estas y cómo hacerle explícito a R qué es qué. Para esto tenemos como ayuda la tabla presentada anteriormente.&lt;/p&gt;
-&lt;p&gt;Un ejemplo podría ser el siguiente:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;otras_fechas &amp;lt;- c(&amp;quot;2feb2016&amp;quot;,&amp;quot;18jun1990&amp;quot;,&amp;quot;7nov1995&amp;quot;)
-strptime(otras_fechas,&amp;quot;%d%b%Y&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;2016-02-02 CST&amp;quot; &amp;quot;1990-06-18 CST&amp;quot; &amp;quot;1995-11-07 CST&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;: ¿Qué hicimos?&lt;/p&gt;
-&lt;p&gt;Leímos un conjunto de fechas que tenían un formato de día, seguido del nombre del mes y por último el año completo y se lo hicimos saber a R indicándole %día, luego %mes y por último %año.&lt;/p&gt;
-&lt;p&gt;Ahora cada vez que tengamos fechas, sabremos que debemos indicarle a R qué contienen esos datos y qué es qué guiándonos con la tabla provista.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;calculos-con-el-tiempo&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Cálculos con el tiempo:&lt;/h1&gt;
-&lt;p&gt;Para tener la diferencia entre dos fechas, podemos echar mano de la función &lt;code&gt;difftime()&lt;/code&gt;. Hay que tomar en cuenta que esta función nos devuelve un objeto de clase &lt;em&gt;difftime&lt;/em&gt;&lt;/p&gt;
-&lt;div id=&#34;diferencias-entre-fechas-en-un-vector&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Diferencias entre fechas en un vector&lt;/h2&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Primero hacemos un objeto a clase difftime:
-as.difftime(otras_fechas, &amp;quot;%d%b%Y&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Time differences in days
-## [1]   -865 -10225  -8257&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;calculos-con-dos-objetos&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Cálculos con dos objetos:&lt;/h2&gt;
-&lt;p&gt;Hay cálculos que se pueden generar con fechas y horas, ya sea sumando a una fecha o a una hora un número (que representará segundos), también entre fechas/horas e inclusive la utilización de operadores lógicos.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# vamos a generar dos fechas:
+&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
+&lt;p&gt;Academic enables you to use a wide range of 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; icon name=&amp;quot;terminal&amp;quot; pack=&amp;quot;fas&amp;quot; &amp;gt;}} Terminal  
+{{&amp;lt; icon name=&amp;quot;python&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} Python  
+{{&amp;lt; icon name=&amp;quot;r-project&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} R
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
 
-fecha_1 &amp;lt;- as.POSIXlt(&amp;quot;2018-01-01&amp;quot;)
-fecha_2 &amp;lt;- as.POSIXlt(&amp;quot;2017-01-02&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;Y podemos sumar una fecha con un número:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fecha_1 + 100000&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;2018-01-02 03:46:40 CST&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Esto nos suma cien mil segundos, lo cual agrega 3 horas, 46 minutos y 40 segundos a la fecha que habíamos creado.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Podemos resta esa misma cantidad de segundos:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fecha_1 - 100000&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;2017-12-30 20:13:20 CST&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Vemos que nos devuelve al 30 de diciembre del 2017 a las 20 con 13 minutos y 20 segundos.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Restarle a la fecha 1 la fecha 2:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fecha_1 - fecha_2&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Time difference of 364 days&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Nos dice que entre las fechas hay 364 días.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hacer una operación lógica:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fecha_1 &amp;lt;= fecha_2&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] FALSE&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Si decimos que &lt;code&gt;fecha_1&lt;/code&gt; es &lt;em&gt;menor o igual&lt;/em&gt; &lt;code&gt;que fecha_2&lt;/code&gt; R nos dice que eso es falso.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;diferencia-de-dias&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Diferencia de días:&lt;/h2&gt;
-&lt;p&gt;Si tenemos una pregunta como: ¿Cuántos días han transcurrido desde el 1 de diciembre del 2017 al 2 de enero del 2018?&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;difftime(&amp;quot;2018-01-02&amp;quot;,&amp;quot;2017-12-01&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Time difference of 32 days&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;La respuesta es que han transcurrido 32 días.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;diferencia-de-horas&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Diferencia de horas:&lt;/h2&gt;
-&lt;p&gt;En este caso, si tenemos horas en lugar de fechas, podemos hacer uso de la función &lt;code&gt;as.difftime()&lt;/code&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tiempo_1 &amp;lt;- as.difftime(&amp;quot;12:00:00&amp;quot;)
-tiempo_2 &amp;lt;- as.difftime(&amp;quot;17:20:00&amp;quot;)
-tiempo_2 - tiempo_1&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Time difference of 5.333333 hours&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Nos dice cuál es la diferencia en horas. (Si te preguntas porqué 5.33 en lugar de 5 horas y 20 minutos, recuerde que la respuesta está dada en horas y 20 minutos corresponden a 0.333 horas)&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;generacion-de-secuencias-con-tiempo&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Generación de secuencias con tiempo:&lt;/h1&gt;
-&lt;p&gt;Si queremos generar secuencias de fechas, años, meses, semanas etc, en R lo podemos realizar sin mucho problema:&lt;/p&gt;
-&lt;div id=&#34;secuencia-en-aumento-por-dia&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Secuencia en aumento por día:&lt;/h2&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;seq(as.POSIXlt(&amp;quot;2018-01-01&amp;quot;), as.POSIXlt(&amp;quot;2018-01-10&amp;quot;), &amp;quot;1 day&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##  [1] &amp;quot;2018-01-01 CST&amp;quot; &amp;quot;2018-01-02 CST&amp;quot; &amp;quot;2018-01-03 CST&amp;quot; &amp;quot;2018-01-04 CST&amp;quot;
-##  [5] &amp;quot;2018-01-05 CST&amp;quot; &amp;quot;2018-01-06 CST&amp;quot; &amp;quot;2018-01-07 CST&amp;quot; &amp;quot;2018-01-08 CST&amp;quot;
-##  [9] &amp;quot;2018-01-09 CST&amp;quot; &amp;quot;2018-01-10 CST&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;¿Qué hicimos?&lt;/strong&gt; La función &lt;code&gt;seq()&lt;/code&gt; nos genera un vector con una serie de valores de una secuencia, en este caso le indicamos dos elementos de tipo &lt;code&gt;POSIXlt&lt;/code&gt; que corresponden a fechas y un último argumento que indica 1 día. Es decir, que del 1ero de enero del 2018 al 10 de enero del 2018 queremos una secuencia entre esas fechas que aumente de 1 día en 1 día.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;secuencia-en-aumento-por-semanas&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Secuencia en aumento por semanas:&lt;/h2&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;seq(as.POSIXlt(&amp;quot;2018-01-01&amp;quot;), as.POSIXlt(&amp;quot;2018-02-01&amp;quot;), &amp;quot;1 weeks&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;2018-01-01 CST&amp;quot; &amp;quot;2018-01-08 CST&amp;quot; &amp;quot;2018-01-15 CST&amp;quot; &amp;quot;2018-01-22 CST&amp;quot;
-## [5] &amp;quot;2018-01-29 CST&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;¿Qué hicimos?&lt;/strong&gt; Nuevamente indicamos un par de fechas que delimitan el inicio y el final de la secuencia y por último le decimos que la secuencia aumente de semana en semana.&lt;/p&gt;
-&lt;p&gt;Esto lo podemos hacer de igual manera si queremos que la secuencia aumente por meses &lt;code&gt;months&lt;/code&gt; o por años &lt;code&gt;year&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;secuencia-en-aumento-por-tiempo-en-segundos&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Secuencia en aumento por tiempo en segundos:&lt;/h2&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;seq(as.POSIXlt(&amp;quot;2018-01-01&amp;quot;),as.POSIXlt(&amp;quot;2018-01-02&amp;quot;),8000)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##  [1] &amp;quot;2018-01-01 00:00:00 CST&amp;quot; &amp;quot;2018-01-01 02:13:20 CST&amp;quot;
-##  [3] &amp;quot;2018-01-01 04:26:40 CST&amp;quot; &amp;quot;2018-01-01 06:40:00 CST&amp;quot;
-##  [5] &amp;quot;2018-01-01 08:53:20 CST&amp;quot; &amp;quot;2018-01-01 11:06:40 CST&amp;quot;
-##  [7] &amp;quot;2018-01-01 13:20:00 CST&amp;quot; &amp;quot;2018-01-01 15:33:20 CST&amp;quot;
-##  [9] &amp;quot;2018-01-01 17:46:40 CST&amp;quot; &amp;quot;2018-01-01 20:00:00 CST&amp;quot;
-## [11] &amp;quot;2018-01-01 22:13:20 CST&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;En este caso 8000 &lt;strong&gt;segundos&lt;/strong&gt; nos genera un aumento de 2 horas, 13 minutos y 20 segundos en cada elemento de la secuencia.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;secuencia-sin-especificacion-de-final&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Secuencia sin especificación de final:&lt;/h2&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;seq(as.POSIXlt(&amp;quot;2018-01-01&amp;quot;), by = &amp;quot;weeks&amp;quot;, length = 7)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;2018-01-01 CST&amp;quot; &amp;quot;2018-01-08 CST&amp;quot; &amp;quot;2018-01-15 CST&amp;quot; &amp;quot;2018-01-22 CST&amp;quot;
-## [5] &amp;quot;2018-01-29 CST&amp;quot; &amp;quot;2018-02-05 CST&amp;quot; &amp;quot;2018-02-12 CST&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;¿Qué hicimos?&lt;/strong&gt; Generamos nuevamente una secuencia en donde sólo le indicamos la fecha en la que debe de iniciar, seguido del argumento semanas y por último la cantidad de objetos que debería de crear. Es decir, el final está generado por la cantidad (&lt;code&gt;length&lt;/code&gt;) de elementos que queremos en esa secuencia.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;recuento.&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Recuento.&lt;/h1&gt;
-&lt;p&gt;¡Listo! Si has llegado hasta este punto, felicidades. Espero que haya comprendido mejor cómo trabajar y manejar este tipo de dato para sus propios análisis.&lt;/p&gt;
-&lt;p&gt;Hasta acá hemos visto cuáles son los tipos y la clase de las fechas y horas en R, la diferencia entre las dos manera de &lt;code&gt;POSIX&lt;/code&gt; de representar las fechas u horas. También revisamos la manera en que se pueden leer archivos o conjuntos de datos que contengan elementos que corresponden a fechas y cómo indicarle a R el formato de fecha y hora que se está trabajando. Así mismo vimos cómo hacer algunos cálculos con datos de tiempo y por último la generación de secuencias.&lt;/p&gt;
-&lt;p&gt;Pero esto no es todo. Hay una segunda parte, en donde veremos cómo hacer un análisis de datos utilizando fechas y horas, tal como una regresión o un ANOVA.&lt;/p&gt;
-&lt;/div&gt;
+  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
+
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
 </description>
     </item>
     
     <item>
-      <title>Intro a datos y estructuras en R</title>
-      <link>/post/intro-a-datos-y-estructuras-en-r/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <title>An example preprint / working paper</title>
+      <link>/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/post/jupyter/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Welcome to Academic!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
+&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+jupyter lab index.ipynb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
+&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: My post&#39;s title
+date: 2019-09-01
+
+# Put any other Academic metadata here...
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Edit the metadata of your post, using the 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
+&lt;p&gt;To set a 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+&lt;p&gt;For other tips, such as using math, see the guide on 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
       
-      <guid>/post/intro-a-datos-y-estructuras-en-r/</guid>
-      <description>
+      data-background-image=&#34;/img/boards.jpg&#34;
+  &gt;
 
-
-&lt;div id=&#34;datos-y-estructuras&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Datos y Estructuras&lt;/h1&gt;
-&lt;p&gt;Este pequeño e introductorio tutorial consiste en explicar cómo R en su entorno “entiende” los datos (objetos), es decir sus clases y además cómo los almacena en ese entorno. Entender este tipo de cosas básicas en R nos podrán ahorrar dolores de cabeza en futuros análisis de datos que hagamos.&lt;/p&gt;
-&lt;div id=&#34;primer-paso&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Primer paso:&lt;/h2&gt;
-&lt;p&gt;Primero tenemos que entender que R lee los datos que le damos de distintas maneras para poder manejarlos y hacer tareas que le pidamos. Entre estos tenemos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;character&lt;/em&gt;: corresponden a texto&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;numeric&lt;/em&gt;: corresponden a números&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;integer&lt;/em&gt;: son números enteros (sin decimales)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;logical&lt;/em&gt;: son condicionales y están en forma de verdadero o falso&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;complex&lt;/em&gt;: corresponden a números complejos&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Para crear vectores c( )&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;a &amp;lt;- c(&amp;quot;biologia&amp;quot;, &amp;quot;A&amp;quot;, &amp;quot;estadistica&amp;quot;)
-class(a)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;character&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;b &amp;lt;- c(18.6, 90)
-class(b)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;numeric&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;c &amp;lt;- c(18L, 26L)
-class(c)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;integer&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;d &amp;lt;- 2 + 4i
-class(d)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;complex&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;e &amp;lt;- c(TRUE, FALSE)
-class(e)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;logical&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;para-que-sirven-los-tipos-de-datos&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;¿Para qué sirven los tipos de datos?&lt;/h1&gt;
-&lt;p&gt;Hay ciertas cosas que se deben de tomar en cuenta a la hora de trabajar con datos en R, y es que estos son guardados en estructuras. Es decir, R “acomoda” esos datos en formas que los puede manejar.&lt;/p&gt;
-&lt;p&gt;Estos son algunos ejemplos rápidos:&lt;/p&gt;
-&lt;div id=&#34;vectores-elementos-son-del-mismo-tipo&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Vectores elementos son del mismo tipo&lt;/h2&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;v_1 &amp;lt;- c(10,20,30)
-v_2 &amp;lt;- c(&amp;quot;a&amp;quot;,&amp;quot;b&amp;quot;,&amp;quot;c&amp;quot;)
-v_3 &amp;lt;- c(TRUE,FALSE,TRUE)&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;listas-elementos-son-de-diferente-tipo&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Listas elementos son de diferente tipo&lt;/h2&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;l_1 &amp;lt;- list(v_1,v_2,v_3)
-
-l_1&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [[1]]
-## [1] 10 20 30
-## 
-## [[2]]
-## [1] &amp;quot;a&amp;quot; &amp;quot;b&amp;quot; &amp;quot;c&amp;quot;
-## 
-## [[3]]
-## [1]  TRUE FALSE  TRUE&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;matrix-es-de-dos-dimensiones-con-elementos-del-mismo-tipo&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;matrix es de dos dimensiones con elementos del mismo tipo:&lt;/h2&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;matrix_1 &amp;lt;- matrix(1:9,nrow = 3, ncol = 3)
-matrix_1&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##      [,1] [,2] [,3]
-## [1,]    1    4    7
-## [2,]    2    5    8
-## [3,]    3    6    9&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;data-frame-es-de-dos-dimensiones-con-elementos-de-diferente-tipo&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;data frame es de dos dimensiones con elementos de diferente tipo:&lt;/h2&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Primero creamos un par de vectores para unirlos en un dataframe
-numero &amp;lt;- 1:5
-nombre &amp;lt;- c(&amp;quot;Mercurio&amp;quot;,&amp;quot;Venus&amp;quot;,&amp;quot;Tierra&amp;quot;,&amp;quot;Marte&amp;quot;,&amp;quot;Jupiter&amp;quot;)
-planeta &amp;lt;- data.frame(numero,nombre)
-planeta&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##   numero   nombre
-## 1      1 Mercurio
-## 2      2    Venus
-## 3      3   Tierra
-## 4      4    Marte
-## 5      5  Jupiter&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;array-es-una-estructura-de-tres-o-mas-dimensiones&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Array es una estructura de tres o más dimensiones:&lt;/h2&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;D &amp;lt;- 1:12
-dim(D) &amp;lt;- c(2,3,2)        # Dos filas, tres columnas y dos &amp;quot;caras&amp;quot;
-D&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## , , 1
-## 
-##      [,1] [,2] [,3]
-## [1,]    1    3    5
-## [2,]    2    4    6
-## 
-## , , 2
-## 
-##      [,1] [,2] [,3]
-## [1,]    7    9   11
-## [2,]    8   10   12&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;maneras-de-coercionar-las-clases&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Maneras de coercionar las clases&lt;/h1&gt;
-&lt;p&gt;Hay ocasiones en las cuales R podría confundir lo que nosotros consideramos un dato de cierto tipo, por ejemplo un número lo podría leer como un carácter. A la hora de hacer algunos cálculos habrán problemas.&lt;/p&gt;
-&lt;p&gt;Pero existe una solución y esto es coercionar los tipos de los datos. Esto se puede hacer tal como se muestra en los siguientes ejemplos:&lt;/p&gt;
-&lt;p&gt;Diapo 36&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;biolo_vector &amp;lt;- c(20, 40, &amp;quot;A&amp;quot;, 80)
-class(biolo_vector)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;character&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;z &amp;lt;- as.numeric(biolo_vector)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: NAs introduced by coercion&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;z&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 20 40 NA 80&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;biolo_vector &amp;lt;- c(20, 40, TRUE, 80)
-class(biolo_vector)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;numeric&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;biolo_vector&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 20 40  1 80&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;biolo_vector &amp;lt;- c(20:60)
-bv_1 &amp;lt;- as.character(biolo_vector)
-bv_2 &amp;lt;- as.logical(biolo_vector)
-bv_3 &amp;lt;- as.complex(biolo_vector)
-class(bv_1)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;character&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;class(bv_2)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;logical&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;class(bv_3)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;complex&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;exploracion-datos&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Exploración datos:&lt;/h1&gt;
-&lt;p&gt;Cuando traemos datos a R hay una manera fácil de visualizar su estructura o forma sin tener que acudir al documento original. A continuación mostramos una serie de ejemplos en los cuales se m Diapo 62&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dir()                              # ver que tengo en el wd
-head(data)                         # Ver primeros 6 observaciones
-tail(data)                         # últimas 6 observaciones
-str(data)                          # estructura del data.frame
-dim(data)                          # dimensiones (rows &amp;amp; columns)
-names(data)                        # nombres columnas
-glimpse(data)                      # paquete diplyr
-summary(data)                      # resumen de cada variable&lt;/code&gt;&lt;/pre&gt;
-&lt;div id=&#34;que-siginifica-dir-y-ls&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;¿Qué siginifica dir() y ls()?&lt;/h2&gt;
-&lt;p&gt;dir () me refiere a los archivos que se encuentran en el directorio de trabajo. ls () me refiere a los objetos que se encuentran en el espacio de trabajo&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;comprension-de-un-data-frame-y-su-estructura&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Comprensión de un data frame y su estructura&lt;/h1&gt;
-&lt;p&gt;Para comprender mejor vamos a construir un data.frame de manera rápida y simple:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;creamos-los-vectores-a-unir&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Creamos los vectores a unir:&lt;/h1&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;primer_nombre &amp;lt;- c(&amp;quot;Isaac&amp;quot;,&amp;quot;Charles&amp;quot;,&amp;quot;Rosalind&amp;quot;,&amp;quot;Marie&amp;quot;) 
-
-segundo_nombre &amp;lt;- c(&amp;quot;Newton&amp;quot;,&amp;quot;Darwin&amp;quot;,&amp;quot;Franklin&amp;quot;,&amp;quot;Curie&amp;quot;)
-
-edad_muerte &amp;lt;- c(84, 73, 37, 66)
-
-campo &amp;lt;- c(&amp;quot;Física&amp;quot;, &amp;quot;Biología&amp;quot;, &amp;quot;Química&amp;quot;, &amp;quot;Física&amp;quot;)
-
-fecha_muerte &amp;lt;- as.Date(c(&amp;quot;1643-1-4&amp;quot;, &amp;quot;1882-4-19&amp;quot;,
-                        &amp;quot;1958-4-16&amp;quot;, &amp;quot;1934-7-4&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;unimos-cada-uno-de-los-vectores-en-un-data.frame&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Unimos cada uno de los vectores en un data.frame&lt;/h1&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cientificos &amp;lt;- data.frame(primer_nombre, segundo_nombre,
-                          edad_muerte, campo, fecha_muerte)&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;revisemos-estructura-igual-que-en-caso-anterior&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Revisemos estructura igual que en caso anterior&lt;/h1&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;head(cientificos)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##   primer_nombre segundo_nombre edad_muerte    campo fecha_muerte
-## 1         Isaac         Newton          84   Física   1643-01-04
-## 2       Charles         Darwin          73 Biología   1882-04-19
-## 3      Rosalind       Franklin          37  Química   1958-04-16
-## 4         Marie          Curie          66   Física   1934-07-04&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;str(cientificos)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## &amp;#39;data.frame&amp;#39;:    4 obs. of  5 variables:
-##  $ primer_nombre : Factor w/ 4 levels &amp;quot;Charles&amp;quot;,&amp;quot;Isaac&amp;quot;,..: 2 1 4 3
-##  $ segundo_nombre: Factor w/ 4 levels &amp;quot;Curie&amp;quot;,&amp;quot;Darwin&amp;quot;,..: 4 2 3 1
-##  $ edad_muerte   : num  84 73 37 66
-##  $ campo         : Factor w/ 3 levels &amp;quot;Biología&amp;quot;,&amp;quot;Física&amp;quot;,..: 2 1 3 2
-##  $ fecha_muerte  : Date, format: &amp;quot;1643-01-04&amp;quot; &amp;quot;1882-04-19&amp;quot; ...&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#glimpse(cientificos) con librería dplyr&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Datos abiertos Municipalidad de San José</title>
-      <link>/post/datos_muni_sanjose/</link>
-      <pubDate>Sat, 13 Jan 2018 00:00:00 -0600</pubDate>
-      
-      <guid>/post/datos_muni_sanjose/</guid>
-      <description>
-
-&lt;p&gt;Gracias a la iniciativa de &lt;a href=&#34;http://www.gobiernoabierto.go.cr/&#34; target=&#34;_blank&#34;&gt;Gobierno
-Abierto&lt;/a&gt; de Costa Rica tenemos la
-posibilidad de obtener datos de diferentes entes a través de la conexión
-con API&amp;rsquo;s.&lt;/p&gt;
-
-&lt;p&gt;Esto nos da la posibilidad de no pasar por engorrosos procesos de
-limpiar datos a partir de formatos casi imposibles como pdf&amp;rsquo;s, .csv
-extravagantes u otros formatos difíciles de trabajar.&lt;/p&gt;
-
-&lt;p&gt;En este caso vamos a utilizar el lenguaje de programación R y el paquete
-&lt;a href=&#34;https://cran.r-project.org/web/packages/junr/index.html&#34; target=&#34;_blank&#34;&gt;junr&lt;/a&gt; de
-&lt;a href=&#34;https://github.com/FvD&#34; target=&#34;_blank&#34;&gt;Frans van Dunné&lt;/a&gt; para conectarnos al API de la
-municipalidad de San José y revisar qué datos se encuentran disponibles.&lt;/p&gt;
-
-&lt;h3 id=&#34;obtener-el-api-key-de-la-municipalidad-de-san-josé&#34;&gt;Obtener el API key de la municipalidad de San José&lt;/h3&gt;
-
-&lt;p&gt;En la siguiente &lt;a href=&#34;http://datosabiertos.msj.go.cr/developers/&#34; target=&#34;_blank&#34;&gt;dirección&lt;/a&gt;
-podrá encontrar el API key necesario para hacer el llamado.&lt;/p&gt;
-
-&lt;p&gt;Vamos a crear como objetos nuestras credenciales para hacer la conexión
-al API de la municipalidad de San José. El url que aparece acá es el que
-se debe de usar para conectarnos al sistema de la muni de San José. Si
-están siguiendo ete ejemplo pueden escribir el mismo que aparece acá.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;url_base &amp;lt;- &amp;quot;http://api.datosabiertos.msj.go.cr/api/v2/datastreams/&amp;quot;
-api_key &amp;lt;- SU_API_KEY
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;obtener-el-indice-de-las-tablas&#34;&gt;Obtener el indice de las tablas&lt;/h3&gt;
-
-&lt;p&gt;Ya que tenemos las credenciales listas (api key &amp;amp; url), vamos a revisar
-el índice de las tablas de datos que la municipalidad ha liberado:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# Traemos el indice  de los datos que existen
-indice &amp;lt;- get_index(url_base, api_key = api_key)
-
-# Revisamos estructura del objeto 
-glimpse(indice)
-
-## Observations: 257
-## Variables: 18
-## $ status          &amp;lt;lgl&amp;gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, …
-## $ description     &amp;lt;chr&amp;gt; &amp;quot;Valor absoluto y Tasa por 100.000 2006 - 2014&amp;quot;,…
-## $ parameters      &amp;lt;list&amp;gt; [[], [], [], [], [], [], [], [], [], [], [], []…
-## $ tags            &amp;lt;list&amp;gt; [&amp;lt;&amp;quot;san jose&amp;quot;, &amp;quot;municipalidad&amp;quot;, &amp;quot;muertes violent…
-## $ timestamp       &amp;lt;dbl&amp;gt; 1.547586e+12, 1.539808e+12, 1.516222e+12, 1.5162…
-## $ created_at      &amp;lt;int&amp;gt; 1547586293, 1539744226, 1516221668, 1516220839, …
-## $ title           &amp;lt;chr&amp;gt; &amp;quot;Cantidad y Tasa de muertes violentas&amp;quot;, &amp;quot;Densida…
-## $ modified_at     &amp;lt;int&amp;gt; 1547586492, 1539808089, 1516221733, 1516221641, …
-## $ category_id     &amp;lt;chr&amp;gt; &amp;quot;83642&amp;quot;, &amp;quot;83639&amp;quot;, &amp;quot;83481&amp;quot;, &amp;quot;83481&amp;quot;, &amp;quot;83482&amp;quot;, &amp;quot;83…
-## $ methods         &amp;lt;lgl&amp;gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, …
-## $ sources         &amp;lt;list&amp;gt; [&amp;lt;&amp;gt;, &amp;lt;&amp;quot;Municipalidad de San José&amp;quot;, &amp;quot;Instituto N…
-## $ total_revisions &amp;lt;lgl&amp;gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, …
-## $ frequency       &amp;lt;chr&amp;gt; &amp;quot;&amp;quot;, &amp;quot;ondemand&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;ondemand&amp;quot;, &amp;quot;ondeman…
-## $ link            &amp;lt;chr&amp;gt; &amp;quot;http://datosabiertos.msj.go.cr/dataviews/250481…
-## $ user            &amp;lt;chr&amp;gt; &amp;quot;sanjose&amp;quot;, &amp;quot;sanjose&amp;quot;, &amp;quot;sanjose&amp;quot;, &amp;quot;sanjose&amp;quot;, &amp;quot;Msj…
-## $ status_str      &amp;lt;lgl&amp;gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, …
-## $ guid            &amp;lt;chr&amp;gt; &amp;quot;CANTI-Y-TASA-DE-92062&amp;quot;, &amp;quot;DENSI-DE-POBLA-POR-DIS…
-## $ category_name   &amp;lt;chr&amp;gt; &amp;quot;Características Sociales&amp;quot;, &amp;quot;Demografía&amp;quot;, &amp;quot;Educa…
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Cada uno de los elementos que allí aparecen son distintas tablas que
-pueden tener diferentes dimensiones (filas y columnas). Es como una
-descripción de lo que trata cada tabla. Si queremos traer a nuestro
-entorno los datos de una tabla en específico tenemos que hacerlo con su
-&lt;strong&gt;GUID&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;De toda la tabla que llamamos en el paso anterior, vamos a hacer una
-selección de dos columnas: título y el GUID&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;guid &amp;lt;- indice %&amp;gt;% 
-  select(title, guid)
-
-glimpse(guid)
-
-## Observations: 257
-## Variables: 2
-## $ title &amp;lt;chr&amp;gt; &amp;quot;Cantidad y Tasa de muertes violentas&amp;quot;, &amp;quot;Densidad de Pobla…
-## $ guid  &amp;lt;chr&amp;gt; &amp;quot;CANTI-Y-TASA-DE-92062&amp;quot;, &amp;quot;DENSI-DE-POBLA-POR-DISTR&amp;quot;, &amp;quot;DIST…
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;obtener-las-dimensiones-de-las-tablas&#34;&gt;Obtener las dimensiones de las tablas&lt;/h3&gt;
-
-&lt;p&gt;Ahora bien, ya sabemos el título y el identificador de la tabla, pero
-tenemos que tener cuidado. Son muchas tablas y algunas pueden estar
-vacías, ser datos resumidos o con muy pocos datos que no nos servirían
-de nada.&lt;/p&gt;
-
-&lt;p&gt;Por suerte el paquete &lt;strong&gt;junr&lt;/strong&gt; tiene una función que nos muestra la
-dimensión de las tablas, lo cual nos da mayor información sobre las
-características que tiene.&lt;/p&gt;
-
-&lt;p&gt;Hay que aclarar que la municipalidad de San José tiene muchas tablas y
-si usamos la función para obtener las dimensiones se puede demorar sus
-minutos.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# Por la cantidad de tablas que hay, esta funcion se demora mucho
-dimensiones &amp;lt;- get_dimensions(base_url = url_base, api_key = api_key)
-
-# Mostrar primeras seis observaciones
-head(dimensiones)
-
-##                          GUID NROW NCOL DIM
-## 2       CANTI-Y-TASA-DE-92062    6   10  60
-## 21   DENSI-DE-POBLA-POR-DISTR   15   12 180
-## 3  DISTR-RELAT-DE-ESTUD-MATRI   12   10 120
-## 4  DISTR-DE-ESTUD-MATRI-77173   12   10 120
-## 5        POA-PRESU-ORDIN-2018  119    3 357
-## 6     INVER-EN-COLON-EN-43060    7    6  42
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;cuadro-con-características-de-las-tablas-de-la-muni-de-sj&#34;&gt;Cuadro con características de las tablas de la muni de SJ&lt;/h4&gt;
-
-&lt;p&gt;Ya que tenemos las dimensiones de las tablas, podemos acomodar la
-información que hemos extraido hasta el momento de tal manera que
-tengamos un cuadro final con la información importante resumida: el
-título de la tabla, el GUID y las dimensiones.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# Unir el titulo a dimensiones
-dimensiones &amp;lt;- left_join(dimensiones, guid, by = c(&amp;quot;GUID&amp;quot; = &amp;quot;guid&amp;quot;))
-
-# Ordenar tablas con mayores dimensiones
-dim_ordenado &amp;lt;- dimensiones %&amp;gt;%
-    arrange(desc(DIM))
-
-# Revisar primeras entradas
-head(dim_ordenado)
-
-##                         GUID NROW NCOL DIM
-## 1          ASIST-EDUCA-SUPER  108    9 972
-## 2                DEFUN-28990   64   13 832
-## 3                DEFUN-43464   64   13 832
-## 4                NACIM-43692   64   13 832
-## 5 DISTR-DE-POBLA-OCUPA-56023   52   11 572
-## 6 DISTR-DE-POBLA-OCUPA-36314   52   11 572
-##                                                                title
-## 1                                      Asistencia Educación Superior
-## 2                                                        Defunciones
-## 3                                                        Defunciones
-## 4                                                        Nacimientos
-## 5 Distribución de población ocupada por Grupo Ocupacional (Relativo)
-## 6            Distribución de población ocupada por Grupo Ocupacional
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;llamar-datos-de-una-tabla-específica&#34;&gt;Llamar datos de una tabla específica:&lt;/h3&gt;
-
-&lt;p&gt;Ya con esto podemos hacer una mejor selección de las tablas que nos
-serían útiles. Cuando ya tengamos identificada una tabla tenemos que
-anotar su GUID que utilizaremos en la función:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# Anotar en un objeto el GUID de la tabla que nos interesa
-guid_tabla &amp;lt;- &amp;quot;ASIST-EDUCA-SUPER&amp;quot;
-
-# Llamar la tabla. Usamos las mismas credenciales que habíamos usado
-asist_educacion &amp;lt;- get_data(base_url = url_base, api_key = SU_API_KEY, 
-                            guid = guid_tabla)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;¡Listo! Ya tenemos nuestra tabla de interés con los datos. Vamos a
-revisarla&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;head(asist_educacion)
-
-##   Distrito   Sexo Tenencia de título Parauniversitaria Universitaria Total
-## 2 San José Hombre                 Sí              1951         24058 26009
-## 3 San José Hombre                 No               653          3498  4151
-## 4 San José Hombre              Total              2604         27556 30160
-## 5 San José  Mujer                 Sí              2599         26085 28684
-## 6 San José  Mujer                 No               924          4092  5016
-## 7 San José  Mujer              Total              3523         30177 33700
-##   Población de 17 años y más
-## 2                           
-## 3                           
-## 4                     100238
-## 5                           
-## 6                           
-## 7                     116461
-##   Porcentaje de población con educación superior
-## 2                                               
-## 3                                               
-## 4                                           30.1
-## 5                                               
-## 6                                               
-## 7                                           28.9
-##   Porcentaje de población con educación superior y título
-## 2                                                        
-## 3                                                        
-## 4                                                    86.2
-## 5                                                        
-## 6                                                        
-## 7                                                    85.1
-
-glimpse(asist_educacion)
-
-## Observations: 108
-## Variables: 9
-## $ Distrito                                                  &amp;lt;fct&amp;gt; San Jo…
-## $ Sexo                                                      &amp;lt;fct&amp;gt; Hombre…
-## $ `Tenencia de título`                                      &amp;lt;fct&amp;gt; Sí, No…
-## $ Parauniversitaria                                         &amp;lt;fct&amp;gt; 1951, …
-## $ Universitaria                                             &amp;lt;fct&amp;gt; 24058,…
-## $ Total                                                     &amp;lt;fct&amp;gt; 26009,…
-## $ `Población de 17 años y más`                              &amp;lt;fct&amp;gt; , , 10…
-## $ `Porcentaje de población con educación superior`          &amp;lt;fct&amp;gt; , , 30…
-## $ `Porcentaje de población con educación superior y título` &amp;lt;fct&amp;gt; , , 86…
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;referencias&#34;&gt;Referencias&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/junr/vignettes/acceder-junar-api.html&#34; target=&#34;_blank&#34;&gt;vignette del paquete
-junr&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://datosabiertos.msj.go.cr/developers/&#34; target=&#34;_blank&#34;&gt;Página desarrolladores Municipalidad de San
-José&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.gobiernoabierto.go.cr/&#34; target=&#34;_blank&#34;&gt;Gobierno abierto Costa Rica&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;querés-revisar-más-información&#34;&gt;¿Querés revisar más información?&lt;/h2&gt;
-
-&lt;p&gt;Mi compañero &lt;a href=&#34;https://github.com/ecamo19&#34; target=&#34;_blank&#34;&gt;Erick Calderón&lt;/a&gt; y yo estamos trabajando en un proyecto donde pretendemos crear más tutoriales sobre uso de datos abiertos del gobierno de Costa Rica a través de API&amp;rsquo;s y el lenguaje de programación R. Si querés contribuir, tenés preguntas o una idea podés revisar &lt;a href=&#34;https://github.com/datos-abiertos-cr&#34; target=&#34;_blank&#34;&gt;nuestro proyecto en Github&lt;/a&gt;&lt;/p&gt;
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Research projects with R programming</title>
-      <link>/talk/research_projects_r/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
-      
-      <guid>/talk/research_projects_r/</guid>
-      <description>&lt;p&gt;Ongoing research projects files can be easily messed up and in science this can give us
-a hard time. On this workshop you will learn how to organize your files, from data and code to your communication files. Also we will explore some of the newest R packages to manage your data with easy to
-read code that allows us to reproduce, automatice and communicate your statistical analysis.&lt;/p&gt;
-
-&lt;p&gt;Talk material (slides/code) on my &lt;a href=&#34;https://github.com/ronnyhdez/Research-Projects-with-R&#34; target=&#34;_blank&#34;&gt;github account&lt;/a&gt;.&lt;/p&gt;
+      <title>Terms</title>
+      <link>/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/terms/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Tiempo en R: Uso de datos de fechas y tiempo con R</title>
-      <link>/talk/scrug/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
-      
-      <guid>/talk/scrug/</guid>
-      <description>&lt;p&gt;Material de la charla como diapositivas y código pronto las estaré compartiendo por &lt;a href=&#34;https://github.com/ronnyhdez/Tutorial_FechasBaseR&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ciencia ciudadana</title>
-      <link>/project/ciencia-cuidadana/</link>
+      <title>External Project</title>
+      <link>/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/ciencia-cuidadana/</guid>
-      <description>&lt;p&gt;¡Pronto tendré más información sobre el proyecto!&lt;/p&gt;
-</description>
+      <guid>/project/external-project/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Structural Complexity</title>
-      <link>/project/structural-complexity/</link>
+      <title>Internal Project</title>
+      <link>/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/structural-complexity/</guid>
-      <description>&lt;p&gt;Analysis of vegetation has intrigued forestry scientists and ecologists for decades. In tropical forests, the interpretation of the wide heterogeneity of their structure and our tropical forests still lack indicators or guidance that represent the great diversity and structural complexity that they possess.&lt;/p&gt;
-
-&lt;p&gt;A new attempt has emerged with the use of digital images that allow spatiotemporal analyses as indicators of the spatial and temporal heterogeneity of the structure and analyze the patterns of the components photographed (shapes, texture, arrays and colors of the pixels). In this study, we analyze thousands of photographs taken in the subsoil of various types of forests in the Peninsula of Osa, Costa Rica. These flat digital photos were obtained with time-lapse cameras, programmed at intervals defined in four microenvironments typical of tropical rainforest: primary forest, hillside forest, riparian forest and secondary forest.&lt;/p&gt;
-
-&lt;p&gt;Spatial heterogeneity indices such as Mean Information Gain (MIG) and Spatial Anisotropy (A) were calculated to correlate aspects of the composition, structural complexity and geometric pattern of the internal canopy in the period between February and December 2015. We found a temporal variation in the MIG value and spatial anisotropy throughout the year. Mean MIG values show a tendency to decrease during the period in all microenvironments. MIG values vary throughout the day being greater than 12:00 and the lowest values at 8:00 AM and 3:00 PM.&lt;/p&gt;
-
-&lt;p&gt;The MIG and spatial anisotropy values show a moderate to a low relation with some classic forest parameters of the structure and geometry of the habitats, whose seems fairly related from each other. The results show that this methodology is sensitive and useful to variations in the composition and structure of the forests, which allows the monitoring of dynamics in time and space. However, there is room to increase efforts to discern possible structural and functional details that seem to define the tremendous spatial heterogeneity found in the forests of the Osa Peninsula.&lt;/p&gt;
-
-&lt;p&gt;This project is part of the &lt;a href=&#34;https://lefet.weebly.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Laboratorio de Ecología Funcional y Ecosistemas Funcionales&lt;/strong&gt;&lt;/a&gt;, Schoo of Biology and the Laboratorio de Ecología Tropical Aplicada, School of Environmental Science, of the &lt;strong&gt;Universidad Nacional de Costa Rica&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Is co-authored with &lt;a href=&#34;https://scholar.google.es/citations?user=lCPpVZwAAAAJ&amp;amp;hl=es&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Roberto Cordero&lt;/strong&gt;&lt;/a&gt; and &lt;strong&gt;Albert Moreira&lt;/strong&gt;&lt;/p&gt;
+      <guid>/project/internal-project/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Introducción al Control de versiones con git</title>
-      <link>/post/control-versiones-git/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
-      
-      <guid>/post/control-versiones-git/</guid>
-      <description>
-
-&lt;h2 id=&#34;qué-resuelve-git-porqué-usar-git&#34;&gt;¿Qué resuelve git? ¿Porqué usar git?&lt;/h2&gt;
-
-&lt;p&gt;Si les ha sucecido que luego de trabajar en un documento, tienen una carpeta
-llena con nombres como: &amp;ldquo;version_final&amp;rdquo;, &amp;ldquo;version_final_final&amp;rdquo;, &amp;ldquo;version_final_corregida&amp;rdquo;, &amp;ldquo;version_final_revisada&amp;rdquo; pues git les será útil para
-tener un control sobre los cambios que se introducen en el documento.&lt;/p&gt;
-
-&lt;p&gt;En este tutorial haremos ejemplos con scripts de código en R y cómo los cambios que vayamos trabajando, los podemos registrar, usar, guardar y documentar con mayor eficiencia tanto para trabajar individualemente como grupalmente.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/git.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;esquema-de-git&#34;&gt;Esquema de git&lt;/h2&gt;
-
-&lt;p&gt;Aqui pretendo aclarar rapidamente que vamos a hacer con git, tener el bosquejo antes de entrar en detalles. Vamos a tener un repositorio remoto o en inglés upstream que será nuestro repositorio en github/gitlab/bitbucket. De este repositorio tendremos uno local que crearemos al hacer el clon. Siempre vamos a trabajar en repositorio local (en nuestra computadora) y esos cambios los vamos a subir al remoto con un push. De igual manera cambios que existan en el repositorio remoto (porque alguien hizo una contribucion, trabajamos desde otra computadora ys ubimos los cambios) lo vamos a hacer con un pull.&lt;/p&gt;
-
-&lt;p&gt;Vamos a tener una &lt;strong&gt;rama&lt;/strong&gt; principal llamada &lt;strong&gt;master&lt;/strong&gt;. El consejo aca es tener código limpio y funcional. Todo lo que sea trabajo en desarrollo, experimentos, pruebas o tareas específicas, vamos a hacerlo en ramas. Las ramas van a tener el nombre que nosotros decidamos. Los cambios que se encuentran en estas ramas, una vez que se encuentran finalizados, revisados y funcionales los podremos integrar a nuestra rama master en un proceso conocido como &lt;strong&gt;merge&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Cada vez que hagamos cambios en el código, vamos a hacer un &lt;strong&gt;commit&lt;/strong&gt;. Esto lo podemos interpretar como marcar un punto en la historia del proyecto. Git nos mostrará información sobre cada uno de nuestros commits tal como la fecha, hora, usuario, archivos cambiados y las líneas de los archivos que se cambiaron. La idea de los commits es que siempre podamos retornar a un punto específico en la historia del proyecto.&lt;/p&gt;
-
-&lt;p&gt;En el caso de trabajar con el repositorio de alguien más, lo podemos realizar a través de un proceso que se conoce como &lt;strong&gt;fork&lt;/strong&gt;, que no es más que una bifurcación del repositorio de esa persona. Al realizar un &amp;ldquo;fork&amp;rdquo; del repositorio de otra persona estamos creando una copia de dicho repositorio bajo nuestro usuario. Ahora bien, la manera de ofrecer los cambios que hemos trabajado a la persona dueña del repositorio tiene un proceso algo diferente que veremos en otro tutorial.&lt;/p&gt;
-
-&lt;h2 id=&#34;iniciar-con-git&#34;&gt;Iniciar con git&lt;/h2&gt;
-
-&lt;p&gt;En este segmento vamos a seguir los pasos para tener un repositorio que tenga su cuenta remota con github/gitlab/bitbucket y local a través de nuestra terminal.&lt;/p&gt;
-
-&lt;h4 id=&#34;1-crear-repositorio-en-github-gitlab-bitbucket&#34;&gt;1. Crear repositorio en github/gitlab/bitbucket&lt;/h4&gt;
-
-&lt;p&gt;Si tenemos cuenta en github/gitlab/bitbucket podemos crear un repositorio. Le llamamos repositorio al sitio donde vamos a guardar nuestros archivos. Un repositorio lo podemos visualizar como una carpeta que contendrá nuestro trabajo.&lt;/p&gt;
-
-&lt;p&gt;Cuando se crea un nuevo repositorio lo recomendable es iniciarlo con un arhivo que se llama &lt;strong&gt;.gitignore&lt;/strong&gt; y con un &lt;strong&gt;readme&lt;/strong&gt;. Para hacerlo en github (y algo similar en otras plataformas) es que seleccionemos las opciones de iniciar repositorio con un archivo .gitignore y un readme. El archivo gitignore debe de ser específico para la herramienta que vayamos a usar, en este caso sería &lt;em&gt;R&lt;/em&gt;
-&lt;img src=&#34;/img/create_repository_github.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;La funcionalidad del .gitignore es que este archivo (es como un archvio de texto) contiene especificaciones sobre los formatos de los archivos que no queremos que se integren en nuestro sistema de control de versiones. Generalmente no deseamos que archivos como imagenes (.png .jpeg) o bien archivos de datos muy grandes (.txt .csv .feather) sean compartidos entre repositorios remotos, locales o personas con las que colaboremos. Un ejemplo de un archivo .gitignore es el siguiente:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/ejemplo_gitignore.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Si no identifican algunos de los elementos de ahí no hay de qué preocuparse, mejor nos enfocámos en los tipos de archivos que nosotros necesitamos que &lt;strong&gt;NO sean tomados en cuenta por git&lt;/strong&gt;, es decir, que no queremos que se suban a nuestro repositorio de github por ejemplo ni en la gestión de versiones. Si es el caso que tenemos que hacer el knit de un Rmarkdown y necesitamos un archivo .csv para renderizarlo, pero solamente queremos el archivo Rmakrdown en el sistema de git, pues en nuestro archivo .gitignore escribimos .csv, guardamos el archivo y listo.&lt;/p&gt;
-
-&lt;p&gt;En el caso del &lt;strong&gt;readme&lt;/strong&gt; es un archivo que debe de dar una idea  de qué tenemos en el repositorio. Es una guía para nosotros mismos u otros usuarios que vayan a hacer uso del repositorio y nuestro código. En github los readme se ven así:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/readme.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Una vez que el repositorio haya sido creado, vamos a encontrarnos con una opción que dirá &lt;strong&gt;&amp;ldquo;clone or download&amp;rdquo;&lt;/strong&gt;. Vamos a hacer click en clone y la dirección que allí sale la tenemos que copiar (ctrl + c). La imagen muestra lo que sucede al hacer clone en el botón verde que ofrece github:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/clone.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ya con la información de la dirección del repositorio copiada, vamos a llevarla a nuestra terminal:&lt;/p&gt;
-
-&lt;h4 id=&#34;2-clonar-repositorio-en-nuestra-computadora&#34;&gt;2. Clonar repositorio en nuestra computadora&lt;/h4&gt;
-
-&lt;p&gt;Una vez que tenemos creado el repositorio y la dirección copiada, vamos a abrir nuestra terminal. Si es usuario de windows puede usar el powershell.
-Lo primero que vamos a ver es una dirección y allí tendremos que &lt;strong&gt;dirigirnos a la carpeta donde deseamos colocar el repositorio&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd ~ #Esto me va a llevar al home
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;cd Desktop/ #Me lleva al escritorio
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;ls #Me da lista de los elementos que existen en la dirección que estoy
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;cd primeras_letras_nombre &amp;lt;TAB&amp;gt; #Con TAB autocompleta el nombre
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Este procedimiento lo vamos realizando hasta llegar a la carpeta en la cual queremos clonar el repositorio.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;El segundo paso es &lt;strong&gt;clonar el repositorio&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git clone &amp;lt;dirección del repositorio que copiamos&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Por último nos dirigimos a la carpeta del repositorio&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd &amp;lt;nombre_repositorio&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;¡Listo! Ya tenemos el repositorio remoto tal cual en nuestra computadora local. A partir de aquí podemos trabajar en nuestros archivos.&lt;/p&gt;
-
-&lt;h4 id=&#34;3-crear-una-rama-en-el-repositorio&#34;&gt;3. Crear una rama en el repositorio&lt;/h4&gt;
-
-&lt;p&gt;¿Qué pasa si queremos hacer una variación en el código sin miedo a dañar lo que ya tenemos? Pues bien, git nos permite hacer ramas que son una bifurcación del trabajo que llevamos realizado hasta ese momento y que si luego queremos, podemos volver a integrar a la rama principal.&lt;/p&gt;
-
-&lt;p&gt;Cuano tenemos un repositorio la rama principal está nombrada como &lt;strong&gt;master&lt;/strong&gt;. A partir de esta rama master podemos hacer ramas con los nombres que nosotros queramos. La idea de las ramas es trabajar de manera ordenada, en donde en mi rama master siempre debemos de tener código limpio y funcional y lo que sean nuevas tareas, mejoras o experimentos lo hagamos en ramas que se bifurcan a partir de la rama master.&lt;/p&gt;
-
-&lt;p&gt;Cuando el trabajo realizado en la rama sea funcional y limpio, lo podemos integrar a la rama master. Caso contrario podemos olvidarnos de la rama y volver a nuestra rama master.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Crear rama&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git checkout -b &amp;lt;NOMBRE_RAMA&amp;gt; #Nos crea y dirige a la nueva rama
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;Verificar rama en la que estamos&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git status
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;cambiar entre ramas&lt;/strong&gt;
-Para cambiar entre ramas que ya existen NO hay que usar &amp;ldquo;-b&amp;rdquo;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git checkout &amp;lt;NOMBRE_RAMA&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;4-subir-bajar-cambios&#34;&gt;4. Subir/bajar cambios&lt;/h4&gt;
-
-&lt;p&gt;Como estamos trabajando con un repositorio remoto y uno local, vamos a querer sincronizar los cambios. Estos cambios pasarán a estar en la historia del proyecto como &lt;strong&gt;commits&lt;/strong&gt;. Un commit es un punto en la historia del proyecto que muestra el trabajo realizado en ese momento. En el flujo del trabajo que uno tenga es recomendable hacer commits regularmente y hacer el push de manera regular para asegurarnos de no perder el trabajo.&lt;/p&gt;
-
-&lt;p&gt;**4.1 Revisar estado de los cambios **
-Cuando tengamos cambios en nuestros archivos, podemos revisar cuáles han cambiado y si los tenemos incluidos o no en nuestro registro de cambios&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git status
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;4.2 Agregar cambios&lt;/strong&gt;
-Los archivos que queramos agregar a la historia del proyecto lo podemos hacer de dos maneras, una donde indicamos explícitamente el archivo específico:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git add &amp;lt;NOMBRE_ARCHIVO&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;O de tal manera en que agreguemos todos los archivos con cambios de una vez&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git add .
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;4.3 Someter cambios a la historia de git&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git commit -m &amp;quot;MENSAJE_CORTO&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;El mensaje sirve para darnos a nosotros mismos o a colaboradores, una idea del cambio que se trabajó.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4.4 Subir cambios al repositorio remoto&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git push
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;4.5 Bajar cambios del repositorio remoto&lt;/strong&gt;
-Si estamos trabajando con colaboradores y han integrado cambios en el repositorio remoto que nosotros no tenemos en nuestro repositorio local, los podemos traer de la siguiente manera:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git pull
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;qué-tenemos-hasta-acá&#34;&gt;¿Qué tenemos hasta acá?&lt;/h2&gt;
-
-&lt;p&gt;Una idea básica sobre git, de sus componentes, del flujo de trabajo y de los principales comandos que se usan. Un tutorial con un ejemplo básico vendrá despueś.&lt;/p&gt;
-
-&lt;h3 id=&#34;referencias&#34;&gt;Referencias&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2&#34; target=&#34;_blank&#34;&gt;https://git-scm.com/book/en/v2&lt;/a&gt;
-&lt;a href=&#34;https://git-scm.com/book/es/v1/Ramificaciones-en-Git-Procedimientos-b%C3%A1sicos-para-ramificar-y-fusionar&#34; target=&#34;_blank&#34;&gt;https://git-scm.com/book/es/v1/Ramificaciones-en-Git-Procedimientos-b%C3%A1sicos-para-ramificar-y-fusionar&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Why a blog? / ¿Porqué un blog personal?</title>
+      <title>Academic: the website builder for Hugo</title>
       <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
-      
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/post/getting-started/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or 
+&lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 
+&lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 
+&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Ask a question&lt;/strong&gt; on the forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;👥 
+&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: 
+&lt;a href=&#34;https://twitter.com/source_themes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@source_themes&lt;/a&gt; 
+&lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; 
+&lt;a href=&#34;https://twitter.com/search?q=%23MadeWithAcademic&amp;amp;src=typd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithAcademic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 
+&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and 
+&lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;❤️ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
+&lt;ul&gt;
+&lt;li&gt;☕️ 
+&lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💵 
+&lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Become a backer on &lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🖼️ 
+&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Decorate your laptop or journal with an Academic &lt;strong&gt;sticker&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;👕 
+&lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wear the &lt;strong&gt;T-shirt&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;👩‍💻 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/contribute/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-academic-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; data-caption=&#34;Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
+
+
+  &lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable 
+&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and 
+&lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - 
+&lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, 
+&lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Academic comes with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can  choose their preferred mode - click the sun/moon icon in the top right of the 
+&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#custom-theme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;customizable&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;
+&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;
+&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on 
+&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt; to help keep track of 
+&lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present 
+&lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the 
+&lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>
 
-&lt;h1 id=&#34;why-a-blog&#34;&gt;Why a blog?&lt;/h1&gt;
 
-&lt;p&gt;Basically I would like to try to share things that I have learn while I study Biology, mainly the R programming languaje.&lt;/p&gt;
-
-&lt;p&gt;Also this gives me the opportunity to communicate what is what I do in my research.&lt;/p&gt;
-
-&lt;h1 id=&#34;por-qué-una-página-web&#34;&gt;¿Por qué una página web?&lt;/h1&gt;
-
-&lt;p&gt;Basicamente me gustaría compartir lo que he aprendido durante mis estudios en biología, especialmente el lenguaje de programación R.&lt;/p&gt;
-
-&lt;p&gt;Así mismo me da la oportunidad de divulgar qué es lo que hago en mis participaciones en investigaciones.&lt;/p&gt;
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
