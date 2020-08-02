@@ -18,27 +18,21 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Data Professional"
+  company = "ixpantia"
+  company_url = "https://www.ixpantia.com/es/"
+  location = "Costa Rica"
+  date_start = "2017-03-01"
   date_end = ""
   description = """
+At ixpantia our passionate and experienced data scientists and business consultants work with organizations around the world to empower them to innovate with a data-driven approach. From our headquarters in Latin America we support our customers and help their teams develop data products and deploy them to production.
+
+ixpantia adds significant value to your data projects through our tailored services and highly skilled and empathetic team. We augment your team’s data science capabilities by accompanying them from project ideation to deployment. If needed, we help you to align data initiatives with overall strategy and guide you to prioritize data projects. We are fully certified to deploy data products on-site or in the cloud. Our end-goal is to have fully satisfied customers who are increasingly self-sufficient to continue their data journeys.
+
   Responsibilities include:
   
   * Analysing
   * Modelling
   * Deploying
   """
-
-[[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
-
 +++
