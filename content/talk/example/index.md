@@ -1,49 +1,36 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.
-address:
-  city: Stanford
-  country: United States
-  postcode: "94305"
-  region: CA
-  street: 450 Serra Mall
+abstract: Si ya tienen experiencia usando Shiny, se habrán dado cuenta que una  
+
 all_day: false
 authors: []
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
-event: Academic Theme Conference
-event_url: https://example.org
+date: "2019-10-31T00:00:00Z"
+date_end: "2019-10-31T00:00:00Z"
+event: Data Latam webinarios
+event_url: http://www.datalatam.com/
 featured: false
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [](static/img/modulos_shiny.png)'
   focal_point: Right
 links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
-location: Source Themes HQ
+  url: https://twitter.com/RonnyHdezM
+location: 
 math: true
 projects:
-- internal-project
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2019-10-31T00:00:00Z"
 slides: example
-summary: An example talk using Academic's Markdown slides feature.
+summary: Webinario sobre la modularización de aplicaciones en shiny.
 tags: []
-title: Example Talk
-url_code: ""
+title: Usando módulos en shiny
+url_code: "https://github.com/ronnyhdez/shiny_modular"
 url_pdf: ""
 url_slides: ""
-url_video: ""
+url_video: "https://www.youtube.com/watch?v=Hq0bcy4DCDg"
 ---
 
 {{% alert note %}}
 Click on the **Slides** button above to view the built-in slides feature.
 {{% /alert %}}
 
-Slides can be added in a few ways:
-
-- **Create** slides using Academic's [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
-
-Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code.
