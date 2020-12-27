@@ -1,5 +1,5 @@
 [build]
-  publish = "/opt/build/repo/https:/github.com/ronnyhdez/pagina_personal"
+  publish = "public"
   command = "hugo"
 
 [context.production.environment]
