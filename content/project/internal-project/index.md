@@ -34,8 +34,8 @@ Tomando como ventaja los recientes desarrollos de paquetes como
 las diapositivas a tutoriales dinámicos que cada participante puede tener en
 su computador.
 
-Junto con los compañeros del equipo ixpantia estamos trabajando en mejorar aún
-más los ejercicios, desarrollar unos cuantos más y dejarlo listo en un paquete
+Junto con los compañeros del equipo ixpantia estamos trabajando en mejorar 
+los ejercicios, desarrollar unos cuantos más y dejarlo listo en un paquete
 que cualquier interesado pueda utilizar, explorar y aprender R.
 
 
