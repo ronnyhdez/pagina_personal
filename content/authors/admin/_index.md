@@ -14,7 +14,8 @@ education:
 email: "ronny.hernandezm@gmail.com"
 interests:
 - Data Science
-- Open source
+- Data Engineering
+- Open source & free software
 - Science communication
 - Programming
 - GNU/Linux
@@ -42,9 +43,9 @@ user_groups:
 - Visitors
 ---
 
-I'm a Data Professional at [ixpantia](https://www.ixpantia.com/) were I help
-organizations to get insigths from their data, to develop data products, learn 
-R and get the best practices for data science. 
+I'm a Data Professional at [ixpantia](https://www.ixpantia.com/) where I help
+organizations gain insigths from their data, develop data products, learn 
+R and obtain the best practices for data science. 
 
 Also I like to teach, share and collaborate with others so I co-organize events
 with [DataLatam](http://www.datalatam.com/) or by my own. 

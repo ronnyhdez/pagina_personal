@@ -1,19 +1,17 @@
 ---
-date: "2016-04-27T00:00:00Z"
-external_link: ""
+date: "2020-12-30T00:00:00Z"
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: 
   focal_point: Smart
 links:
-- icon: twitter
+- icon: github
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
-slides: example
-summary: An example of using the in-built project page.
+  name: Código
+  url: https://github.com/ixpantia/ixpantia.introR
+summary: Un paquete R con tutoriales interactivos para aprender los conceptos introductorios a ciencia de datos con R.
 tags:
-- Deep Learning
-title: Internal Project
+- Aprender R
+title: ixpantia.introR
 url_code: ""
 url_pdf: ""
 url_slides: ""
