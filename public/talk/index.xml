@@ -1,34 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks on Ronny Hdez-Mora</title>
+    <title>Recent &amp; Upcoming Talks | </title>
     <link>/talk/</link>
-    <description>Recent content in Recent &amp; Upcoming Talks on Ronny Hdez-Mora</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Research projects with R programming</title>
-      <link>/talk/research_projects_r/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
-      
-      <guid>/talk/research_projects_r/</guid>
-      <description>Ongoing research projects files can be easily messed up and in science this can give us a hard time. On this workshop you will learn how to organize your files, from data and code to your communication files. Also we will explore some of the newest R packages to manage your data with easy to read code that allows us to reproduce, automatice and communicate your statistical analysis.
-Talk material (slides/code) on my github account.</description>
-    </item>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/talk/</link>
+    </image>
     
     <item>
-      <title>Tiempo en R: Uso de datos de fechas y tiempo con R</title>
-      <link>/talk/scrug/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
-      
-      <guid>/talk/scrug/</guid>
-      <description>Material de la charla como diapositivas y código pronto las estaré compartiendo por github.</description>
+      <title>Usando módulos en shiny</title>
+      <link>/talk/example/</link>
+      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

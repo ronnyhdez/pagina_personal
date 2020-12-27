@@ -1,359 +1,197 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    
-    <url>
-    
-      <loc>/post/tiempo-en-r-i-parte/</loc>
-      <lastmod>2018-03-14T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-07-23T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/intro-a-datos-y-estructuras-en-r/</loc>
-      <lastmod>2018-02-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-07-23T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/datos_muni_sanjose/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/rmarkdown/rmarkdown-para-principiantes/</loc>
+    <lastmod>2020-07-23T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/talk/research_projects_r/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/talk/example/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/talk/scrug/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/ciencia-cuidadana/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/category/base-r/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/structural-complexity/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/control-versiones-git/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tag/fechas-y-horas/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/getting-started/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/api/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/category/tiempo/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/post/tiempo_r/tiempo-en-r-i-parte/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/datos-abiertos/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tag/character/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/intro/</loc>
-      <lastmod>2018-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tag/data.frame/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/intro/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/category/intro/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/post/datos_estructuras/intro-a-datos-y-estructuras-en-r/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tag/list/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/r-b%C3%A1sico/</loc>
-      <lastmod>2018-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tag/numeric/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/category/r-basico/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/structural-complexity/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tag/vector/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tag/api/</loc>
+    <lastmod>2018-01-13T00:00:00-06:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/base-r/</loc>
-      <lastmod>2018-03-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tag/datos-abiertos/</loc>
+    <lastmod>2018-01-13T00:00:00-06:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/character/</loc>
-      <lastmod>2018-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/post/datos_muni_sanjose/</loc>
+    <lastmod>2018-01-13T00:00:00-06:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/ciencia-ciudadana/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tag/junr/</loc>
+    <lastmod>2018-01-13T00:00:00-06:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/control-versiones/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tag/municipalidad-san-jose/</loc>
+    <lastmod>2018-01-13T00:00:00-06:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/data.frame/</loc>
-      <lastmod>2018-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tag/deep-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/fechas-y-horas/</loc>
-      <lastmod>2018-03-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tag/demo/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/git/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/project/external-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/junr/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/project/internal-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/list/</loc>
-      <lastmod>2018-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/municipalidad-san-jos%C3%A9/</loc>
-      <lastmod>2018-01-13T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tag/control-versiones/</loc>
+    <lastmod>2018-01-13T00:00:00-06:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/numeric/</loc>
-      <lastmod>2018-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tag/git/</loc>
+    <lastmod>2018-01-13T00:00:00-06:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/tiempo/</loc>
-      <lastmod>2018-03-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/post/control-versiones-git/</loc>
+    <lastmod>2018-01-13T00:00:00-06:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/vector/</loc>
-      <lastmod>2018-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/ronny-a.-hernandez-mora/</loc>
+  </url>
   
 </urlset>
