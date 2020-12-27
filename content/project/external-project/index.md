@@ -1,11 +1,11 @@
 ---
-date: "2016-04-27T00:00:00Z"
-external_link: http://example.org
+date: "2020-12-30T00:00:00Z"
+external_link: https://connect.ixpantia.com/gpcd/
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: Ciclo de innovación basado en productos de datos. ixpantia
   focal_point: Smart
-summary: An example of linking directly to an external project website using `external_link`.
+summary: Libro en construcción sobre DataOps para organizaciones que inician con sus equipos de ciencia de datos.
 tags:
-- Demo
-title: External Project
+- DataOps, Ciencia de datos
+title: Gestión de proyectos de ciencia de datos una interpretación práctica de DataOps
 ---

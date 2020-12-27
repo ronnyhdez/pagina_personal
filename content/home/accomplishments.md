@@ -27,4 +27,14 @@ date_format = "Jan 2006"
   date_start = "2019-08-26"
   date_end = ""
   description = ""
+  
+[[item]]
+  organization = "ICAI"
+  organization_url = "https://www.icai.ac.cr/"
+  title = "Linux SysAdmin"
+  url = ""
+  certificate_url = ""
+  date_start = "2020-08-21"
+  date_end = ""
+  description = ""
 +++

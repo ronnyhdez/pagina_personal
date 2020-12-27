@@ -16,16 +16,13 @@ interests:
 - Data Science
 - Open source
 - Science communication
-- Forests
-- Cycling
+- Programming
+- GNU/Linux
 organizations:
 - name: ixpantia
   url: "www.ixpantia.com"
 role: Data Professional
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/RonnyHdezM
@@ -45,6 +42,11 @@ user_groups:
 - Visitors
 ---
 
-I´m biologist with interest in plant eco-physiology. Research in which I work includes the use of digital images to evaluate the structural complexity of tropical forests, also fluorescence as a way to understand the tolerance of tropical plants to increases in the temperature.
+I'm a Data Professional at [ixpantia](https://www.ixpantia.com/) were I help
+organizations to get insigths from their data, to develop data products, learn 
+R and get the best practices for data science. 
 
-I also work at [ixpantia](https://www.ixpantia.com/) analyzing data for the industry with the _R programming language_. I´m the co-founder of [Brenesii](http://www.brenesii.com/) an organization devoted to the research of tropical forests and science communication to a broader public beyond academia.
+Also I like to teach, share and collaborate with others so I co-organize events
+with [DataLatam](http://www.datalatam.com/) or by my own. 
+
+

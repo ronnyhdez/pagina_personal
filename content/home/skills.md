@@ -26,6 +26,12 @@ subtitle = ""
   name = "Linux"
   description = "70%"  
   
+[[feature]]
+  icon = "git-alt"
+  icon_pack = "fab"
+  name = "git"
+  description = "85%" 
+  
 # Uncomment to use emoji icons.
 # [[feature]]
 #  icon = ":smile:"
