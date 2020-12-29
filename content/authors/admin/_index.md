@@ -47,7 +47,7 @@ I'm a Data Professional at [ixpantia](https://www.ixpantia.com/) where I help
 organizations gain insigths from their data, develop data products, learn 
 R and obtain the best practices for data science. 
 
-Also I like to teach, share and collaborate with others so I co-organize events
+[I'm RStudio certified trainer](https://education.rstudio.com/trainers/people/hernandez+ronny/), I like to teach , share and collaborate with others so I co-organize events
 with [DataLatam](http://www.datalatam.com/) or by my own. 
 
 
