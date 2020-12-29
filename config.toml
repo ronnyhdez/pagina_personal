@@ -1,11 +1,12 @@
-# Configuration of Academic
-# Documentation: https://sourcethemes.com/academic/
+# Configuration of Hugo
+# Guide: https://sourcethemes.com/academic/docs/get-started/
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 #
 # This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Ronny Hernandez"
+title = "Ronny Hernandez Mora"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -13,7 +14,7 @@ baseurl = "http://ronnyhdez.rbind.io"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "&copy; Ronny Hernandez {year}"
+copyright = "&copy; Ronny A. Hernández Mora {year}"
 
 ############################
 ## Advanced options below ##
@@ -35,7 +36,14 @@ summaryLength = 30  # Listing summary length in words. Also, see `abstract_lengt
 paginate = 10  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+# Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
+[permalinks]
+  authors = "/author/:slug/"
+  tags = "/tag/:slug/"
+  categories = "/category/:slug/"
+  publication_types = "/publication-type/:slug/"
 
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
@@ -48,16 +56,17 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   mediaType = "application/manifest+json"
   rel = "manifest"
 
+# Configure the Markdown renderer.
 [markup]
   defaultMarkdownHandler = "goldmark"
-  [markup.goldmark.renderer]
-    unsafe = true  # Enable user to embed HTML snippets in Markdown content.
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enable user to embed HTML snippets in Markdown content.
   [markup.highlight]
-    style = "pygments"
     codeFences = false  # Disable Hugo's code highlighter as it conflicts with Academic's highligher.
   [markup.tableOfContents]
     startLevel = 2
-    endLevel = 2
+    endLevel = 3
 
 [imaging]
   resampleFilter = "lanczos"
@@ -70,3 +79,29 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+# Related content.
+[related]
+  threshold = 80.0
+  includeNewer = true
+  toLower = true
+
+  [[related.indices]]
+    name = "title"
+    weight = 60.0
+
+  [[related.indices]]
+    name = "summary"
+    weight = 50.0
+
+  [[related.indices]]
+    name = "tags"
+    weight = 80.0
+
+  [[related.indices]]
+    name = "categories"
+    weight = 70.0
+
+  [[related.indices]]
+    name = "authors"
+    weight = 20.0
