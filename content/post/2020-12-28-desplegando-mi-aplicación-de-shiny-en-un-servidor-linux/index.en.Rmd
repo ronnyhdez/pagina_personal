@@ -1,0 +1,268 @@
+---
+title: Desplegando mi aplicación de shiny en un servidor Linux
+author: Ronny A. Hernández Mora
+date: '2020-12-28'
+slug: desplegando-mi-aplicación-de-shiny-en-un-servidor-linux
+categories: []
+tags:
+  - shiny
+  - producción
+  - despliegue
+  - shiny-server
+  - linux
+  - ubuntu
+subtitle: ''
+summary: 'Si hemos creado una aplicación de shiny, es muy probable que hayamos disfrutado
+el verla corriendo en nuestro computador y de pronto nos preguntemos: 
+
+¿Cómo puedo abrir mi aplicación al mundo? ¿Cómo otras personas pueden
+acceder y usar a mi aplicación? ¿Cómo compartir mi aplicación con usuarios sin
+que tengan que instalar R, RStudio y poner al correr mi código?
+
+Bueno, pues esto es lo que conocemos como desplegar una aplicación. Vamos a
+"llevar a internet" nuestra aplicación y hacerla accesible al mundo.'
+authors: []
+lastmod: '2020-12-28T22:21:55-06:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+# ¿Porqué necesito saber esto?
+
+Si hemos creado una aplicación de shiny, es muy probable que hayamos disfrutado
+el verla corriendo en nuestro computador y de pronto nos preguntemos: 
+
+¿Cómo puedo abrir mi aplicación al mundo? ¿Cómo otras personas pueden
+acceder y usar a mi aplicación? ¿Cómo compartir mi aplicación con usuarios sin
+que tengan que instalar R, RStudio y poner al correr mi código?
+
+Bueno, pues esto es lo que conocemos como desplegar una aplicación. **Vamos a**
+**"llevar a internet" nuestra aplicación y hacerla accesible al mundo.**
+
+Cuando menciono "hacerla accesible al mundo", hablo de que podamos compartir un
+enlace y cualquier persona que dé click en ese enlace llegará a ver la interfaz
+de nuestra aplicación.
+
+# ¿Qué esperar de esta guía?
+
+Todos los pasos con instrucciones en `bash` para desplegar una aplicación de
+shiny con [shiny server open source](https://rstudio.com/products/shiny/download-server/)
+en un [servidor Linux con Ubuntu](https://ubuntu.com/download/server) 
+
+El **objetivo** es mostrar los pasos para instalar los elementos necesarios en 
+un servidor y que se pueda desplegar el app.
+
+**No se muestran** los pasos para levantar el servidor. Esto queda a preferencia
+de cada quién y con el proveedor de su elección.
+
+Tampoco se muestra en la guía los pasos para definir el dominio que potencialmente
+puede dirigir a la aplicación.
+
+## Requisitos:
+
+Para poder seguir la guía, es necesario que ya haya desarrollado una aplicación
+de shiny. Puede seguir los pasos acá indicados haciendo uso de la 
+[aplicación modular](https://github.com/ronnyhdez/shiny_modular) que presenté en los [webinarios de DataLatam](https://www.youtube.com/watch?v=Hq0bcy4DCDg)
+
+Así mismo es necesario contar con un servidor en el que pueda desplegar la 
+aplicación.
+
+También necesitamos tener conocimiento de git. La guía muestra los pasos
+haciendo uso de esta herramienta.
+
+## Recomendaciones del servidor:
+
+Como mínimo es recomedanble levantar un servidor con las siguientes características:
+
+ - Memoria: 16 Gb
+ - CPU: 4
+ - Disco: 20
+ - OS: Ubuntu 18.04.4 LTS
+ 
+# Pasos
+
+Si ya tenemos un servidor, vamos a proceder con los siguientes instrucciones:
+
+## 1- Instalando R en el servidor:
+
+Para evitar inconvenientes de versiones desactualizadas de R, podemos seguir
+las siguientes instrucciones:
+
+```{bash, eval = FALSE}
+# Agregamos llave
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9 
+
+# Agregamos repositorio
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
+ 
+# Si estamos con ubuntu 20 el repositorio es:
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
+
+# Si queremos remover el repo no hacerlo a mano y usar el siguiente:
+sudo add-apt-repository --remove 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
+
+# Actualizamos paquetes Ubuntu
+sudo apt update
+
+# Instalamos R
+sudo apt install r-base
+
+# Verificamos que versión de R sea la 4.0.1 (o las más actualizado al momento
+# de la instalación) 
+R --version
+```
+
+## 2- Instalando librerías linux comunes para R en el servidor
+
+```{bash, eval = FALSE}
+sudo apt install libxml2-dev
+sudo apt install libssl-dev 
+sudo apt install libcurl4-gnutls-dev 
+sudo apt-get install unixodbc unixodbc-dev
+```
+
+Luego tomamos un paso para asegurarnos que todos los paquetes de Ubuntu se
+encuentren actualizados en el servidor
+```{bash, eval = FALSE}
+sudo apt update
+sudo apt upgrade
+sudo apt autoremove
+```
+
+## 3- Instalando shiny server
+
+Antes de iniciar con la instalación de shiny server, debemos de instalar el
+paquete de R shiny:
+
+```{bash, eval = FALSE}
+sudo su - \
+-c "R -e \"install.packages('shiny', repos='https://cran.rstudio.com/')\""
+```
+
+Para seguir la instalación de shiny server primero hay que instalarle a la
+máquina `gdebi`
+
+```{bash, eval = FALSE}
+sudo apt-get install gdebi-core
+```
+
+Luego en la pagina de shiny server copiamos la [direccion](https://rstudio.com/products/shiny/download-server/ubuntu/) de donde
+tienen la última version. 
+
+Debemos de asegurarnos de obtener la versión más actualizada. La instrucción
+acá mostrada puede quedar desactualizada.
+
+La versión la validamos con el número que aparece luego de la palabra `shiny-server`
+En este caso, la usada para la guía es (`shiny-server-1.5.13.944`)
+```{bash, eval = FALSE}
+# Damos dirección de donde traemos la descarga
+wget https://download3.rstudio.org/ubuntu-14.04/x86_64/shiny-server-1.5.13.944-amd64.deb
+
+# Procedemos con la instalación
+sudo gdebi shiny-server-1.5.13.944-amd64.deb
+```
+
+Una vez instalado podemos revisar el estado de shiny-server:
+
+```{bash, eval = FALSE}
+sudo systemctl status shiny-server
+```
+
+Pare reiniciar el servidor de shiny cuando tenemos problema:
+
+```{bash, eval = FALSE}
+sudo systemctl restart shiny-server 
+```
+
+Una vez que tenemos instalado shiny-server,vamos a revisar por la puerta que 
+está sirviendo. Podemos tomar la dirección IP externa del servidor, copiarla
+en el navegador (yo tengo preferencia por [firefox](https://www.mozilla.org/en-US/firefox/new/)) y de seguido escribimos
+`:` y la puerta `3838` (Por defecto, la que sirve shiny)
+
+```{bash, eval = FALSE}
+ip_externa_del_servidor:3838
+```
+
+Si no tenemos un servicio disponible (no vemos una página funcionando) debemos
+de revisar las reglas firewall del servidor e indicarle la salida del app.
+
+## 4- Llevando la aplicación al servidor
+
+A este punto tenemos nuestro servidor con R instalado, con shiny-server 
+funcionando y las principales librerías linux para usar con una aplicación de
+shiny. Ahora el paso que sigue es llevar nuestra aplicación de shiny al servidor.
+
+Es aquí donde usaremos git. Lo haremos con mi aplicación de ejemplo que se
+encuentra en [github](https://github.com/ronnyhdez/shiny_modular)
+
+Dentro del servidor, las aplicaciones deben de estar bajo el siguiente directorio:
+
+`/srv/shiny-server`
+
+Allí es donde debemos de llevar nuestra aplicación.
+```{bash, eval = FALSE}
+# Nos cambiamos al directorio
+cd /srv/shiny-server
+
+# Clonamos el repositorio que contiene la aplicación
+git clone https://github.com/ronnyhdez/shiny_modular.git
+```
+
+Luego, necesitamos instalar en el servidor los paquetes que son necesarios para
+nuestra aplicación. Todos aquellos paquetes que hayamos usado necesitamos 
+incluirlos. Si dejamos alguno por fuera es muy probable que nuestra aplicación
+no levante. (Es el error más común que cometo)
+
+Hay dos maneras de realizar este paso. Uno es dando el comando desde bash y el
+otro es abrir una sesión de R como usuario `root` e instalarlo tal cual lo 
+haríamos en una sesión de R en nuestro computador:
+
+```{bash, eval = FALSE}
+# Con comando de bash
+sudo su - \
+-c "R -e \"install.packages(c('shiny', 'tm', 'SnowballC', 'wordcloud',
+'shinydashboard', 'RColorBrewer', 'ggplot2', 'purrr', 'nycflights13', 'dplyr'), repos='https://cran.rstudio.com/')\""
+```
+
+Si hay algún paquete que no está en el CRAN porque es una versión en desarrollo, 
+podemos echar mano del paquete `remotes` (el cual debimos de incluir en el paso
+anterior)
+```{bash, eval = FALSE}
+# Ejemplo de instalación de paquete en desarrollo:
+sudo su - \
+-c "R -e \"remotes::install_github("datastorm-open/shinymanager", 
+force = TRUE)
+```
+
+## 5- Levantando la aplicación
+
+Con todos los pasos anteriores listos, procedemos a detener y volver a iniciar el
+servicio de `shiny-server`, para luego probar si nos podemos conectar a ella:
+```{bash, eval = FALSE}
+# Reiniciar el servicio de manera recomendada:
+sudo systemctl stop shiny-server
+sudo systemctl start shiny-server
+
+# Revisar status del servicio
+sudo systemctl status shiny-server
+```
+
+Si el servicio está activo, podemos probar con la IP externa, la puerta 3838 e
+indicamos el nombre de la aplicación. Debería de ser algo similar a:
+`ip:3838/shiny_modular/`
+ 
+¡Y listo! Con esto tenemos los pasos básicos para desplegar nuestra aplicación
+de shiny en nuestro servidor y hacerla disponible al mundo.
+
+### Referencias
+
+El resumen de pasos mostrados en esta guía han sido tomados y adaptados de
+diversas fuentes como:
+
+[DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04) (Algún día lograré documentar como lo hacen ellos)
+
+[Shiny Server Professional v1.5.15 Administrator's Guide](https://docs.rstudio.com/shiny-server/) El sitio a visitar cuando hay problemas con shiny-server. Es documentación técnica
