@@ -68,8 +68,8 @@ incómoda, pero lo haremos luego.
 
  - En la terminal podemos dividir la vista en varios paneles.
  - Se pueden dividir paneles en otros más.
- - Cada panel puede ejecutar distintas tareas
- 
+ - Cada panel puede ejecutar distintas tareas.
+
 **Dividir paneles horizontal**
 
 ```
@@ -92,24 +92,120 @@ ctrl + b + x
 exit
 ```
 
+**Moverse entre paneles**
 
+```
+ctrl + b + ← ↑ → ↓ 
+```
 
+**Zoom en un panel**
 
+ - Sobre el panel que queremos enfocarnos usamos el comando.
+ - Los demás paneles no desaparecen, quedan ocultos por el panel en zoom.
+ - Con el mismo comando quitamos el enfoque en el panel
+ 
+```
+# Para hacer el enfoque en un panel
+ctrl + b + z
+
+# Para quitar el enfoque, en el panel escribimos el mismo comando
+ctrl + b + z
+```
 
 ## Ventanas en tmux
 
-```{bash, eval = FALSE}
+ - A diferencia de los paneles, las ventanas nos dan una pantalla completa.
+ - Podemos generar varias ventanas y en cada ventana crear paneles.
+ - En parte inferior de la terminal, tendremos info sobre la o las ventanas.
+ 
+**Crear ventana**
 
+```
+# c = create
+ctrl + b + c
+```
+
+**Moverse a ventana anterior**
+
+```
+# p = previous
+ctrl + b + p
+```
+
+**Moverse a ventana siguiente**
+
+```
+# n = next 
+ctrl + b + n
+```
+
+**Moverse a ventana por id numérico**
+
+```
+ctrl + b + numero_ventana
+```
+
+**Cerrar una ventana**
+
+```
+ctrl + b + &
+```
+
+**Renombrar ventana**
+
+```
+# Para abrir opción de renombrar
+ctrl + b + ,
 ```
 
 ## Sesiones en tmux
 
-```{bash, eval = FALSE}
+ - Cada vez que usamos el comando tmux abrimos una sesión.
+ - Si se cierra la terminal, podemos regresar a la sesión.
+ - Las sesiones pueden correr como proceso "oculto"
+ 
+**Desconectarse de una sesión**
 
 ```
-
-```{bash, eval = FALSE}
-
+ctrl + b + d
 ```
 
+**Revisar sesiones de tmux abierta con bash**
 
+```
+ps aux | grep tmux
+```
+
+**Revisar sesiones tmux con funcionalidad propia**
+
+```
+# Comando completo
+tmux list-sessions
+
+# Comando corto
+tmux ls
+```
+
+**Conectarnos a una sesión en específico**
+
+```
+# Por ejemplo a sesión 1
+tmux attach -t 1
+```
+
+**Cambiar nombres a sesiones**
+
+```
+# Dentro de la sesión
+ctrl + b + $
+```
+
+**Crear una nueva sesión con nombre**
+
+```
+tmux new -s "mi_proyecto"
+```
+
+## Hojas de referencia
+
+Existen hojas de referencias para tmux. Una es [esta](https://tmuxcheatsheet.com/)

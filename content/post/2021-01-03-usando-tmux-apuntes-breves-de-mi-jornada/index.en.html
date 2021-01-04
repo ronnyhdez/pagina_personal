@@ -55,7 +55,7 @@ incómoda, pero lo haremos luego.</p>
 <ul>
 <li>En la terminal podemos dividir la vista en varios paneles.</li>
 <li>Se pueden dividir paneles en otros más.</li>
-<li>Cada panel puede ejecutar distintas tareas</li>
+<li>Cada panel puede ejecutar distintas tareas.</li>
 </ul>
 <p><strong>Dividir paneles horizontal</strong></p>
 <pre><code>ctrl + b + &quot;</code></pre>
@@ -67,14 +67,72 @@ ctrl + b + x
 
 # Segunda opción:
 exit</code></pre>
+<p><strong>Moverse entre paneles</strong></p>
+<pre><code>ctrl + b + ← ↑ → ↓ </code></pre>
+<p><strong>Zoom en un panel</strong></p>
+<ul>
+<li>Sobre el panel que queremos enfocarnos usamos el comando.</li>
+<li>Los demás paneles no desaparecen, quedan ocultos por el panel en zoom.</li>
+<li>Con el mismo comando quitamos el enfoque en el panel</li>
+</ul>
+<pre><code># Para hacer el enfoque en un panel
+ctrl + b + z
+
+# Para quitar el enfoque, en el panel escribimos el mismo comando
+ctrl + b + z</code></pre>
 </div>
 <div id="ventanas-en-tmux" class="section level2">
 <h2>Ventanas en tmux</h2>
-<pre class="bash"><code></code></pre>
+<ul>
+<li>A diferencia de los paneles, las ventanas nos dan una pantalla completa.</li>
+<li>Podemos generar varias ventanas y en cada ventana crear paneles.</li>
+<li>En parte inferior de la terminal, tendremos info sobre la o las ventanas.</li>
+</ul>
+<p><strong>Crear ventana</strong></p>
+<pre><code># c = create
+ctrl + b + c</code></pre>
+<p><strong>Moverse a ventana anterior</strong></p>
+<pre><code># p = previous
+ctrl + b + p</code></pre>
+<p><strong>Moverse a ventana siguiente</strong></p>
+<pre><code># n = next 
+ctrl + b + n</code></pre>
+<p><strong>Moverse a ventana por id numérico</strong></p>
+<pre><code>ctrl + b + numero_ventana</code></pre>
+<p><strong>Cerrar una ventana</strong></p>
+<pre><code>ctrl + b + &amp;</code></pre>
+<p><strong>Renombrar ventana</strong></p>
+<pre><code># Para abrir opción de renombrar
+ctrl + b + ,</code></pre>
 </div>
 <div id="sesiones-en-tmux" class="section level2">
 <h2>Sesiones en tmux</h2>
-<pre class="bash"><code></code></pre>
-<pre class="bash"><code></code></pre>
+<ul>
+<li>Cada vez que usamos el comando tmux abrimos una sesión.</li>
+<li>Si se cierra la terminal, podemos regresar a la sesión.</li>
+<li>Las sesiones pueden correr como proceso “oculto”</li>
+</ul>
+<p><strong>Desconectarse de una sesión</strong></p>
+<pre><code>ctrl + b + d</code></pre>
+<p><strong>Revisar sesiones de tmux abierta con bash</strong></p>
+<pre><code>ps aux | grep tmux</code></pre>
+<p><strong>Revisar sesiones tmux con funcionalidad propia</strong></p>
+<pre><code># Comando completo
+tmux list-sessions
+
+# Comando corto
+tmux ls</code></pre>
+<p><strong>Conectarnos a una sesión en específico</strong></p>
+<pre><code># Por ejemplo a sesión 1
+tmux attach -t 1</code></pre>
+<p><strong>Cambiar nombres a sesiones</strong></p>
+<pre><code># Dentro de la sesión
+ctrl + b + $</code></pre>
+<p><strong>Crear una nueva sesión con nombre</strong></p>
+<pre><code>tmux new -s &quot;mi_proyecto&quot;</code></pre>
+</div>
+<div id="hojas-de-referencia" class="section level2">
+<h2>Hojas de referencia</h2>
+<p>Existen hojas de referencias para tmux. Una es <a href="https://tmuxcheatsheet.com/">esta</a></p>
 </div>
 </div>
