@@ -1,0 +1,68 @@
+---
+title: 'Usando tmux: apuntes breves de mi jornada'
+author: Ronny A. Hernández Mora
+date: '2021-01-03'
+slug: usando-tmux-apuntes-breves-de-mi-jornada
+categories: []
+tags:
+  - tmux
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-01-03T20:24:48-06:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+# ¿Qué es tmux?
+
+
+## Instalando tmux
+
+Para instalarlo en distribuciones basadas en debian, podemos hacerlo con el
+comando: 
+
+```{bash, eval = FALSE}
+sudo apt install tmux
+```
+
+Para validar que se instaló
+
+```{bash, eval = FALSE}
+which tmux
+```
+
+## Primeros pasos con tmux
+
+Para iniciar la sesión con tmux, corremos en la terminal el comando con el
+mismo nombre:
+```{bash, eval = FALSE}
+tmux
+```
+
+Veremos una imagen similar a la siguiente:
+
+
+
+
+```{bash, eval = FALSE}
+
+```
+
+```{bash, eval = FALSE}
+
+```
+
+```{bash, eval = FALSE}
+
+```
+
+```{bash, eval = FALSE}
+
+```
+
+
