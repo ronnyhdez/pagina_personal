@@ -18,8 +18,14 @@ image:
 projects: []
 ---
 
-# ¿Qué es tmux?
+# ¿Qué es [tmux](https://github.com/tmux/tmux/wiki)?
 
+Es un sistema de multiplexación para sistemas Unix. Lo que nos permite es
+realizar múltiples tareas en una terminal a través del uso
+de paneles, sesiones o ventanas.
+
+En otras palabras, es abrir una terminal y poder abrir y usar otras terminales 
+dentro de esta.
 
 ## Instalando tmux
 
@@ -44,18 +50,59 @@ mismo nombre:
 tmux
 ```
 
-Veremos una imagen similar a la siguiente:
+Veremos en la parte inferior de la terminal que tenemos información como
+
+```
+[0] 0:bash*    "ronny" 22:35 03-ene-21
+```
+Con esto podemos asegurar que estamos usando tmux sin problema.
+
+Para hacer uso de las funciones que trae tmux, necesitamos tener en 
+cuenta que hay un **prefijo** configurado por defecto que hay que
+utilizar para la mayoría de las operaciones: **ctrl + b**
+
+Esto se puede configurar para no dejarlo en una combinación de teclas tan
+incómoda, pero lo haremos luego.
+
+## Paneles en tmux
+
+ - En la terminal podemos dividir la vista en varios paneles.
+ - Se pueden dividir paneles en otros más.
+ - Cada panel puede ejecutar distintas tareas
+ 
+**Dividir paneles horizontal**
+
+```
+ctrl + b + "
+```
+
+**Dividir paneles vertical**
+
+```
+ctrl + b + %
+```
+
+**Cerrar un panel**
+
+```
+# Primera opción
+ctrl + b + x
+
+# Segunda opción:
+exit
+```
 
 
 
+
+
+## Ventanas en tmux
 
 ```{bash, eval = FALSE}
 
 ```
 
-```{bash, eval = FALSE}
-
-```
+## Sesiones en tmux
 
 ```{bash, eval = FALSE}
 

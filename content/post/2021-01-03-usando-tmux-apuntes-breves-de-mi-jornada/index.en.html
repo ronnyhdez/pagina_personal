@@ -22,7 +22,12 @@ projects: []
 
 
 <div id="qué-es-tmux" class="section level1">
-<h1>¿Qué es tmux?</h1>
+<h1>¿Qué es <a href="https://github.com/tmux/tmux/wiki">tmux</a>?</h1>
+<p>Es un sistema de multiplexación para sistemas Unix. Lo que nos permite es
+realizar múltiples tareas en una terminal a través del uso
+de paneles, sesiones o ventanas.</p>
+<p>En otras palabras, es abrir una terminal y poder abrir y usar otras terminales
+dentro de esta.</p>
 <div id="instalando-tmux" class="section level2">
 <h2>Instalando tmux</h2>
 <p>Para instalarlo en distribuciones basadas en debian, podemos hacerlo con el
@@ -36,9 +41,39 @@ comando:</p>
 <p>Para iniciar la sesión con tmux, corremos en la terminal el comando con el
 mismo nombre:</p>
 <pre class="bash"><code>tmux</code></pre>
-<p>Veremos una imagen similar a la siguiente:</p>
+<p>Veremos en la parte inferior de la terminal que tenemos información como</p>
+<pre><code>[0] 0:bash*    &quot;ronny&quot; 22:35 03-ene-21</code></pre>
+<p>Con esto podemos asegurar que estamos usando tmux sin problema.</p>
+<p>Para hacer uso de las funciones que trae tmux, necesitamos tener en
+cuenta que hay un <strong>prefijo</strong> configurado por defecto que hay que
+utilizar para la mayoría de las operaciones: <strong>ctrl + b</strong></p>
+<p>Esto se puede configurar para no dejarlo en una combinación de teclas tan
+incómoda, pero lo haremos luego.</p>
+</div>
+<div id="paneles-en-tmux" class="section level2">
+<h2>Paneles en tmux</h2>
+<ul>
+<li>En la terminal podemos dividir la vista en varios paneles.</li>
+<li>Se pueden dividir paneles en otros más.</li>
+<li>Cada panel puede ejecutar distintas tareas</li>
+</ul>
+<p><strong>Dividir paneles horizontal</strong></p>
+<pre><code>ctrl + b + &quot;</code></pre>
+<p><strong>Dividir paneles vertical</strong></p>
+<pre><code>ctrl + b + %</code></pre>
+<p><strong>Cerrar un panel</strong></p>
+<pre><code># Primera opción
+ctrl + b + x
+
+# Segunda opción:
+exit</code></pre>
+</div>
+<div id="ventanas-en-tmux" class="section level2">
+<h2>Ventanas en tmux</h2>
 <pre class="bash"><code></code></pre>
-<pre class="bash"><code></code></pre>
+</div>
+<div id="sesiones-en-tmux" class="section level2">
+<h2>Sesiones en tmux</h2>
 <pre class="bash"><code></code></pre>
 <pre class="bash"><code></code></pre>
 </div>
