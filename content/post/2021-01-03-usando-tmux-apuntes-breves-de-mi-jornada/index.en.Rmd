@@ -40,7 +40,8 @@ sudo apt install tmux
 Para validar que se instaló
 
 ```{bash, eval = FALSE}
-which tmux
+# Si nos da un número de version, estamos listos.
+tmux -V
 ```
 
 ## Primeros pasos con tmux
