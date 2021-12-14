@@ -43,7 +43,7 @@ enableEmoji = true
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "RonnyHdezM"
+  twitter = "ronny_hdezmora"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
@@ -84,7 +84,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/RonnyHdezM"
+      url       = "https://twitter.com/ronny_hdezmora"
   [[params.social]]
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"

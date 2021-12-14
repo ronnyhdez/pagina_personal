@@ -7,5 +7,5 @@ headline: |
 ---
 
 <!-- this is a subheadline -->
-I'm Ronny a desk biologist who likes R and Linux, living in :canada: from :costa_rica: 
+I'm Ronny, a desk biologist who likes R and Linux. Living in :canada: from :costa_rica: 
 
