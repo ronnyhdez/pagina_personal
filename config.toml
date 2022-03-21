@@ -106,11 +106,11 @@ enableEmoji = true
     title = "Blog"
     url = "https://ronnyhdez.github.io/blog/"
     weight = 1
-# [[menu.header]]
-#   name = "Projects"
-#   title = "Project Portfolio"
-#   url = "/project/"
-#   weight = 2
+  [[menu.header]]
+    name = "Projects"
+    title = "Project Portfolio"
+    url = "/project/"
+    weight = 2
   [[menu.header]]
     name = "Notes"
     title = "Drawer notes"
