@@ -116,11 +116,11 @@ enableEmoji = true
     title = "Drawer notes"
     url = "https://ronnyhdez.github.io/drawer/"
     weight = 3
-# [[menu.header]]
-#   name = "Talks"
-#   title = "Talks"
-#   url = "/talk/"
-#   weight = 4
+  [[menu.header]]
+    name = "Talks"
+    title = "Talks"
+    url = "/talk/"
+    weight = 4
   [[menu.header]]
     name = "About/Contact"
     title = "About - contact"
