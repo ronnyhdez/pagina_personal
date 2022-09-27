@@ -1,38 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A Project Portfolio To Grow on Ronny A. Hernández Mora</title>
+    <title>Projects on Ronny A. Hernández Mora</title>
     <link>http://ronnyhdez.rbind.io/project/</link>
-    <description>Recent content in A Project Portfolio To Grow on Ronny A. Hernández Mora</description>
+    <description>Recent content in Projects on Ronny A. Hernández Mora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://ronnyhdez.rbind.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://ronnyhdez.rbind.io/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tachyons for Style</title>
-      <link>http://ronnyhdez.rbind.io/project/giraffes/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
+      <title>gitear</title>
+      <link>http://ronnyhdez.rbind.io/project/gitear/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ronnyhdez.rbind.io/project/giraffes/</guid>
-      <description>Tachyons is a design system that allows you to design gorgeous interfaces in the browser with little effort.      Because Speed     Building this static site generator theme was the first time I used an Atomic (or Functional) CSS system like Tachyons. It&amp;rsquo;s a design system that provides very small (which means fast) CSS modules that you can use in your HTML. So, rather than writing every line of CSS, you apply the style you need as you write your HTML with easy to understand shorthand class names.</description>
+      <guid>http://ronnyhdez.rbind.io/project/gitear/</guid>
+      <description>gitear is a package that can connect to the gitea API and take the data you need in a tidy format.      Overview     If you are using gitea as your self-hosting git service and also, you are an R user, gitear have functions build around the API to request your data and present it to you in a tidy format.</description>
     </item>
     
     <item>
-      <title>Palmer Penguins</title>
-      <link>http://ronnyhdez.rbind.io/project/penguins/</link>
+      <title>ixplorer</title>
+      <link>http://ronnyhdez.rbind.io/project/ixplorer/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://ronnyhdez.rbind.io/project/ixplorer/</guid>
+      <description>ixplorer is a package that allows users to create, close or review issues without leaving their RStudio session.      What is ixplorer?     ixplorer is an R package built around gitea which is a self-hosting git service option. The ixplorer package allows the user to review, open, and close issues for specific repositories through an interface or through functions. This involves the use of an addin within RStudio that opens an interface created with shiny, shinyWidgets, and miniUI.</description>
+    </item>
+    
+    <item>
+      <title>lacrmr</title>
+      <link>http://ronnyhdez.rbind.io/project/lacrmr/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://ronnyhdez.rbind.io/project/lacrmr/</guid>
+      <description>lacrmr is a package that can connect to your CRM, obtain your customers data and, goals in a tidy way so you can craete and analyze your business metrics.      Overview     If you have a business or an organization that uses Less Annoying CRM to manage contacts but also you are an R user, probably you will want to get your customer relationship data into R and do your own analysis or even to automate your monthly reports.</description>
+    </item>
+    
+    <item>
+      <title>rTLS</title>
+      <link>http://ronnyhdez.rbind.io/project/rtls/</link>
       <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://ronnyhdez.rbind.io/project/penguins/</guid>
-      <description>“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.”     — Chris House, A Complete Guide to CSS Grid Layout 1
- Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips.</description>
-    </item>
-    
-    <item>
-      <title>Bakeoff</title>
-      <link>http://ronnyhdez.rbind.io/project/bakeoff/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://ronnyhdez.rbind.io/project/bakeoff/</guid>
-      <description>Formspree makes it easy to receive submissions from HTML forms on your static website.      Functional Form     This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form (/content/forms/contact.md). Of course, the example shown below (your@email.here) must not be used.</description>
+      <guid>http://ronnyhdez.rbind.io/project/rtls/</guid>
+      <description>rTLS is an R package to that compiles a series of tools to process and calculate metrics on point clouds derived from Terrestrial Laser Scanners (TLS), also know as Terrestrial-Light Detection and Ranging (T-LiDAR).      Overview     rTLS goal is to provide a single environment to process point clouds as fast as it can be done. That it is why the rTLS coding has been evolving using different packages.</description>
     </item>
     
   </channel>

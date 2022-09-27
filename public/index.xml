@@ -6,60 +6,95 @@
     <description>Recent content on Ronny A. Hernández Mora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://ronnyhdez.rbind.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://ronnyhdez.rbind.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A campfire</title>
-      <link>http://ronnyhdez.rbind.io/talk/campfire/</link>
-      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      <title>YEGRUG - Creating a website for scientific and technical communication</title>
+      <link>http://ronnyhdez.rbind.io/talk/website_scientific_technical/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ronnyhdez.rbind.io/talk/campfire/</guid>
-      <description>I&amp;rsquo;m really excited to give this talk! Stay tuned for video and slides.</description>
-    </item>
-    
-    <item>
-      <title>A seedling</title>
-      <link>http://ronnyhdez.rbind.io/talk/second-seedling/</link>
-      <pubDate>Fri, 01 Jan 2021 14:15:59 -0600</pubDate>
-      
-      <guid>http://ronnyhdez.rbind.io/talk/second-seedling/</guid>
+      <guid>http://ronnyhdez.rbind.io/talk/website_scientific_technical/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>A seedling</title>
-      <link>http://ronnyhdez.rbind.io/talk/seedling/</link>
-      <pubDate>Mon, 13 Jan 2020 14:15:59 -0600</pubDate>
+      <title>gitear</title>
+      <link>http://ronnyhdez.rbind.io/project/gitear/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ronnyhdez.rbind.io/talk/seedling/</guid>
+      <guid>http://ronnyhdez.rbind.io/project/gitear/</guid>
+      <description>gitear is a package that can connect to the gitea API and take the data you need in a tidy format.      Overview     If you are using gitea as your self-hosting git service and also, you are an R user, gitear have functions build around the API to request your data and present it to you in a tidy format.</description>
+    </item>
+    
+    <item>
+      <title>ixplorer</title>
+      <link>http://ronnyhdez.rbind.io/project/ixplorer/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://ronnyhdez.rbind.io/project/ixplorer/</guid>
+      <description>ixplorer is a package that allows users to create, close or review issues without leaving their RStudio session.      What is ixplorer?     ixplorer is an R package built around gitea which is a self-hosting git service option. The ixplorer package allows the user to review, open, and close issues for specific repositories through an interface or through functions. This involves the use of an addin within RStudio that opens an interface created with shiny, shinyWidgets, and miniUI.</description>
+    </item>
+    
+    <item>
+      <title>lacrmr</title>
+      <link>http://ronnyhdez.rbind.io/project/lacrmr/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://ronnyhdez.rbind.io/project/lacrmr/</guid>
+      <description>lacrmr is a package that can connect to your CRM, obtain your customers data and, goals in a tidy way so you can craete and analyze your business metrics.      Overview     If you have a business or an organization that uses Less Annoying CRM to manage contacts but also you are an R user, probably you will want to get your customer relationship data into R and do your own analysis or even to automate your monthly reports.</description>
+    </item>
+    
+    <item>
+      <title>Crear páginas web con Rmarkdown, MkDocs y GitHub pages una alternativa para documentación.</title>
+      <link>http://ronnyhdez.rbind.io/talk/docmaker/</link>
+      <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://ronnyhdez.rbind.io/talk/docmaker/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tachyons for Style</title>
-      <link>http://ronnyhdez.rbind.io/project/giraffes/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
+      <title>Estimating evapotranspiration in the tropical dry forest using R</title>
+      <link>http://ronnyhdez.rbind.io/talk/evapotranspiration/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://ronnyhdez.rbind.io/project/giraffes/</guid>
-      <description>Tachyons is a design system that allows you to design gorgeous interfaces in the browser with little effort.      Because Speed     Building this static site generator theme was the first time I used an Atomic (or Functional) CSS system like Tachyons. It&amp;rsquo;s a design system that provides very small (which means fast) CSS modules that you can use in your HTML. So, rather than writing every line of CSS, you apply the style you need as you write your HTML with easy to understand shorthand class names.</description>
+      <guid>http://ronnyhdez.rbind.io/talk/evapotranspiration/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Palmer Penguins</title>
-      <link>http://ronnyhdez.rbind.io/project/penguins/</link>
+      <title>Toolkit for reproducible data analysis</title>
+      <link>http://ronnyhdez.rbind.io/talk/toolkit_repro_analysis/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://ronnyhdez.rbind.io/talk/toolkit_repro_analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Desplegando mis productos de datos de R con Google Cloud Run</title>
+      <link>http://ronnyhdez.rbind.io/talk/shiny_cloudrun/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://ronnyhdez.rbind.io/talk/shiny_cloudrun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Usando módulos en Shiny Guía de inicio rápido</title>
+      <link>http://ronnyhdez.rbind.io/talk/modulos_shiny/</link>
+      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://ronnyhdez.rbind.io/talk/modulos_shiny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rTLS</title>
+      <link>http://ronnyhdez.rbind.io/project/rtls/</link>
       <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://ronnyhdez.rbind.io/project/penguins/</guid>
-      <description>“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.”     — Chris House, A Complete Guide to CSS Grid Layout 1
- Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips.</description>
-    </item>
-    
-    <item>
-      <title>Bakeoff</title>
-      <link>http://ronnyhdez.rbind.io/project/bakeoff/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://ronnyhdez.rbind.io/project/bakeoff/</guid>
-      <description>Formspree makes it easy to receive submissions from HTML forms on your static website.      Functional Form     This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form (/content/forms/contact.md). Of course, the example shown below (your@email.here) must not be used.</description>
+      <guid>http://ronnyhdez.rbind.io/project/rtls/</guid>
+      <description>rTLS is an R package to that compiles a series of tools to process and calculate metrics on point clouds derived from Terrestrial Laser Scanners (TLS), also know as Terrestrial-Light Detection and Ranging (T-LiDAR).      Overview     rTLS goal is to provide a single environment to process point clouds as fast as it can be done. That it is why the rTLS coding has been evolving using different packages.</description>
     </item>
     
     <item>
@@ -77,6 +112,24 @@
 (20px) 1rem
 (16px) .875rem
 (14px)     Type Samples Head&amp;shy;line Sub&amp;shy;head&amp;shy;line Level 1 Heading One page to rule them all...well, not really. This page displays sample typography and page elements to illustrate their style. Things like headings and paragraphs showing the beautiful type scale, form elements, tabular data, and image layouts just to name a few.</description>
+    </item>
+    
+    <item>
+      <title>Uso del API del Gobierno Abierto con el lenguaje de programación R</title>
+      <link>http://ronnyhdez.rbind.io/talk/datos_abertos/</link>
+      <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://ronnyhdez.rbind.io/talk/datos_abertos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparaciones entre grupos con R</title>
+      <link>http://ronnyhdez.rbind.io/talk/comparaciones_grupos/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://ronnyhdez.rbind.io/talk/comparaciones_grupos/</guid>
+      <description></description>
     </item>
     
     <item>
