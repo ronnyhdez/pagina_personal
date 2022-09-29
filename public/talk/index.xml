@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A list of talks about R and other tools on Ronny A. Hernández Mora</title>
-    <link>http://ronnyhdez.rbind.io/talk/</link>
+    <link>http://ronnyale.com/talk/</link>
     <description>Recent content in A list of talks about R and other tools on Ronny A. Hernández Mora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://ronnyhdez.rbind.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://ronnyale.com/talk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>YEGRUG - Creating a website for scientific and technical communication</title>
-      <link>http://ronnyhdez.rbind.io/talk/website_scientific_technical/</link>
+      <link>http://ronnyale.com/talk/website_scientific_technical/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ronnyhdez.rbind.io/talk/website_scientific_technical/</guid>
+      <guid>http://ronnyale.com/talk/website_scientific_technical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Crear páginas web con Rmarkdown, MkDocs y GitHub pages una alternativa para documentación.</title>
-      <link>http://ronnyhdez.rbind.io/talk/docmaker/</link>
+      <link>http://ronnyale.com/talk/docmaker/</link>
       <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ronnyhdez.rbind.io/talk/docmaker/</guid>
+      <guid>http://ronnyale.com/talk/docmaker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Estimating evapotranspiration in the tropical dry forest using R</title>
-      <link>http://ronnyhdez.rbind.io/talk/evapotranspiration/</link>
+      <link>http://ronnyale.com/talk/evapotranspiration/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://ronnyhdez.rbind.io/talk/evapotranspiration/</guid>
+      <guid>http://ronnyale.com/talk/evapotranspiration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Toolkit for reproducible data analysis</title>
-      <link>http://ronnyhdez.rbind.io/talk/toolkit_repro_analysis/</link>
+      <link>http://ronnyale.com/talk/toolkit_repro_analysis/</link>
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://ronnyhdez.rbind.io/talk/toolkit_repro_analysis/</guid>
+      <guid>http://ronnyale.com/talk/toolkit_repro_analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Desplegando mis productos de datos de R con Google Cloud Run</title>
-      <link>http://ronnyhdez.rbind.io/talk/shiny_cloudrun/</link>
+      <link>http://ronnyale.com/talk/shiny_cloudrun/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://ronnyhdez.rbind.io/talk/shiny_cloudrun/</guid>
+      <guid>http://ronnyale.com/talk/shiny_cloudrun/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Usando módulos en Shiny Guía de inicio rápido</title>
-      <link>http://ronnyhdez.rbind.io/talk/modulos_shiny/</link>
+      <link>http://ronnyale.com/talk/modulos_shiny/</link>
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://ronnyhdez.rbind.io/talk/modulos_shiny/</guid>
+      <guid>http://ronnyale.com/talk/modulos_shiny/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uso del API del Gobierno Abierto con el lenguaje de programación R</title>
-      <link>http://ronnyhdez.rbind.io/talk/datos_abertos/</link>
+      <link>http://ronnyale.com/talk/datos_abertos/</link>
       <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://ronnyhdez.rbind.io/talk/datos_abertos/</guid>
+      <guid>http://ronnyale.com/talk/datos_abertos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comparaciones entre grupos con R</title>
-      <link>http://ronnyhdez.rbind.io/talk/comparaciones_grupos/</link>
+      <link>http://ronnyale.com/talk/comparaciones_grupos/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://ronnyhdez.rbind.io/talk/comparaciones_grupos/</guid>
+      <guid>http://ronnyale.com/talk/comparaciones_grupos/</guid>
       <description></description>
     </item>
     

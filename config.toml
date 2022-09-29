@@ -1,4 +1,4 @@
-baseURL = "http://ronnyhdez.rbind.io/"
+baseURL = "http://ronnyale.com/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Ronny A. Hernández Mora"
@@ -92,7 +92,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "linkedin-in" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://www.linkedin.com/in/ronny-hernández-mora-117094107/"
+      url       = "https://ca.linkedin.com/in/ronny-hernandez-mora"
 
 [taxonomies]
   category = "categories"
