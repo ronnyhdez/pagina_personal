@@ -104,7 +104,7 @@ enableEmoji = true
   [[menu.header]]
     name = "Blog"
     title = "Blog"
-    url = "https://ronnyhdez.github.io/blog/"
+    url = "https://blog.ronnyale.com/"
     weight = 1
   [[menu.header]]
     name = "Projects"
