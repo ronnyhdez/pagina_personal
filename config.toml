@@ -28,7 +28,7 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "ronnyhdezmora"
+  orgName = "ronnyale"
   orgLocal = "Costa Rica / Canada"
   description = ""
   favicon = "/img/icon_fav.ico"
@@ -42,8 +42,6 @@ enableEmoji = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
-  # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "ronny_hdezmora"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
@@ -81,10 +79,6 @@ enableEmoji = true
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://github.com/ronnyhdez/"
-  [[params.social]]
-      icon      = "twitter" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://twitter.com/ronny_hdezmora"
   [[params.social]]
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"
