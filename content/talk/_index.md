@@ -12,7 +12,7 @@ cascade:
     text_link_url: /talk/
 description: |
   Selected talks and workshops, some with recordings and accompanying materials.
-layout: list
+layout: list-grid
 show_author_byline: true
 show_button_links: true
 show_post_date: true
