@@ -16,7 +16,7 @@ intro: |
 
 show_outro: true
 outro: |
-  <i class="fas fa-envelope pr2"></i> Get in touch with me ronny.hernandezm@gmail.com
+  <i class="fas fa-envelope pr2"></i> Get in touch with me ronny.hernandezm [at] gmail [dot] com
   
   <i class="fab fa-github-square pr2"></i> Follow my [public code](https://github.com/ronnyhdez/) 
   

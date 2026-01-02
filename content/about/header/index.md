@@ -6,6 +6,6 @@ headline: |
   About me.
 ---
 
-<!-- this is a subheadline -->
-I'm Ronny, a desk biologist who likes R and Linux. Living in :canada: from :costa_rica: 
-
+I’m Ronny, a researcher with a background in biology and Earth observation,
+currently working at the intersection of remote sensing, computer vision,
+and machine learning. I’m based in :canada: and originally from :costa_rica:
