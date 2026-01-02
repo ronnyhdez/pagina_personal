@@ -8,7 +8,7 @@ cascade:
     show_sidebar_adunit: true
     text_link_label: View all projects
     text_link_url: /project/
-description: Here you will find R packages, books and educational projects that I have created or contributed to.
+description: Here you will find selected open-source software, research tools, and educational projects that I have created, contributed to, or currently maintain.
 layout: list-grid
 show_author_byline: true
 show_button_links: false
