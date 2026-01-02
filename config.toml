@@ -106,11 +106,6 @@ enableEmoji = true
     url = "/project/"
     weight = 2
   [[menu.header]]
-    name = "Notes"
-    title = "Drawer notes"
-    url = "https://ronnyhdez.github.io/drawer/"
-    weight = 3
-  [[menu.header]]
     name = "Talks"
     title = "Talks"
     url = "/talk/"
