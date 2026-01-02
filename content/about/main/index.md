@@ -19,8 +19,6 @@ outro: |
   <i class="fas fa-envelope pr2"></i> Get in touch with me ronny.hernandezm@gmail.com
   
   <i class="fab fa-github-square pr2"></i> Follow my [public code](https://github.com/ronnyhdez/) 
-  
-  <i class="fab fa-twitter-square pr2"></i> Follow [me](https://twitter.com/ronny_hdezmora) 
 ---
 
 ** index doesn't contain a body, just front matter above.
