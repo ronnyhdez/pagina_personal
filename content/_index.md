@@ -1,5 +1,5 @@
 ---
-description: I’m a software developer / researcher working at the intersection of geospatial data, remote sensing, and computer vision. I build tools and data products with Python, R, Linux, and Docker, and I enjoy sharing knowledge, teaching, and collaborating within open-source communities.
+description: I work as a researcher and a software developer at the intersection of perception-driven systems, computer vision, deep learning, and remote sensing. I also contribute to open-source communities through teaching, talks, and collaborative software projects.
 image_left: true
 images:
 - img/profile_l.png
